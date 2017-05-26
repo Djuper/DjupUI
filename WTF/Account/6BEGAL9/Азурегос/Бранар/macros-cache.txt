@@ -1,0 +1,63 @@
+VER 3 010000000000001B "BOOBLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/закл Божественный щит
+END
+VER 3 0100000000000022 "BoP" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/закл [@mouseover, help, exists][] Благословение защиты
+END
+VER 3 0100000000000001 "Burst" "INV_MISC_QUESTIONMARK"
+#showtooltip Гнев карателя
+/закл Гнев карателя
+/закл Святой каратель
+/use Зелье длительной силы
+/use 13
+/use 14
+END
+VER 3 010000000000001A "CS" "INV_MISC_QUESTIONMARK"
+#showtooltip Укор
+/закл [mod:shift, @focus, harm, exists][@mouseover, harm, exists][] Укор
+END
+VER 3 0100000000000026 "Dispell" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0100000000000025 "DispellRet" "INV_MISC_QUESTIONMARK"
+/закл [@party1]Благословение святилища(Талант чести)
+END
+VER 3 010000000000001C "LoH" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/закл [@mouseover, help, exists][] Возложение рук
+END
+VER 3 0100000000000027 "Move" "INV_MISC_QUESTIONMARK"
+/use Поводья скакуна
+/закл Красное парящее облако
+END
+VER 3 0100000000000003 "Ret/Prot_E" "INV_MISC_QUESTIONMARK"
+#showtooltip Удар воина Света
+/startattack
+/закл Удар воина Света
+END
+VER 3 0100000000000028 "Shield" "INV_MISC_QUESTIONMARK"
+#showtooltip Щит мстителя
+/закл [mod:shift, @focus, harm, exists][@mouseover, harm, exists][] Щит мстителя
+END
+VER 3 0100000000000021 "Stun" "INV_MISC_QUESTIONMARK"
+#showtooltip Молот правосудия
+/закл [mod:shift, @focus, harm, exists][@mouseover, harm, exists][] Молот правосудия
+END
+VER 3 010000000000000B "StunA1" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@arena1] Молот правосудия
+END
+VER 3 010000000000001F "StunA2" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@arena2] Молот правосудия
+END
+VER 3 0100000000000020 "StunA3" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@arena3] Молот правосудия
+END
+VER 3 010000000000001E "Taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip Длань расплаты
+/cast [@mouseover, harm, exists][] Длань расплаты
+END

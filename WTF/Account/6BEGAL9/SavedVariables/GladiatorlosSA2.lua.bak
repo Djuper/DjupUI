@@ -1,0 +1,20 @@
+
+GladiatorlosSADB = {
+	["profileKeys"] = {
+		["Бранар - Азурегос"] = "Default",
+		["Нехолик - Гордунни"] = "Default",
+		["Фелбой - Гордунни"] = "Default",
+		["Пирик - Черный Шрам"] = "Default",
+		["Тонтоп - Азурегос"] = "Default",
+		["Аниом - Гордунни"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["aruaRemoved"] = true,
+			["castStart"] = true,
+			["interrupt"] = true,
+			["castSuccess"] = true,
+			["aruaApplied"] = true,
+		},
+	},
+}

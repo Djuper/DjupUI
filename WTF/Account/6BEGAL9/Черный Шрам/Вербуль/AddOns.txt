@@ -1,0 +1,15 @@
+xCT+: enabled
+ServerHop: disabled
+!ClassColors: enabled
+ColorPickerPlus: enabled
+bdBags: disabled
+bdActionbars: disabled
+bdBuffs: disabled
+bdCore: disabled
+bdChat: disabled
+bdGrid: disabled
+bdMinimap: disabled
+bdNameplates: disabled
+bdUnitframes: disabled
+WeakAuras: enabled
+ElvUI_SLE: enabled

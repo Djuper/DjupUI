@@ -1,0 +1,29 @@
+VER 3 0100000000000006 "Burst" "INV_MISC_QUESTIONMARK"
+/закл Ледяной столп
+/закл Алчущее руническое оружие
+/закл Истребление
+END
+VER 3 0100000000000004 "CS" "INV_MISC_QUESTIONMARK"
+/закл [mod:shift, @focus][]Заморозка разума
+END
+VER 3 0100000000000005 "DK" "Ability_DeathKnight_Reanimation."
+.item 1 147063 3
+.item 3 147070 3
+.item 5 147121 3
+.item 6 1470720 3
+.item 7 147065 3
+.item 8 147428 3
+.item 10 147123 3
+.item 15 0
+.race 5
+END
+VER 3 0100000000000001 "Pet" "INV_MISC_QUESTIONMARK"
+/закл Крюк
+END
+VER 3 0100000000000003 "Save" "INV_MISC_QUESTIONMARK"
+/закл Трупный щит
+/закл Сжаться
+END
+VER 3 0100000000000002 "Stun" "INV_MISC_QUESTIONMARK"
+/закл [mod:shift, @focus][]Асфиксия
+END

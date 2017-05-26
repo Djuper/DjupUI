@@ -1,0 +1,11 @@
+VER 3 0100000000000001 "E" "INV_MISC_QUESTIONMARK"
+/закл Бросок боевого клинка
+/use 13
+/use 14
+END
+VER 3 0100000000000003 "Interrupt" "INV_MISC_QUESTIONMARK"
+/cast  [@mouseover,harm,exists][mod:shift, @focus][nomod] Поглощение магии
+END
+VER 3 0100000000000004 "Trap" "INV_MISC_QUESTIONMARK"
+/cast [mod:shift, @focus, harm, exist][] Пленение
+END

@@ -1,0 +1,17 @@
+ConsLegion: disabled
+DejaCharacterStats: disabled
+ACP: disabled
+GladiatorlosSA2: disabled
+ServerHop: disabled
+bdActionbars: disabled
+bdBags: disabled
+bdBuffs: disabled
+bdCore: disabled
+bdChat: disabled
+bdMinimap: disabled
+bdGrid: disabled
+bdNameplates: disabled
+bdUnitframes: disabled
+SquareMinimapButtons: disabled
+WorldQuestGroupFinder: disabled
+ElvUI_SLE: disabled

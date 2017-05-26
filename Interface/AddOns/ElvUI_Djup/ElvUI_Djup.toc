@@ -1,0 +1,19 @@
+## Interface: 60000
+## Author: Djup
+## Version: 1.0
+## Title: |cff1784d1ElvUI|r |cffff8000Djup|r
+## RequiredDeps: ElvUI
+## SavedVariables: MetaDB
+
+Libs\LibSharedMedia-3.0.lua
+
+Media\Media.lua
+Modules\ConfigMode.lua
+Modules\Chat.lua
+Modules\Layout.lua
+Modules\Auras.lua
+Modules\CustomTag.lua
+
+-Modules\Install.lua
+
+

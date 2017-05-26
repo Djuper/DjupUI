@@ -1,0 +1,60 @@
+
+OmniBarDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["version"] = 3,
+	["profileKeys"] = {
+		["Бранар - Азурегос"] = "Default",
+		["Нехолик - Гордунни"] = "Default",
+		["Фелбой - Гордунни"] = "Default",
+		["Пирик - Черный Шрам"] = "Default",
+		["Ианар - Гордунни"] = "Default",
+		["Дрофренфан - Гордунни"] = "Default",
+		["Аниом - Гордунни"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["bars"] = {
+				["OmniBar1"] = {
+					["glow"] = true,
+					["border"] = true,
+					["tooltips"] = true,
+					["names"] = false,
+					["multiple"] = true,
+					["center"] = true,
+					["highlightFocus"] = false,
+					["padding"] = 2,
+					["locked"] = true,
+					["ratedBattleground"] = true,
+					["spell23920"] = true,
+					["size"] = 32,
+					["cooldownCount"] = true,
+					["highlightTarget"] = false,
+					["columns"] = 6,
+					["unusedAlpha"] = 0.6,
+					["align"] = "CENTER",
+					["showUnused"] = false,
+					["swipeAlpha"] = 0.8,
+					["adaptive"] = true,
+					["maxIcons"] = 500,
+					["ashran"] = true,
+					["name"] = "OmniBar",
+					["position"] = {
+						["relativeTo"] = "UIParent",
+						["point"] = "CENTER",
+						["relativePoint"] = "CENTER",
+						["yOfs"] = -188.000198364258,
+						["xOfs"] = 0,
+						["frameStrata"] = "MEDIUM",
+					},
+					["world"] = true,
+					["arena"] = true,
+					["growUpward"] = true,
+					["battleground"] = true,
+				},
+			},
+		},
+	},
+}

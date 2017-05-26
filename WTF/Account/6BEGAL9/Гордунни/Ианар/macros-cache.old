@@ -1,0 +1,73 @@
+VER 3 010000000000001F "Art" "1278111"
+/use 13
+/use 14
+/закл Берсерк
+/закл Бешенство Пеплошкурой(Артефакт)
+END
+VER 3 010000000000001B "Boom" "INV_MISC_QUESTIONMARK"
+#showtooltip Полумесяц
+/cast [stance:4] Полумесяц
+/cast [nostance:4] Облик лунного совуха
+END
+VER 3 0100000000000009 "CS" "INV_MISC_QUESTIONMARK"
+#showtooltip Лобовая атака
+/stopcasting
+/cast [mod:shift,@focus,harm,exists][@mouseover,harm,exists][] Лобовая атака
+END
+VER 3 010000000000001A "Cyclone" "INV_MISC_QUESTIONMARK"
+#showtooltip Смерч
+/cast [mod:shift,@focus,harm,exists][@mouseover,harm,exists][] Смерч
+END
+VER 3 010000000000001C "Heal_Burst" "INV_MISC_QUESTIONMARK"
+/закл Расцвет
+/закл Сущность Г'ханира(Артефакт)
+END
+VER 3 0100000000000017 "HealHealE" "INV_MISC_QUESTIONMARK"
+/cast [@party1,  spec:4] Природный целитель
+/cast [@party1,  spec:2] Восстановление
+END
+VER 3 0100000000000018 "HealHealQ" "INV_MISC_QUESTIONMARK"
+/cast [@party2,  spec:4] Природный целитель
+/cast [@party2,  spec:2] Восстановление
+END
+VER 3 0100000000000013 "Lunar" "INV_MISC_QUESTIONMARK"
+#showtooltip Лунный огонь
+/cast [@mouseover,harm,exists][] Лунный огонь
+END
+VER 3 010000000000001E "q" "INV_MISC_QUESTIONMARK"
+/закл Взбучка
+/use 13
+/use 14
+END
+VER 3 0100000000000015 "Res" "INV_MISC_QUESTIONMARK"
+/закл [@mouseover, help, exist][]Возрождение
+END
+VER 3 0100000000000019 "Root" "INV_MISC_QUESTIONMARK"
+#showtooltip Гнев деревьев
+/cast [mod:shift,@focus,harm,exists][@mouseover,harm,exists][] Гнев деревьев
+END
+VER 3 010000000000000A "Steals" "INV_MISC_QUESTIONMARK"
+/cast !Крадущийся зверь
+END
+VER 3 010000000000000C "Stun1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift, @focus][nomod] Мощное оглушение
+END
+VER 3 010000000000000D "Stun2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift, @focus][nomod] Калечение
+END
+VER 3 0100000000000014 "Taunt" "INV_MISC_QUESTIONMARK"
+/закл [@mouseover, harm, exist][] Рык
+END
+VER 3 0100000000000020 "Tiger" "INV_MISC_QUESTIONMARK"
+#showtooltip Тигриное неистовство
+/use 13
+/use 14
+/закл Тигриное неистовство
+END
+VER 3 010000000000001D "Trankvil" "136107"
+#showtooltip Спокойствие
+/закл Дубовая кожа
+/закл Спокойствие
+END
