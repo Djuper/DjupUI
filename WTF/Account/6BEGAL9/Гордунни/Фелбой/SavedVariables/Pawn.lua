@@ -1,10 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0205,
+	["LastVersion"] = 2.0206,
 	["LastPlayerFullName"] = "Фелбой-Гордунни",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[127829] = {
 			["Relics"] = {
@@ -13,11 +12,11 @@ PawnOptions = {
 					["Type"] = "Fel",
 				}, -- [1]
 				{
-					["ItemLevel"] = 58,
+					["ItemLevel"] = 59,
 					["Type"] = "Shadow",
 				}, -- [2]
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 58,
 					["Type"] = "Fel",
 				}, -- [3]
 			},
@@ -41,6 +40,7 @@ PawnOptions = {
 			["Name"] = "Альдрахийские боевые клинки",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEMONHUNTER",

@@ -14,9 +14,9 @@ BigWigs_Plugins: enabled
 BigWigs_BrokenIsles: enabled
 BigWigs_Nighthold: enabled
 BigWigs_Core: enabled
-!ClassColors: enabled
+!ClassColors: disabled
 CleanBossButton: enabled
-ColorPickerPlus: enabled
+ColorPickerPlus: disabled
 ConsLegion: disabled
 FlashTaskBar: enabled
 GarrisonMissionManager: enabled

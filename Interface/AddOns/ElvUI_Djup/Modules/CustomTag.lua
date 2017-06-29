@@ -133,6 +133,12 @@ end
 --[[
 	Add custom tags below this block
 --]]
+ElvUF.Tags.Events["name:theshortest"] = "UNIT_NAME_UPDATE"
+ElvUF.Tags.Methods["name:theshortest"] = function(unit)
+	local name = UnitName(unit)
+	return name ~= nil and E:ShortenString(name, 3) or ''
+end
+
 ElvUF.Tags.Events["name:abbrev"] = "UNIT_NAME_UPDATE"
 ElvUF.Tags.Methods["name:abbrev"] = function(unit)
 	local name = UnitName(unit)

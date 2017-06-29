@@ -18,18 +18,38 @@ VER 3 0100000000000012 "Free" "INV_MISC_QUESTIONMARK"
 /cast [mod:shift, @party1] Приказ хозяина
 /закл [@mouseover,help,exists][nomod, @player] Приказ хозяина
 END
+VER 3 0100000000000026 "H1" "INV_MISC_QUESTIONMARK"
+.item 1 140903 3
+.item 3 138347 4
+.item 5 138339 4
+.item 6 140868 4 
+.item 7 140871 4
+.item 8 140873 4
+.item 10 140869 4
+.item 15 0
+END
+VER 3 0100000000000027 "H2" "INV_MISC_QUESTIONMARK"
+.item 1 147142 3
+.item 3 147144 3
+.item 5 147139 3
+.item 6 147055 3 
+.item 7 147143 3
+.item 8 147046 3
+.item 10 147141 3
+.item 15 0
+END
 VER 3 0100000000000023 "Heal" "INV_MISC_QUESTIONMARK"
 /закл Духовное лечение(Экзотическая способность)
+END
+VER 3 0100000000000021 "Heal" "INV_MISC_QUESTIONMARK"
+/закл Живость
+/use Камень здоровья
 END
 VER 3 0100000000000018 "Heal" "INV_MISC_QUESTIONMARK"
 #showtooltip Рев жертвенности
 /cast [mod:shift, @party1] Рев жертвенности
 /закл [@mouseover,help,exists][nomod, @player] Духовное лечение
 /закл [@mouseover,help,exists][nomod, @player] Рев жертвенности(Хитрость)
-END
-VER 3 0100000000000021 "Heal" "INV_MISC_QUESTIONMARK"
-/закл Живость
-/use Камень здоровья
 END
 VER 3 010000000000001A "KIll Komand" "INV_MISC_QUESTIONMARK"
 #showtooltip Команда "Взять!"

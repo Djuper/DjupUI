@@ -27,13 +27,13 @@ VER 3 0000000000000060 "HP" "INV_MISC_QUESTIONMARK"
 /use Древнее лечебное зелье
 END
 VER 3 0000000000000057 "Mage1" "INV_MISC_QUESTIONMARK"
-.item 1 138312 3
-.item 3 138321 3
-.item 5 138318 3
-.item 6 138217 3
-.item 7 138358 3
-.item 8 140885 3
-.item 10 138309 3
+.item 1 138312 2
+.item 3 138321 2
+.item 5 138318 2
+.item 6 138217 2
+.item 7 138358 2
+.item 8 140885 2
+.item 10 138309 2
 .item 15 0
 END
 VER 3 0000000000000052 "Mark" "Achievement_WorldEvent_XmasOgre."
@@ -83,6 +83,10 @@ VER 3 0000000000000042 "PetFollow" "Icon_UpgradeStone_Humanoid_legendary."
 /petfollow
 /petpassive
 END
+VER 3 0000000000000064 "Ping" "ACHIEVEMENT_GUILDPERK_LADYLUCK."
+/console SpellQueueWindow 50
+/dump GetCVar("SpellQueueWindow")
+END
 VER 3 0000000000000063 "SetWar" "INV_MISC_QUESTIONMARK"
 .item 1 147190 2
 .item 3 147192 2
@@ -94,22 +98,12 @@ VER 3 0000000000000063 "SetWar" "INV_MISC_QUESTIONMARK"
 .item 15 0
 END
 VER 3 0000000000000062 "SetWarlock" "INV_MISC_QUESTIONMARK"
-.item 1 147183 3
-.item 3 147186 3
-.item 5 147185 3
-.item 6 146999 3
-.item 8 146986 3
-.item 10 147182 3
-.item 15 0
-END
-VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
-.item 1 0
-.item 3 140872 3
-.item 5 140875 3
-.item 6 140890 3
-.item 7 138345 3
-.item 8 139219 3
-.item 10 141466 3
+.item 1 147183 0
+.item 3 147186 0
+.item 5 147185 0
+.item 6 146999 0
+.item 8 146986 0
+.item 10 147182 0
 .item 15 0
 END
 VER 3 0000000000000045 "Sham1" "Ability_Shaman_Stormstrike."
@@ -122,6 +116,16 @@ VER 3 0000000000000045 "Sham1" "Ability_Shaman_Stormstrike."
 .item 10 71437
 .item 16 94722
 .item 17 94722
+END
+VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
+.item 1 0
+.item 3 140872 3
+.item 5 140875 3
+.item 6 140890 3
+.item 7 138345 3
+.item 8 139219 3
+.item 10 141466 3
+.item 15 0
 END
 VER 3 000000000000001B "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip

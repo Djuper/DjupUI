@@ -19,14 +19,6 @@ END
 VER 3 000000000000001A "Bandage" "INV_Jewelry_Talisman_06"
 /use [@player]Плотные бинты из ветрошерсти
 END
-VER 3 000000000000005E "Buy" "Ability_Druid_Cower."
-/script local function buy (n,q) for i=1,100 do if n==GetMerchantItemInfo(i) then BuyMerchantItem(i,q) end end end buy ("Архана", 10 )
-END
-VER 3 000000000000005D "Combattext" "ABILITY_PALADIN_LIGHTOFTHEPROTECTOR"
-/console floatingCombatTextCombatDamageDirectionalScale 0
-/console floatingCombatTextCombatDamage 1
-/console floatingCombatTextCombatHealing 1
-END
 VER 3 0000000000000018 "Focus" "SPELL_SHADOW_CHARM"
 /focus [@mouseover]
 END
@@ -91,6 +83,10 @@ VER 3 0000000000000042 "PetFollow" "Icon_UpgradeStone_Humanoid_legendary."
 /petfollow
 /petpassive
 END
+VER 3 0000000000000064 "Ping" "ACHIEVEMENT_GUILDPERK_LADYLUCK."
+/console SpellQueueWindow 50
+/dump GetCVar("SpellQueueWindow")
+END
 VER 3 0000000000000063 "SetWar" "INV_MISC_QUESTIONMARK"
 .item 1 147190 2
 .item 3 147192 2
@@ -102,22 +98,12 @@ VER 3 0000000000000063 "SetWar" "INV_MISC_QUESTIONMARK"
 .item 15 0
 END
 VER 3 0000000000000062 "SetWarlock" "INV_MISC_QUESTIONMARK"
-.item 1 147183 3
-.item 3 147186 3
-.item 5 147185 3
-.item 6 146999 3
-.item 8 146986 3
-.item 10 147182 3
-.item 15 0
-END
-VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
-.item 1 0
-.item 3 140872 3
-.item 5 140875 3
-.item 6 140890 3
-.item 7 138345 3
-.item 8 139219 3
-.item 10 141466 3
+.item 1 147183 0
+.item 3 147186 0
+.item 5 147185 0
+.item 6 146999 0
+.item 8 146986 0
+.item 10 147182 0
 .item 15 0
 END
 VER 3 0000000000000045 "Sham1" "Ability_Shaman_Stormstrike."
@@ -130,6 +116,16 @@ VER 3 0000000000000045 "Sham1" "Ability_Shaman_Stormstrike."
 .item 10 71437
 .item 16 94722
 .item 17 94722
+END
+VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
+.item 1 0
+.item 3 140872 3
+.item 5 140875 3
+.item 6 140890 3
+.item 7 138345 3
+.item 8 139219 3
+.item 10 141466 3
+.item 15 0
 END
 VER 3 000000000000001B "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip

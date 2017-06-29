@@ -1,6 +1,7 @@
 VER 3 010000000000001F "Art" "1278111"
 /use 13
 /use 14
+/use Зелье длительной силы1
 /закл Берсерк
 /закл Тигриное неистовство
 /закл Бешенство Пеплошкурой(Артефакт)
@@ -18,6 +19,9 @@ END
 VER 3 010000000000001A "Cyclone" "INV_MISC_QUESTIONMARK"
 #showtooltip Смерч
 /cast [mod:shift,@focus,harm,exists][@mouseover,harm,exists][] Смерч
+END
+VER 3 0100000000000021 "Heal" "INV_MISC_QUESTIONMARK"
+/закл [@player]Восстановление
 END
 VER 3 010000000000001C "Heal_Burst" "INV_MISC_QUESTIONMARK"
 /закл Расцвет

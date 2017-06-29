@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0204,
+	["LastVersion"] = 2.0206,
 	["LastPlayerFullName"] = "Дрофренфан-Гордунни",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

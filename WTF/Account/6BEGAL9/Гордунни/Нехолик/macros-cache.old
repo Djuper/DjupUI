@@ -7,13 +7,13 @@ VER 3 0100000000000004 "CS" "INV_MISC_QUESTIONMARK"
 /закл [mod:shift, @focus][]Заморозка разума
 END
 VER 3 0100000000000005 "DK" "Ability_DeathKnight_Reanimation."
-.item 1 138355 3
-.item 3 138361 3
-.item 5 138349 3
-.item 6 140912 3
-.item 7 138358 3
-.item 8 140891 3
-.item 10 138352 3
+.item 1 147063 3
+.item 3 147070 3
+.item 5 147121 3
+.item 6 1470720 3
+.item 7 147065 3
+.item 8 147428 3
+.item 10 147123 3
 .item 15 0
 .race 5
 END

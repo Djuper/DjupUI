@@ -1,0 +1,15 @@
+Version: 1
+Frame: ColorPickerFrame
+FrameLevel: 21
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 200
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: BOTTOM
+X: -8
+Y: 115
+W: 370
+H: 110

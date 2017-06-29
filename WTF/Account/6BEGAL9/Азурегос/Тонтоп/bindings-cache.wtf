@@ -69,7 +69,7 @@ bind NUMPAD5 CLICK PetActionButton2:LeftButton
 bind NUMPAD1 NONE
 bind NUMPAD3 NONE
 bind SHIFT-C NONE
-bind T SPELL Трансцендентность: перенос
+bind T SPELL Вызов
 bind ALT-G NONE
 bind SHIFT-X MULTIACTIONBAR2BUTTON11
 bind ALT-T NONE

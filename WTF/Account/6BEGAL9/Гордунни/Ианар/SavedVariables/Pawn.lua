@@ -1,10 +1,44 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0205,
+	["LastVersion"] = 2.0206,
 	["LastPlayerFullName"] = "Ианар-Гордунни",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
 	["Artifacts"] = {
+		[128306] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 49,
+					["Type"] = "Life",
+				}, -- [1]
+				{
+					["ItemLevel"] = 53,
+					["Type"] = "Frost",
+				}, -- [2]
+				{
+					["ItemLevel"] = 49,
+					["Type"] = "Life",
+				}, -- [3]
+			},
+			["Name"] = "Г'ханир, Изначальное Древо",
+		},
+		[128860] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 55,
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["ItemLevel"] = 56,
+					["Type"] = "Blood",
+				}, -- [2]
+				{
+					["ItemLevel"] = 59,
+					["Type"] = "Life",
+				}, -- [3]
+			},
+			["Name"] = "Клыки Пеплошкурой",
+		},
 		[128858] = {
 			["Relics"] = {
 				{
@@ -38,40 +72,6 @@ PawnOptions = {
 				}, -- [3]
 			},
 			["Name"] = "Когти Урсока",
-		},
-		[128306] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 48,
-					["Type"] = "Life",
-				}, -- [1]
-				{
-					["ItemLevel"] = 45,
-					["Type"] = "Frost",
-				}, -- [2]
-				{
-					["ItemLevel"] = 46,
-					["Type"] = "Life",
-				}, -- [3]
-			},
-			["Name"] = "Г'ханир, Изначальное Древо",
-		},
-		[128860] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 55,
-					["Type"] = "Frost",
-				}, -- [1]
-				{
-					["ItemLevel"] = 56,
-					["Type"] = "Blood",
-				}, -- [2]
-				{
-					["ItemLevel"] = 55,
-					["Type"] = "Life",
-				}, -- [3]
-			},
-			["Name"] = "Клыки Пеплошкурой",
 		},
 	},
 	["LastKeybindingsSet"] = 1,

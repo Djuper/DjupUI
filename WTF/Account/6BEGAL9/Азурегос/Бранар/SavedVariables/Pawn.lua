@@ -1,10 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0205,
+	["LastVersion"] = 2.0206,
 	["LastPlayerFullName"] = "Бранар-Азурегос",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[120978] = {
 			["Relics"] = {
@@ -58,6 +57,7 @@ PawnOptions = {
 			["Name"] = "Серебряная Длань",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PALADIN",

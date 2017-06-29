@@ -38,7 +38,7 @@ bind SHIFT-MOUSEWHEELDOWN NONE
 bind F1 SPELL Замедленное падение
 bind F2 MULTIACTIONBAR2BUTTON7
 bind F3 MACRO Food
-bind F4 ELVUIBAR6BUTTON1
+bind F4 SPELL Искажение времени
 bind F5 NONE
 bind SHIFT-F2 NONE
 bind SHIFT-F3 NONE

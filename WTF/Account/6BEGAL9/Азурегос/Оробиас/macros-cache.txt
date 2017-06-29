@@ -43,8 +43,8 @@ VER 3 010000000000006D "Камень" "INV_MISC_QUESTIONMARK"
 #showtooltip Камень здоровья
 /cast [mod:shift]Создание камня здоровья; Камень здоровья
 END
+VER 3 0100000000000077 "Хаос" "INV_MISC_QUESTIONMARK"
+END
 VER 3 0100000000000078 "Хаос" "INV_MISC_QUESTIONMARK"
 /cast [talent:1/3] Ожог Тьмы; Стрела Хаоса
-END
-VER 3 0100000000000077 "Хаос" "INV_MISC_QUESTIONMARK"
 END

@@ -3,17 +3,37 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 			["profiles"] = {
-				["Meta"] = {
+				["Default"] = {
 					["bigwigsMsg"] = true,
 					["blizzMsg"] = false,
 				},
 			},
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Alt Power"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 192.710529839978,
+					["fontSize"] = 12,
+					["fontOutline"] = "",
+					["font"] = "Friz Quadrata TT",
+					["posy"] = 496.355524171722,
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+			["profiles"] = {
+				["Default"] = {
+					["enabled"] = false,
+				},
+			},
 		},
 		["BigWigs_Plugins_Colors"] = {
 			["profiles"] = {
-				["Meta"] = {
+				["Default"] = {
 					["barBackground"] = {
 						["BigWigs_Plugins_Colors"] = {
 							["default"] = {
@@ -75,6 +95,44 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 186.310507983617,
+					["posy"] = 415.288595125403,
+				},
+			},
+		},
+		["BigWigs_Plugins_Bars"] = {
+			["profiles"] = {
+				["Default"] = {
+					["barStyle"] = "ElvUI",
+					["fontSize"] = 14,
+					["BigWigsAnchor_width"] = 249.999755859375,
+					["BigWigsAnchor_y"] = 103.822344093855,
+					["BigWigsEmphasizeAnchor_x"] = 571.022713479742,
+					["texture"] = "bd",
+					["font"] = "BD_UI",
+					["BigWigsAnchor_x"] = 601.600231581269,
+					["BigWigsEmphasizeAnchor_width"] = 299.999938964844,
+					["growup"] = false,
+					["BigWigsEmphasizeAnchor_y"] = 767.999931791092,
+					["emphasize"] = false,
+					["fill"] = true,
+				},
+			},
+		},
+		["BigWigs_Plugins_Super Emphasize"] = {
+			["profiles"] = {
+				["Default"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 36,
+					["font"] = "BD_UI",
+				},
+			},
+		},
 		["BigWigs_Bosses_Kruul"] = {
 			["profiles"] = {
 				["Meta"] = {
@@ -82,147 +140,70 @@ BigWigs3DB = {
 					[233473] = 0,
 					[234422] = 0,
 					[234428] = 0,
-					["nether_aberration"] = 0,
 					[240790] = 0,
 					["stages"] = 0,
-					[234423] = 0,
+					[234673] = 98307,
 					[234631] = 0,
 					["smoldering_infernal"] = 0,
 					[234920] = 0,
-					[234676] = 0,
+					[234423] = 0,
 				},
 			},
 		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Bars"] = {
-			["profiles"] = {
-				["Default"] = {
-					["BigWigsAnchor_width"] = 199.999908447266,
-					["font"] = "Friz Quadrata TT",
-				},
-				["Meta"] = {
-					["barStyle"] = "ElvUI",
-					["emphasize"] = false,
-					["BigWigsAnchor_width"] = 263,
-					["BigWigsAnchor_y"] = 137.244491170513,
-					["BigWigsEmphasizeAnchor_x"] = 46.9331825600693,
-					["font"] = "PT Sans Narrow",
-					["BigWigsAnchor_x"] = 597.333174186279,
-					["fill"] = true,
-					["BigWigsEmphasizeAnchor_y"] = 633.600058745014,
-					["growup"] = false,
-					["fontSize"] = 14,
-					["texture"] = "Djup",
-				},
-			},
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Super Emphasize"] = {
-			["profiles"] = {
-				["Default"] = {
-					["font"] = "Friz Quadrata TT",
-				},
-				["Meta"] = {
-					["outline"] = "OUTLINE",
-					["fontSize"] = 27,
-					["font"] = "Expressway",
-				},
-			},
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["Meta"] = {
-					["posx"] = 213.333229992122,
-					["posy"] = 478.577919574582,
-				},
-			},
+		["BigWigs_Plugins_Pull"] = {
 		},
 		["BigWigs_Plugins_Respawn"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
-				["Meta"] = {
-					["enabled"] = false,
+				["Default"] = {
+					["outline"] = "OUTLINE",
+					["BWEmphasizeMessageAnchor_x"] = 612.266204061762,
+					["BWEmphasizeCountdownMessageAnchor_x"] = 665.600102922654,
+					["BWMessageAnchor_x"] = 612.266594686771,
+					["growUpwards"] = true,
+					["BWEmphasizeCountdownMessageAnchor_y"] = 241.066542295612,
+					["font"] = "BD_UI",
+					["BWEmphasizeMessageAnchor_y"] = 448.000054250824,
+					["BWMessageAnchor_y"] = 448.000705292507,
+					["fontSize"] = 22,
 				},
 			},
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["Default"] = {
-					["height"] = 120.000007629395,
-					["fontSize"] = 20,
-					["font"] = "Friz Quadrata TT",
-					["width"] = 139.999984741211,
-				},
-				["Meta"] = {
-					["posx"] = 408.888551567652,
-					["fontSize"] = 22,
-					["lock"] = false,
-					["font"] = "PT Sans Narrow",
-					["posy"] = 162.132827276641,
 					["objects"] = {
 						["background"] = false,
 						["close"] = false,
 					},
-					["width"] = 139.999984741211,
+					["fontSize"] = 22,
+					["posx"] = 82.4886847231073,
+					["lock"] = false,
+					["height"] = 120.000007629395,
+					["posy"] = 435.909993194182,
+					["font"] = "PT Sans Narrow",
+					["width"] = 139.999740600586,
 				},
 			},
 		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Bosses_Chronomatic Anomaly"] = {
 			["profiles"] = {
-				["Default"] = {
-					["fontSize"] = 20,
-					["font"] = "Friz Quadrata TT",
-				},
 				["Meta"] = {
-					["outline"] = "OUTLINE",
-					["fontSize"] = 21,
-					["BWEmphasizeCountdownMessageAnchor_x"] = 665.600102922654,
-					["emphasizedMessages"] = {
-						["sink20OutputSink"] = "BigWigs",
-					},
-					["BWMessageAnchor_x"] = 619.377792775631,
-					["growUpwards"] = false,
-					["BWEmphasizeCountdownMessageAnchor_y"] = 340.622056859065,
-					["font"] = "Expressway",
-					["BWEmphasizeMessageAnchor_y"] = 504.17792019447,
-					["BWMessageAnchor_y"] = 615.82223713398,
-					["BWEmphasizeMessageAnchor_x"] = 617.244068765631,
+					[211927] = 0,
+					[207871] = 0,
+					[-13022] = 0,
+					[206607] = 0,
+					[212099] = 0,
+					[207976] = 0,
+					[207228] = 0,
+					[219815] = 0,
+					[206609] = 0,
 				},
 			},
 		},
-		["BigWigs_Plugins_Pull"] = {
+		["BigWigs_Plugins_BossBlock"] = {
 		},
-		["BigWigs_Plugins_Alt Power"] = {
-			["profiles"] = {
-				["Default"] = {
-					["fontSize"] = 12,
-					["font"] = "Friz Quadrata TT",
-					["fontOutline"] = "",
-				},
-				["Meta"] = {
-					["posx"] = 212.621598030446,
-					["fontSize"] = 12,
-					["fontOutline"] = "",
-					["posy"] = 391.8221449044,
-					["font"] = "Friz Quadrata TT",
-				},
-			},
-		},
-	},
-	["profileKeys"] = {
-		["Фелбой - Гордунни"] = "Meta",
-		["Бранар - Азурегос"] = "Meta",
-		["Ианар - Гордунни"] = "Meta",
-		["Дрофренфан - Гордунни"] = "Meta",
-		["Нехолик - Гордунни"] = "Meta",
-		["Пирик - Черный Шрам"] = "Meta",
-		["Тонтоп - Азурегос"] = "Meta",
-		["Аниом - Гордунни"] = "Meta",
 	},
 	["global"] = {
 		["watchedMovies"] = {
@@ -230,10 +211,12 @@ BigWigs3DB = {
 			["1042:1"] = true,
 		},
 	},
+	["profileKeys"] = {
+		["Пирик - Черный Шрам"] = "Default",
+		["Оробиас - Азурегос"] = "Default",
+	},
 	["profiles"] = {
 		["Default"] = {
-		},
-		["Meta"] = {
 			["flash"] = false,
 		},
 	},

@@ -1,9 +1,0 @@
-
-SquareMinimapButtonOptions = {
-	["MoveBlizzard"] = true,
-	["BarEnabled"] = true,
-	["BarMouseOver"] = false,
-	["ButtonsPerRow"] = 12,
-	["ButtonSpacing"] = -1,
-	["IconSize"] = 26,
-}

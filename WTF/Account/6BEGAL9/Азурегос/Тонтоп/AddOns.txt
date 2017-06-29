@@ -13,5 +13,7 @@ bdGrid: disabled
 bdNameplates: disabled
 bdUnitframes: disabled
 SquareMinimapButtons: disabled
-WorldQuestGroupFinder: disabled
-ElvUI_SLE: disabled
+WorldQuestGroupFinder: enabled
+ElvUI_SLE: enabled
+ElvUI_CustomTags: disabled
+!KalielsTracker: disabled

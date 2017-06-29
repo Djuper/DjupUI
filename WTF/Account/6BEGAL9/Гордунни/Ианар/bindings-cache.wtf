@@ -23,10 +23,10 @@ bind = NONE
 bind CTRL-F1 NONE
 bind CTRL-F2 NONE
 bind CTRL-F3 NONE
-bind CTRL-1 RAIDTARGET8
-bind CTRL-2 RAIDTARGET7
-bind CTRL-3 RAIDTARGET6
-bind CTRL-4 RAIDTARGET2
+bind CTRL-1 CLICK ElvUI_StanceBarButton1:LeftButton
+bind CTRL-2 CLICK ElvUI_StanceBarButton2:LeftButton
+bind CTRL-3 CLICK ElvUI_StanceBarButton3:LeftButton
+bind CTRL-4 NONE
 bind CTRL-5 CLICK DominosActionButton3:LeftButton
 bind SHIFT-1 SPELL Лунный огонь
 bind SHIFT-2 SPELL Солнечный огонь
@@ -97,11 +97,11 @@ bind NUMPAD9 CLICK DominosActionButton32:LeftButton
 bind SHIFT-§ NONE
 bind SHIFT-Z MACRO HP
 bind BUTTON5 MULTIACTIONBAR2BUTTON12
-bind ALT-1 MACRO Arena1
-bind ALT-2 MACRO Arena2
-bind ALT-3 MACRO arena3
-bind ALT-Q MACRO HealHealQ
-bind ALT-E MACRO HealHealE
+bind ALT-1 CLICK ElvUI_StanceBarButton1:LeftButton
+bind ALT-2 CLICK ElvUI_StanceBarButton2:LeftButton
+bind ALT-3 CLICK ElvUI_StanceBarButton3:LeftButton
+bind ALT-Q MULTIACTIONBAR2BUTTON9
+bind ALT-E MULTIACTIONBAR2BUTTON10
 bind ` MACRO Focus
 bind ¸ MACRO Focus
 bind ALT-4 NONE

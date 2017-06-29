@@ -3,7 +3,7 @@ VER 3 0100000000000026 "Blink" "INV_MISC_QUESTIONMARK"
 /cast [mod:shift] Смещение; Скачок
 END
 VER 3 0100000000000027 "bLIZZARD" "INV_MISC_QUESTIONMARK"
- /cast [@cursor] Снежная буря
+/cast [@cursor] Снежная буря
 END
 VER 3 0100000000000003 "Block" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -15,9 +15,10 @@ VER 3 0100000000000006 "Burst" "INV_MISC_QUESTIONMARK"
 /cast [spec:1] Мощь тайной магии
 /cast [spec:2] Возгорание
 /cast [spec:3] Стылая кровь
-/use Зелье длительной силы1
+/use Зелье длительной силы
 /use 13
 /use 14
+/закл Зеркальное изображение
 END
 VER 3 0100000000000001 "CS" "INV_MISC_QUESTIONMARK"
 #showtooltip Антимагия

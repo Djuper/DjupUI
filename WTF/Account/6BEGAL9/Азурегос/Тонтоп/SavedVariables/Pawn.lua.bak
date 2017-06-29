@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0205,
+	["LastVersion"] = 2.0206,
 	["LastPlayerFullName"] = "Тонтоп-Азурегос",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

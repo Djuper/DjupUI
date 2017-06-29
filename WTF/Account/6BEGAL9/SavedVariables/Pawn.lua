@@ -6,9 +6,9 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
-	["ShownGettingStarted"] = true,
 	["Digits"] = 1,
-	["Debug"] = false,
+	["ShownGettingStarted"] = true,
+	["ShowEnchanted"] = true,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
 	["ShowSpecIcons"] = true,
@@ -80,6 +80,9 @@ PawnCommon = {
 		["\"MrRobot\":PRIEST3"] = {
 			["IconTexturePath"] = 136207,
 			["PerCharacterOptions"] = {
+				["Тыдышь-Черный Шрам"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ffffff",
 			["LocalizedName"] = "Жрец: Тьма",
@@ -121,6 +124,46 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["UnenchantedColor"] = "2f95b0",
 			["SpecID"] = 2,
+		},
+		["Соло"] = {
+			["IconTexturePath"] = 132115,
+			["Values"] = {
+				["IsWand"] = -1000000,
+				["Indestructible"] = 0.01,
+				["MinDamage"] = 3.305,
+				["MovementSpeed"] = 0.03,
+				["Agility"] = 20.77,
+				["HasteRating"] = 12.83,
+				["MasteryRating"] = 16.79,
+				["Versatility"] = 16.35,
+				["Avoidance"] = 0.02,
+				["IsGun"] = -1000000,
+				["IsSword"] = -1000000,
+				["IsFrill"] = -1000000,
+				["Is2HAxe"] = -1000000,
+				["MaxDamage"] = 3.305,
+				["IsWarglaive"] = -1000000,
+				["IsBow"] = -1000000,
+				["IsMail"] = -1000000,
+				["IsPlate"] = -1000000,
+				["CritRating"] = 15.5,
+				["Is2HSword"] = -1000000,
+				["IsCrossbow"] = -1000000,
+				["Leech"] = 0.01,
+				["Stamina"] = 0.01,
+				["IsShield"] = -1000000,
+				["IsAxe"] = -1000000,
+			},
+			["Color"] = "ff7d0a",
+			["ClassID"] = 11,
+			["Role"] = "DAMAGER",
+			["UpgradesFollowSpecialization"] = true,
+			["SpecID"] = 2,
+			["PerCharacterOptions"] = {
+				["Ианар-Гордунни"] = {
+					["Visible"] = true,
+				},
+			},
 		},
 		["\"MrRobot\":WARLOCK3"] = {
 			["IconTexturePath"] = 136186,
@@ -170,6 +213,9 @@ PawnCommon = {
 		["\"MrRobot\":DEMONHUNTER1"] = {
 			["IconTexturePath"] = 1247264,
 			["PerCharacterOptions"] = {
+				["Фелбой-Гордунни"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "a330c9",
 			["LocalizedName"] = "Охотник на демонов: Истребление",
@@ -185,6 +231,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID4"] = {
 			["IconTexturePath"] = 136041,
 			["PerCharacterOptions"] = {
+				["Ианар-Гордунни"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7d0a",
 			["LocalizedName"] = "Друид: Исцеление",
@@ -230,6 +279,9 @@ PawnCommon = {
 		["\"MrRobot\":DRUID1"] = {
 			["IconTexturePath"] = 136096,
 			["PerCharacterOptions"] = {
+				["Ианар-Гордунни"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7d0a",
 			["LocalizedName"] = "Друид: Баланс",
@@ -290,20 +342,20 @@ PawnCommon = {
 			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 3,
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "0070de",
-			["LocalizedName"] = "Шаман: Исцеление",
-			["ClassID"] = 7,
+			["Color"] = "a330c9",
+			["LocalizedName"] = "Охотник на демонов: Месть",
+			["ClassID"] = 12,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "0054a6",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "7a2496",
+			["SpecID"] = 2,
 		},
 		["\"MrRobot\":WARRIOR1"] = {
 			["IconTexturePath"] = 132355,
@@ -335,39 +387,6 @@ PawnCommon = {
 			["UnenchantedColor"] = "6566b2",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":DRUID2"] = {
-			["IconTexturePath"] = 132115,
-			["PerCharacterOptions"] = {
-				["Ианар-Гордунни"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "ff7d0a",
-			["LocalizedName"] = "Друид: Сила зверя",
-			["ClassID"] = 11,
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "bf5d07",
-			["SpecID"] = 2,
-		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "3fc7eb",
-			["LocalizedName"] = "Маг: Тайная магия",
-			["ClassID"] = 8,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "2f95b0",
-			["SpecID"] = 1,
-		},
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
@@ -384,6 +403,36 @@ PawnCommon = {
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
 			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 2,
+		},
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "0070de",
+			["LocalizedName"] = "Шаман: Исцеление",
+			["ClassID"] = 7,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "0054a6",
+			["SpecID"] = 3,
+		},
+		["\"MrRobot\":DRUID2"] = {
+			["IconTexturePath"] = 132115,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "ff7d0a",
+			["LocalizedName"] = "Друид: Сила зверя",
+			["ClassID"] = 11,
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 2,
 		},
 		["\"MrRobot\":ROGUE1"] = {
@@ -452,6 +501,9 @@ PawnCommon = {
 		["\"MrRobot\":WARRIOR2"] = {
 			["IconTexturePath"] = 132347,
 			["PerCharacterOptions"] = {
+				["Трубо-Азурегос"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "c79c6e",
 			["LocalizedName"] = "Воин: Неистовство",
@@ -482,6 +534,9 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT2"] = {
 			["IconTexturePath"] = 135773,
 			["PerCharacterOptions"] = {
+				["Нехолик-Гордунни"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff4d6b",
 			["LocalizedName"] = "Рыцарь смерти: Лед",
@@ -497,9 +552,6 @@ PawnCommon = {
 		["\"MrRobot\":DEATHKNIGHT1"] = {
 			["IconTexturePath"] = 135770,
 			["PerCharacterOptions"] = {
-				["Нехолик-Гордунни"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "ff4d6b",
 			["LocalizedName"] = "Рыцарь смерти: Кровь",
@@ -511,24 +563,6 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 1,
-		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
-			["PerCharacterOptions"] = {
-				["Фелбой-Гордунни"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "a330c9",
-			["LocalizedName"] = "Охотник на демонов: Месть",
-			["ClassID"] = 12,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "7a2496",
-			["SpecID"] = 2,
 		},
 		["Ret"] = {
 			["PerCharacterOptions"] = {
@@ -545,9 +579,27 @@ PawnCommon = {
 			},
 			["UpgradesFollowSpecialization"] = true,
 		},
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
+			["PerCharacterOptions"] = {
+			},
+			["Color"] = "3fc7eb",
+			["LocalizedName"] = "Маг: Тайная магия",
+			["ClassID"] = 8,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "2f95b0",
+			["SpecID"] = 1,
+		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
 			["PerCharacterOptions"] = {
+				["Ианар-Гордунни"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7d0a",
 			["LocalizedName"] = "Друид: Страж",
@@ -614,8 +666,8 @@ PawnCommon = {
 	},
 	["ShowLootUpgradeAdvisor"] = false,
 	["ButtonPosition"] = 2,
-	["LastVersion"] = 2.0205,
+	["LastVersion"] = 2.0206,
 	["ShowQuestUpgradeAdvisor"] = false,
-	["ShowEnchanted"] = true,
+	["Debug"] = false,
 	["IgnoreGemsWhileLeveling"] = false,
 }

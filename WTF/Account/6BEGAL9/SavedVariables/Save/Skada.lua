@@ -1,0 +1,183 @@
+
+SkadaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Бранар - Азурегос"] = "Meta",
+		["Ианар - Гордунни"] = "Meta",
+		["Оробиас - Азурегос"] = "Meta",
+		["Фелбой - Гордунни"] = "Meta",
+		["Трубо - Азурегос"] = "Meta",
+		["Пирик - Черный Шрам"] = "Meta",
+		["Нехолик - Гордунни"] = "Meta",
+		["Дрофренфан - Гордунни"] = "Meta",
+		["Тыдышь - Черный Шрам"] = "Default",
+		["Тонтоп - Азурегос"] = "Meta",
+		["Аниом - Гордунни"] = "Meta",
+	},
+	["profiles"] = {
+		["Meta"] = {
+			["modeclicks"] = {
+				["Рассеивания"] = 2,
+				["Всего исцеления"] = 1,
+				["Смерти"] = 105,
+				["Урон, полученный от заклинания"] = 6,
+				["Получено лечения"] = 30,
+				["Прерывание"] = 2,
+				["Действие дебаффа"] = 6,
+				["Отрицательные эффекты"] = 1,
+				["Получено урона врагом"] = 60,
+				["Полученный урон"] = 87,
+				["Нанесено урона врагом"] = 1,
+				["Исцеление"] = 208,
+				["Время действия баффов"] = 8,
+				["Избыточное лечение"] = 1,
+				["Нанесённый урон"] = 303,
+			},
+			["windows"] = {
+				{
+					["barheight"] = 21,
+					["classicons"] = false,
+					["barslocked"] = true,
+					["background"] = {
+						["bordertexture"] = "None",
+						["height"] = 132.999938964844,
+						["texture"] = "None",
+					},
+					["wipemode"] = "Нанесённый урон",
+					["y"] = 11.9997615814209,
+					["barfont"] = "BD_UI",
+					["name"] = "Damage",
+					["enabletitle"] = false,
+					["bartexture"] = "bd",
+					["point"] = "BOTTOMRIGHT",
+					["barbgcolor"] = {
+						["a"] = 0,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
+					},
+					["barcolor"] = {
+						["b"] = 0.611764705882353,
+						["g"] = 0.564705882352941,
+						["r"] = 0.470588235294118,
+					},
+					["barfontsize"] = 14,
+					["mode"] = "Нанесённый урон",
+					["spark"] = false,
+					["buttons"] = {
+						["report"] = false,
+						["menu"] = false,
+						["mode"] = false,
+						["segment"] = false,
+						["reset"] = false,
+					},
+					["barwidth"] = 270.000183105469,
+					["barspacing"] = 1,
+					["x"] = -11.9969482421875,
+					["modeincombat"] = "Нанесённый урон",
+					["title"] = {
+						["textcolor"] = {
+							["b"] = 0.901960784313726,
+							["g"] = 0.901960784313726,
+							["r"] = 0.901960784313726,
+						},
+						["color"] = {
+							["a"] = 0,
+							["b"] = 0.101960784313725,
+							["g"] = 0.101960784313725,
+							["r"] = 0.101960784313725,
+						},
+						["font"] = "PT Sans Narrow",
+						["borderthickness"] = 1,
+						["height"] = 16,
+						["texture"] = "ElvUI Blank",
+					},
+				}, -- [1]
+			},
+			["icon"] = {
+				["minimapPos"] = 213.558900013564,
+				["hide"] = true,
+			},
+			["report"] = {
+				["channel"] = "raid",
+				["target"] = "Агламиш-Гордунни",
+				["mode"] = "Получено урона врагом",
+			},
+			["columns"] = {
+				["Нанесённый урон_Percent"] = false,
+				["Урон по врагам_Percent"] = true,
+				["Избыточное лечение_Percent"] = false,
+				["Исцеление_Percent"] = false,
+				["Получено лечения_Percent"] = true,
+				["Всего Список исцеляющих заклинаний_Percent"] = true,
+				["Детали боевых заклинаний_Percent"] = true,
+				["Список исцеляющих заклинаний_Percent"] = true,
+				["Журнал смертей_Percent"] = true,
+				["Список заклинаний_Percent"] = true,
+				["Исцелённые игроки_Percent"] = true,
+				["Overhealing spells_Percent"] = false,
+				["Угроза_Percent"] = false,
+				["Всего исцеления_Percent"] = true,
+				["Полученный урон_Percent"] = true,
+			},
+			["showranks"] = false,
+			["versions"] = {
+				["1.6.4"] = true,
+				["1.6.3"] = true,
+				["1.6.7"] = true,
+			},
+			["modulesBlocked"] = {
+				["Deaths"] = false,
+				["CC"] = false,
+				["Dispels"] = false,
+				["Enemies"] = false,
+				["Overhealing"] = false,
+				["Interrupts"] = false,
+				["Power"] = true,
+				["Debuffs"] = false,
+				["Threat"] = true,
+			},
+			["setformat"] = 1,
+			["setstokeep"] = 40,
+			["reset"] = {
+				["instance"] = 2,
+				["join"] = 1,
+			},
+		},
+		["Default"] = {
+			["windows"] = {
+				{
+					["y"] = 202.000137329102,
+					["x"] = -187.999389648438,
+					["point"] = "BOTTOMRIGHT",
+				}, -- [1]
+			},
+			["versions"] = {
+				["1.6.7"] = true,
+				["1.6.3"] = true,
+				["1.6.4"] = true,
+			},
+		},
+		["MAGE"] = {
+			["windows"] = {
+				{
+					["y"] = 2.50006198883057,
+					["strata"] = "MEDIUM",
+					["barslocked"] = true,
+					["point"] = "RIGHT",
+					["barwidth"] = 196,
+					["background"] = {
+						["height"] = 108.000015258789,
+						["strata"] = "MEDIUM",
+						["bordertexture"] = "None",
+					},
+					["spark"] = false,
+					["x"] = 6,
+				}, -- [1]
+			},
+		},
+	},
+}

@@ -1,10 +1,15 @@
 local E, L, V, P, G= unpack(ElvUI);
 local AB = E:GetModule('ActionBars');
 
+local otfheight = 350
+local otfwidth = 488
+
 local ENABLED_PANEL_POSITION = 0--34
 local DISABLED_PANEL_POSITION = 0--136
 local ENABLED_PANEL_TEXT = 'Config Mode "ON"'
 local DISABLED_PANEL_TEXT = 'Config Mode "OFF"'
+
+
 
 local dpanel = CreateFrame('Button', 'DPanel', E.UIParent)
 dpanel:Size(395, 10)

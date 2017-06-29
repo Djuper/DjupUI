@@ -1,6 +1,6 @@
 local E, L, V, P, G = unpack(ElvUI); --Inport: Engine, Locales, ProfileDB, GlobalDB
 local CH = E:GetModule('Chat');
-local LSM = LibStub("LibSharedMedia-3.0")
+local LSM = LibStub("LibSharedMedia-3.0");
 
 --Cache global variables
 --Lua functions

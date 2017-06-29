@@ -3,7 +3,7 @@ VER 3 0100000000000026 "Blink" "INV_MISC_QUESTIONMARK"
 /cast [mod:shift] Смещение; Скачок
 END
 VER 3 0100000000000027 "bLIZZARD" "INV_MISC_QUESTIONMARK"
- /cast [@cursor] Снежная буря
+/cast [@cursor] Снежная буря
 END
 VER 3 0100000000000003 "Block" "INV_MISC_QUESTIONMARK"
 #showtooltip

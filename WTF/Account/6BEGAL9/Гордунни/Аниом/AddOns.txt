@@ -16,9 +16,9 @@ BigWigs_Plugins: enabled
 BigWigs_BrokenIsles: enabled
 BigWigs_Nighthold: enabled
 BigWigs_Core: enabled
-!ClassColors: enabled
+!ClassColors: disabled
 CleanBossButton: enabled
-ColorPickerPlus: enabled
+ColorPickerPlus: disabled
 FlashTaskBar: enabled
 GarrisonMissionManager: enabled
 GottaGoFast: enabled
@@ -57,3 +57,7 @@ bdMinimap: disabled
 bdNameplates: disabled
 bdUnitframes: disabled
 SquareMinimapButtons: disabled
+LibAnim: enabled
+numQuests: enabled
+ShestakUI: enabled
+ShestakUI_Config: enabled
