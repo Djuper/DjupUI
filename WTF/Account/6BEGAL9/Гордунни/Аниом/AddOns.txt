@@ -61,3 +61,6 @@ LibAnim: enabled
 numQuests: enabled
 ShestakUI: enabled
 ShestakUI_Config: enabled
+Immersion: disabled
+ZygorGuidesViewer: disabled
+PartyAbilityBars: disabled

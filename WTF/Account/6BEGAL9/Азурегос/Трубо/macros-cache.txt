@@ -2,7 +2,11 @@ VER 3 0100000000000020 "AmrsE" "INV_MISC_QUESTIONMARK"
 #showtooltip Смертельный удар
 /закл Рывок
 /закл Смертельный удар
-/cancelaura Вихрь клинков
+/use 13
+/use 14
+END
+VER 3 010000000000002A "ArmsQ" "INV_MISC_QUESTIONMARK"
+/cast [talent:5/1] Вихрь; Мощный удар
 END
 VER 3 0100000000000017 "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip Рывок
@@ -13,14 +17,17 @@ VER 3 010000000000001D "FuryE" "INV_MISC_QUESTIONMARK"
 /закл Кровожадность
 /закл Рывок
 END
+VER 3 010000000000002B "Kill" "INV_MISC_QUESTIONMARK"
+/закл [mod:shift] Победный раж; Казнь
+END
 VER 3 0100000000000012 "Last" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /закл Ободряющий клич
-/use Камень здоровья
 /cancelaura Вихрь клинков
 END
 VER 3 0100000000000005 "Pammel" "INV_MISC_QUESTIONMARK"
 #showtooltip Зуботычина
+/закл Героический бросок
 /закл [mod:shift,@focus] Зуботычина; Зуботычина
 /cancelaura Вихрь клинков
 END
@@ -33,10 +40,9 @@ END
 VER 3 0100000000000028 "ProtHeal" "INV_MISC_QUESTIONMARK"
 /закл [@Витаго]Перехват
 END
-VER 3 0100000000000026 "slow" "INV_MISC_QUESTIONMARK"
-#showtooltip Подрезать сухожилия
-/закл Героический бросок
-/закл Подрезать сухожилия
+VER 3 0100000000000029 "Reflect/Taunt" "INV_MISC_QUESTIONMARK"
+/закл Отражение заклинаний
+/закл Провокация
 END
 VER 3 0100000000000022 "Stun" "INV_MISC_QUESTIONMARK"
 #showtooltip [talent:2/1]Ударная волна; [talent:2/2] Удар громовержца; [talent:2/3] Рывок
@@ -46,36 +52,6 @@ VER 3 010000000000001F "Бурст" "INV_MISC_QUESTIONMARK"
 #showtooltip Боевой крик
 /закл Аватара
 /закл Боевой крик
-END
-VER 3 0100000000000013 "Интервейн" "INV_MISC_QUESTIONMARK"
-#showtooltip [talent:5/1] Вмешательство; [talent:5/2] Охрана; [talent:5/3] Бдительность
-/use [talent:5/1, @mouseover, help][talent:5/1, mod:alt, @Ribz][talent:5/1] Вмешательство; [talent:5/2, @mouseover, help][talent:5/2] Охрана
-END
-VER 3 010000000000001C "Колосс" "INV_MISC_QUESTIONMARK"
-#showtooltip Удар колосса
-/закл Удар колосса
-/закл Боевая стойка
-END
-VER 3 0100000000000015 "Транс" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
-.item 1 138357 3
-.item 3 138363 3
-.item 5 138351 3
-.item 6 140892 3
-.item 7 138360 3
-.item 8 139234 3
-.item 10 138354 3
-.item 15 0
-END
-VER 3 0100000000000025 "Транс2" "INV_Pet_BabyShark."
-/run  LARGE_NUMBER_SEPERATOR = ","
-.item 1 
-.item 3 112935
-.item 5 10203
-.item 6 10206
-.item 7 10208
-.item 8 10201
-.item 10 10205
-.item 16 118412
 END
 VER 3 0100000000000006 "Фир" "INV_MISC_QUESTIONMARK"
 #showtooltip Устрашающий крик

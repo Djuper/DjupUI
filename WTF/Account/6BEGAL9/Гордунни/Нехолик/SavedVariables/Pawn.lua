@@ -1,10 +1,9 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0206,
+	["LastVersion"] = 2.0208,
 	["LastPlayerFullName"] = "Нехолик-Гордунни",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128292] = {
 			["Relics"] = {
@@ -46,6 +45,7 @@ PawnOptions = {
 			["Name"] = "Апокалипсис",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DEATHKNIGHT",

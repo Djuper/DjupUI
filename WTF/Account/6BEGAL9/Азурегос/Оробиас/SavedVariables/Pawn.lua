@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0206,
+	["LastVersion"] = 2.0208,
 	["LastPlayerFullName"] = "Оробиас-Азурегос",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,

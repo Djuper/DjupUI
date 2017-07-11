@@ -17,3 +17,13 @@ WorldQuestGroupFinder: enabled
 ElvUI_SLE: enabled
 ElvUI_CustomTags: disabled
 !KalielsTracker: disabled
+ls_Toasts_ElvUI: disabled
+ls_Toasts: disabled
+BigWigs: disabled
+Auctionator: disabled
+GottaGoFast: disabled
+LibAnim: disabled
+Simulationcraft: disabled
+ParagonReputation: enabled
+GTFO: disabled
+ExRT: disabled

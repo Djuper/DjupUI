@@ -52,7 +52,7 @@ bind C ACTIONBUTTON9
 bind F8 CLICK DominosActionButton11:LeftButton
 bind F9 CLICK DominosActionButton12:LeftButton
 bind SHIFT-SPACE MULTIACTIONBAR2BUTTON12
-bind H MULTIACTIONBAR2BUTTON5
+bind H CLICK ExtraActionButton1:LeftButton
 bind Y REPLY
 bind SHIFT-Y REPLY2
 bind NUMPADPLUS CLICK DominosActionButton35:LeftButton

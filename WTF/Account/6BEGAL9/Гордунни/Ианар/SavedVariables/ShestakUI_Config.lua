@@ -1,2 +1,0 @@
-
-GUIConfig = nil

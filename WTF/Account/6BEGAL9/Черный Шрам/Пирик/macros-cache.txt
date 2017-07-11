@@ -31,6 +31,14 @@ VER 3 0100000000000023 "Dont miss" "INV_MISC_QUESTIONMARK"
 /cast [spec:1, harm] Сверхновая
 /cast [spec:3, harm] Кольцо обледенения
 END
+VER 3 010000000000002A "f_E" "INV_MISC_QUESTIONMARK"
+/use 13
+/закл Ледяная стрела
+END
+VER 3 0100000000000029 "f_Q" "INV_MISC_QUESTIONMARK"
+/use 13
+/закл Ледяное копье
+END
 VER 3 0100000000000016 "Food" "INV_MISC_QUESTIONMARK"
 #showtooltip Сотворение яств
 /cast [mod:shift] Сотворение яств
@@ -75,12 +83,10 @@ VER 3 010000000000000A "Sheep" "INV_MISC_QUESTIONMARK"
 /cast [mod:shift,@focus,harm,exists][@mouseover,harm,exists][] Превращение
 /cancelaura Ледяная глыба
 END
-VER 3 0100000000000025 "Shields" "INV_MISC_QUESTIONMARK"
-#showtooltip Ледяная преграда
-/cast [mod:shift] Барьер времени; Ледяная преграда
-/cast [mod:shift] Древнее лечебное зелье
-END
 VER 3 0100000000000007 "steal" "INV_MISC_QUESTIONMARK"
 #showtooltip Чарокрад
 /cast [mod:shift, @focus] Чарокрад; Чарокрад
+END
+VER 3 0100000000000028 "T100" "INV_MISC_QUESTIONMARK"
+/cast [talent:7/2] Ледовый шип; [talent:7/3] Буря комет
 END

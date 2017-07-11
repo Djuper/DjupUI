@@ -1,3 +1,0 @@
-
-SavedOptionsPerChar = nil
-SavedPositions = nil

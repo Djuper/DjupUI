@@ -15,7 +15,7 @@ VER 3 0100000000000006 "Burst" "INV_MISC_QUESTIONMARK"
 /cast [spec:1] Мощь тайной магии
 /cast [spec:2] Возгорание
 /cast [spec:3] Стылая кровь
-/use Зелье длительной силы
+/use Зелье длительной силы1
 /use 13
 /use 14
 /закл Зеркальное изображение
@@ -75,12 +75,10 @@ VER 3 010000000000000A "Sheep" "INV_MISC_QUESTIONMARK"
 /cast [mod:shift,@focus,harm,exists][@mouseover,harm,exists][] Превращение
 /cancelaura Ледяная глыба
 END
-VER 3 0100000000000025 "Shields" "INV_MISC_QUESTIONMARK"
-#showtooltip Ледяная преграда
-/cast [mod:shift] Барьер времени; Ледяная преграда
-/cast [mod:shift] Древнее лечебное зелье
-END
 VER 3 0100000000000007 "steal" "INV_MISC_QUESTIONMARK"
 #showtooltip Чарокрад
 /cast [mod:shift, @focus] Чарокрад; Чарокрад
+END
+VER 3 0100000000000028 "T100" "INV_MISC_QUESTIONMARK"
+/cast [talent:7/2] Ледовый шип; [talent:7/3] Буря комет
 END

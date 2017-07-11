@@ -56,3 +56,6 @@ bdMinimap: disabled
 bdNameplates: disabled
 bdUnitframes: disabled
 SquareMinimapButtons: disabled
+Immersion: disabled
+ZygorGuidesViewer: disabled
+PartyAbilityBars: disabled

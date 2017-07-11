@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0206,
+	["LastVersion"] = 2.0209,
 	["LastPlayerFullName"] = "Ианар-Гордунни",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
@@ -46,11 +46,11 @@ PawnOptions = {
 					["Type"] = "Arcane",
 				}, -- [1]
 				{
-					["ItemLevel"] = 49,
+					["ItemLevel"] = 58,
 					["Type"] = "Life",
 				}, -- [2]
 				{
-					["ItemLevel"] = 48,
+					["ItemLevel"] = 61,
 					["Type"] = "Arcane",
 				}, -- [3]
 			},
@@ -67,7 +67,7 @@ PawnOptions = {
 					["Type"] = "Blood",
 				}, -- [2]
 				{
-					["ItemLevel"] = 49,
+					["ItemLevel"] = 56,
 					["Type"] = "Life",
 				}, -- [3]
 			},

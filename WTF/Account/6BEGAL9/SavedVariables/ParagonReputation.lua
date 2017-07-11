@@ -15,7 +15,7 @@ ParagonReputationDB = {
 	["y"] = 256,
 	["deficit"] = false,
 	["default"] = true,
-	["value"] = false,
-	["yellowcheck"] = false,
 	["x"] = 0,
+	["yellowcheck"] = false,
+	["value"] = false,
 }

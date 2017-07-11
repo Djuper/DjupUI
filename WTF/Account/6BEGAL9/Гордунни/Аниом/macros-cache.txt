@@ -38,12 +38,23 @@ VER 3 0100000000000027 "H2" "INV_MISC_QUESTIONMARK"
 .item 10 147141 3
 .item 15 0
 END
-VER 3 0100000000000023 "Heal" "INV_MISC_QUESTIONMARK"
-/закл Духовное лечение(Экзотическая способность)
+VER 3 0100000000000028 "H3" "INV_MISC_QUESTIONMARK"
+.item 1 45118
+.item 4 6795
+.item 3 9904
+.item 5 2870
+.item 6 7546
+.item 7 116133
+.item 8 116134
+.item 10 7541
+.item 15 0
 END
 VER 3 0100000000000021 "Heal" "INV_MISC_QUESTIONMARK"
 /закл Живость
 /use Камень здоровья
+END
+VER 3 0100000000000023 "Heal" "INV_MISC_QUESTIONMARK"
+/закл Духовное лечение(Экзотическая способность)
 END
 VER 3 0100000000000018 "Heal" "INV_MISC_QUESTIONMARK"
 #showtooltip Рев жертвенности

@@ -1,7 +1,7 @@
 xCT+: enabled
 ServerHop: disabled
 !ClassColors: enabled
-ColorPickerPlus: enabled
+ColorPickerPlus: disabled
 bdBags: disabled
 bdActionbars: disabled
 bdBuffs: disabled
@@ -39,7 +39,7 @@ OmniBar: enabled
 Postal: enabled
 Simulationcraft: enabled
 Skada: enabled
-TellMeWhen: enabled
+TellMeWhen: disabled
 TellMeWhen_Options: enabled
 WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled
@@ -60,3 +60,12 @@ AltzUI: enabled
 AltzUIConfig: enabled
 !KalielsTracker: disabled
 numQuests: enabled
+Dampening_Display: enabled
+PartyAbilityBars: disabled
+GTFO: enabled
+epgp_lootmaster: enabled
+epgp_lootmaster_ml: enabled
+ExRT: enabled
+Gladius: enabled
+ShestakUI: enabled
+ShestakUI_Config: enabled

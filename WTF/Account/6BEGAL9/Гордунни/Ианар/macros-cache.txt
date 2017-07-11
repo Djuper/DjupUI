@@ -20,12 +20,13 @@ VER 3 010000000000001A "Cyclone" "INV_MISC_QUESTIONMARK"
 #showtooltip Смерч
 /cast [mod:shift,@focus,harm,exists][@mouseover,harm,exists][] Смерч
 END
+VER 3 010000000000001C "E" "INV_MISC_QUESTIONMARK"
+/use 13
+/use 14
+/закл Солнечный гнев(Энергия солнца)
+END
 VER 3 0100000000000021 "Heal" "INV_MISC_QUESTIONMARK"
 /закл [@player]Восстановление
-END
-VER 3 010000000000001C "Heal_Burst" "INV_MISC_QUESTIONMARK"
-/закл Расцвет
-/закл Сущность Г'ханира(Артефакт)
 END
 VER 3 0100000000000017 "HealHealE" "INV_MISC_QUESTIONMARK"
 /cast [@party1,  spec:4] Природный целитель
@@ -71,8 +72,10 @@ VER 3 0100000000000020 "Tiger" "INV_MISC_QUESTIONMARK"
 /use 14
 /закл Тигриное неистовство
 END
-VER 3 010000000000001D "Trankvil" "136107"
-#showtooltip Спокойствие
-/закл Дубовая кожа
-/закл Спокойствие
+VER 3 010000000000001D "Trankvil" "INV_MISC_QUESTIONMARK"
+#showtooltip Воплощение: Страж Урсока
+/use 13
+/use 14
+/закл Воплощение: Страж Урсока(Талант, смена облика)
+/закл Воплощение: Избранный Элуны(Талант, смена облика)
 END

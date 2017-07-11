@@ -119,6 +119,12 @@ function LO:CreateChatPanels()
 		end
 				
 	end)
+	
+	--local arena1 = CreateFrame('Frame', 'Arena1', GladiusHealthBararena1)
+	--arena1:Size(100, 100)
+	--arena1:Point('CENTER', E.UIParent, 0, 0)
+	--arena1:CreateBackdrop('Default')
+	
 ---------------------------------------------------------------
 
 
@@ -130,8 +136,8 @@ function LO:CreateChatPanels()
 
 	--Left Chat Tab
 	local lchattab = CreateFrame('Frame', 'LeftChatTab', LeftChatPanel)
-	lchattab:Point('TOPLEFT', lchat, 'TOPLEFT', 0, 0)
-	lchattab:Point('BOTTOMRIGHT', lchat, 'TOPRIGHT', 0, -PANEL_HEIGHT)
+	lchattab:Point('TOPLEFT', lchat, 'TOPLEFT', 0, PANEL_HEIGHT+2)
+	lchattab:Point('BOTTOMRIGHT', lchat, 'TOPRIGHT', 0, -1)
 	lchattab:SetTemplate(E.db.chat.panelTabTransparency == true and 'Transparent' or 'Default', true)
 
 	--Left Chat Data Panel

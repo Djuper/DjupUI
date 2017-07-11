@@ -1,11 +1,16 @@
 
 AddOnSkinsDB = {
 	["profileKeys"] = {
-		["Трубо - Азурегос"] = "Default",
 		["Бранар - Азурегос"] = "Default",
-		["Нехолик - Гордунни"] = "Default",
 		["Ианар - Гордунни"] = "Default",
+		["Оробиас - Азурегос"] = "Default",
+		["Фелбой - Гордунни"] = "Default",
+		["Трубо - Азурегос"] = "Default",
 		["Пирик - Черный Шрам"] = "Default",
+		["Дрофренфан - Гордунни"] = "Default",
+		["Аниоми - Гордунни"] = "Default",
+		["Нехолик - Гордунни"] = "Default",
+		["Вапроыы - Гордунни"] = "Default",
 		["Аниом - Гордунни"] = "Default",
 	},
 	["profiles"] = {
@@ -15,6 +20,7 @@ AddOnSkinsDB = {
 			["Blizzard_AbilityButton"] = false,
 			["DBMFontSize"] = 14,
 			["Blizzard_Transmogrify"] = false,
+			["Zygor"] = true,
 			["Blizzard_Collections"] = false,
 			["Blizzard_TradeSkill"] = false,
 			["Blizzard_WorldStateScoreFrame"] = false,

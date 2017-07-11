@@ -2,6 +2,8 @@ local E, L, V, P, G = unpack(ElvUI); --Inport: Engine, Locales, ProfileDB, Globa
 local UF = E:GetModule('UnitFrames');
 local LSM = LibStub("LibSharedMedia-3.0")
 
+-- Changes CD and Stack font on UnitFrames
+
 function UF:UpdateAuraIconSettings(auras, noCycle)
 	local frame = auras:GetParent()
 	local type = auras.type
