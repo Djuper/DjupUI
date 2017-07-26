@@ -1,0 +1,7 @@
+VER 3 0100000000000001 "Finish" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:0] Гнев; [stance:1] Трепка; [stance:3, nostealth] Свирепый укус; [stance:3, stealth] Наскок
+END
+VER 3 0100000000000002 "выап" "INV_MISC_QUESTIONMARK"
+/cast [stance:3][stealth] Наскок
+END

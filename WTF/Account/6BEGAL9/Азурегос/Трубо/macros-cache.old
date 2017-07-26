@@ -55,6 +55,5 @@ VER 3 010000000000001F "Бурст" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000006 "Фир" "INV_MISC_QUESTIONMARK"
 #showtooltip Устрашающий крик
-/cast  [mod:shift,@focus] Рывок
 /закл [mod:shift,@focus] Устрашающий крик; Устрашающий крик
 END

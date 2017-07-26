@@ -25,7 +25,7 @@ BigWigs_BrokenIsles: enabled
 BigWigs_Nighthold: enabled
 BigWigs_Core: enabled
 CleanBossButton: enabled
-ConsLegion: disabled
+ConsLegion: enabled
 FlashTaskBar: enabled
 GarrisonMissionManager: enabled
 GottaGoFast: enabled
@@ -69,3 +69,5 @@ ExRT: enabled
 Gladius: enabled
 ShestakUI: enabled
 ShestakUI_Config: enabled
+Soloqueue: disabled
+Details: enabled

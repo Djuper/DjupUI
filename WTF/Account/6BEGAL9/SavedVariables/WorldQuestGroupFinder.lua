@@ -8,8 +8,8 @@ WorldQuestGroupFinderConfig = {
 	["askZoningAuto"] = true,
 	["autoAcceptInvites"] = true,
 	["askZoning"] = true,
-	["autoLeaveGroup"] = false,
+	["autoLeaveGroup"] = true,
 	["avoidPVP"] = true,
 	["notifyParty"] = true,
-	["askToLeave"] = false,
+	["askToLeave"] = true,
 }

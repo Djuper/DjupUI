@@ -44,8 +44,8 @@ bind SHIFT-T NONE
 bind C ACTIONBUTTON9
 bind F12 TOGGLEAUTORUN
 bind SHIFT-SPACE MULTIACTIONBAR2BUTTON12
-bind H NONE
-bind Y CLICK ExtraActionButton1:LeftButton
+bind H CLICK ExtraActionButton1:LeftButton
+bind Y NONE
 bind [ PAWN_COMPARE_LEFT
 bind ] PAWN_COMPARE_RIGHT
 bind SHIFT-C NONE

@@ -4,12 +4,11 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Пирик-Черный Шрам",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[127857] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 53,
+					["ItemLevel"] = 58,
 					["Type"] = "Arcane",
 				}, -- [1]
 				{
@@ -22,23 +21,6 @@ PawnOptions = {
 				}, -- [3]
 			},
 			["Name"] = "Алунет, великий посох Магны",
-		},
-		[128862] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 56,
-					["Type"] = "Frost",
-				}, -- [1]
-				{
-					["ItemLevel"] = 64,
-					["Type"] = "Arcane",
-				}, -- [2]
-				{
-					["ItemLevel"] = 64,
-					["Type"] = "Frost",
-				}, -- [3]
-			},
-			["Name"] = "Полярная Ночь, великий посох Алоди",
 		},
 		[128820] = {
 			["Relics"] = {
@@ -57,7 +39,25 @@ PawnOptions = {
 			},
 			["Name"] = "Фело'мелорн",
 		},
+		[128862] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 56,
+					["Type"] = "Frost",
+				}, -- [1]
+				{
+					["ItemLevel"] = 65,
+					["Type"] = "Arcane",
+				}, -- [2]
+				{
+					["ItemLevel"] = 64,
+					["Type"] = "Frost",
+				}, -- [3]
+			},
+			["Name"] = "Полярная Ночь, великий посох Алоди",
+		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "MAGE",

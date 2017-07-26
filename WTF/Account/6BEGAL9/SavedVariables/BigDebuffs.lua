@@ -7,28 +7,21 @@ BigDebuffsDB = {
 	["profileKeys"] = {
 		["Бранар - Азурегос"] = "Default",
 		["Ианар - Гордунни"] = "Default",
+		["Аниом - Гордунни"] = "Default",
 		["Оробиас - Азурегос"] = "Default",
-		["Аниоми - Гордунни"] = "Default",
+		["Тонтоп - Азурегос"] = "Default",
 		["Фелбой - Гордунни"] = "Default",
-		["Трубо - Азурегос"] = "Default",
+		["Аниоми - Гордунни"] = "Default",
 		["Пирик - Черный Шрам"] = "Default",
 		["Нехолик - Гордунни"] = "Default",
-		["Тыдышь - Черный Шрам"] = "Default",
-		["Вапроыы - Гордунни"] = "Default",
 		["Дрофренфан - Гордунни"] = "Default",
-		["Тонтоп - Азурегос"] = "Default",
-		["Аниом - Гордунни"] = "Default",
+		["Вапроыы - Гордунни"] = "Default",
+		["Трубо - Азурегос"] = "Default",
+		["Тыдышь - Черный Шрам"] = "Default",
+		["Вербуль - Черный Шрам"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["raidFrames"] = {
-				["increaseBuffs"] = true,
-				["hideBliz"] = false,
-				["maxDebuffs"] = 5,
-				["redirectBliz"] = true,
-				["anchor"] = "RIGHT",
-				["enabled"] = false,
-			},
 			["unitFrames"] = {
 				["party"] = {
 					["enabled"] = false,
@@ -36,7 +29,6 @@ BigDebuffsDB = {
 				["buffs_offensive"] = false,
 				["focus"] = {
 					["anchor"] = "manual",
-					["size"] = 40,
 					["position"] = {
 						"CENTER", -- [1]
 						nil, -- [2]
@@ -44,17 +36,18 @@ BigDebuffsDB = {
 						349.751007080078, -- [4]
 						189.624420166016, -- [5]
 					},
+					["size"] = 40,
 				},
 				["target"] = {
 					["anchor"] = "manual",
-					["size"] = 58,
 					["position"] = {
-						"RIGHT", -- [1]
+						"CENTER", -- [1]
 						nil, -- [2]
-						"RIGHT", -- [3]
-						-446.248504638672, -- [4]
-						-237.501876831055, -- [5]
+						"CENTER", -- [3]
+						451.751342773438, -- [4]
+						-232.501983642578, -- [5]
 					},
+					["size"] = 58,
 				},
 				["arena1"] = {
 				},
@@ -63,8 +56,6 @@ BigDebuffsDB = {
 				},
 				["player"] = {
 					["anchor"] = "manual",
-					["size"] = 46,
-					["enabled"] = false,
 					["position"] = {
 						"CENTER", -- [1]
 						nil, -- [2]
@@ -72,9 +63,19 @@ BigDebuffsDB = {
 						-431.655975341797, -- [4]
 						-205.500091552734, -- [5]
 					},
+					["enabled"] = false,
+					["size"] = 46,
 				},
 				["roots"] = false,
 				["buffs_other"] = false,
+			},
+			["raidFrames"] = {
+				["enabled"] = false,
+				["hideBliz"] = false,
+				["maxDebuffs"] = 5,
+				["redirectBliz"] = true,
+				["anchor"] = "RIGHT",
+				["increaseBuffs"] = true,
 			},
 		},
 	},

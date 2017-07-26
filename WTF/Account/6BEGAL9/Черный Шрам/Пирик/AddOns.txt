@@ -75,3 +75,5 @@ ExRT: enabled
 Gladius: enabled
 ShestakUI: enabled
 ShestakUI_Config: enabled
+Soloqueue: disabled
+Details: enabled

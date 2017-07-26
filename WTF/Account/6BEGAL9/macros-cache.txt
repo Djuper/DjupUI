@@ -23,6 +23,7 @@ VER 3 0000000000000018 "Focus" "SPELL_SHADOW_CHARM"
 /focus [@mouseover]
 END
 VER 3 0000000000000060 "HP" "INV_MISC_QUESTIONMARK"
+/cast Барьер времени
 /use Камень здоровья
 /use Древнее лечебное зелье
 END
@@ -34,6 +35,15 @@ VER 3 0000000000000057 "Mage1" "INV_MISC_QUESTIONMARK"
 .item 7 138358 3
 .item 8 140885 3
 .item 10 138309 3
+.item 15 0
+END
+VER 3 0000000000000068 "MageT20" "INV_MISC_QUESTIONMARK"
+.item 1 1471471 3
+.item 3 147150 3
+.item 5 147149 3
+.item 6 146998 3
+.item 8 146987 3
+.item 10 147146 3
 .item 15 0
 END
 VER 3 0000000000000052 "Mark" "Achievement_WorldEvent_XmasOgre."
@@ -87,14 +97,22 @@ VER 3 0000000000000064 "Ping" "ACHIEVEMENT_GUILDPERK_LADYLUCK."
 /console SpellQueueWindow 50
 /dump GetCVar("SpellQueueWindow")
 END
+VER 3 0000000000000069 "SetPriest" "INV_MISC_QUESTIONMARK"
+.item 1 147165 1
+.item 3 147168 1
+.item 5 147167 1
+.item 8 146987 1
+.item 10 147164 1
+.item 15 0
+END
 VER 3 0000000000000063 "SetWar" "INV_MISC_QUESTIONMARK"
-.item 1 147190 0
-.item 3 147192 0
-.item 5 147068 0
+.item 1 147190 3
+.item 3 147192 3
+.item 5 147068 3
 .item 6 0
-.item 7 147191 0
-.item 8 147059 0
-.item 10 147062 0
+.item 7 147191 3
+.item 8 147059 3
+.item 10 147062 3
 .item 15 0
 END
 VER 3 0000000000000062 "SetWarlock" "INV_MISC_QUESTIONMARK"
@@ -127,9 +145,6 @@ VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
 .item 10 141466 3
 .item 15 0
 END
-VER 3 0000000000000065 "Simc" "237293"
-/simc
-END
 VER 3 000000000000001B "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 13
@@ -146,7 +161,7 @@ VER 3 0000000000000040 "Undead" "INV_MASK_01"
 .piercings 0
 END
 VER 3 0000000000000031 "Сакра" "INV_Misc_EngGizmos_27"
-/закл  [@mouseover,help,exists][nomod, @player] Рев жертвенности(Хитрость)
+/закл [@mouseover,help,exists][nomod, @player] Рев жертвенности(Хитрость)
 END
 VER 3 000000000000003C "Трава" "INV_MISC_QUESTIONMARK"
 /закл Измельчение

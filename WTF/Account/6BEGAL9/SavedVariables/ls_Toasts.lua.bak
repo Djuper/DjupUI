@@ -19,16 +19,11 @@ LS_TOASTS_CFG_GLOBAL = {
 			},
 		},
 		["point"] = {
-			"BOTTOMLEFT", -- [1]
-			nil, -- [2]
-			"BOTTOMLEFT", -- [3]
-			235, -- [4]
-			146, -- [5]
+			[5] = -25,
 		},
 		["skin"] = "ls Toasts ElvUI",
 		["max_active_toasts"] = 6,
 		["colored_names_enabled"] = true,
 		["version"] = "70200.09",
-		["growth_direction"] = "UP",
 	},
 }

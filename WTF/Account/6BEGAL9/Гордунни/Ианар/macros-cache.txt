@@ -22,7 +22,6 @@ VER 3 010000000000001A "Cyclone" "INV_MISC_QUESTIONMARK"
 END
 VER 3 010000000000001C "E" "INV_MISC_QUESTIONMARK"
 /use 13
-/use 14
 /закл Солнечный гнев(Энергия солнца)
 END
 VER 3 0100000000000021 "Heal" "INV_MISC_QUESTIONMARK"
@@ -72,10 +71,6 @@ VER 3 0100000000000020 "Tiger" "INV_MISC_QUESTIONMARK"
 /use 14
 /закл Тигриное неистовство
 END
-VER 3 010000000000001D "Trankvil" "INV_MISC_QUESTIONMARK"
-#showtooltip Воплощение: Страж Урсока
-/use 13
-/use 14
-/закл Воплощение: Страж Урсока(Талант, смена облика)
-/закл Воплощение: Избранный Элуны(Талант, смена облика)
+VER 3 010000000000001D "Travel" "INV_MISC_QUESTIONMARK"
+/закл [stance:3] Облик лунного совуха; Походный облик(Смена облика)
 END

@@ -38,8 +38,8 @@ bind SHIFT-MOUSEWHEELDOWN SPELL Тревожный рев
 bind CTRL-TAB TARGETNEARESTFRIENDPLAYER
 bind F1 CLICK ElvUI_StanceBarButton1:LeftButton
 bind F2 CLICK ElvUI_StanceBarButton2:LeftButton
-bind F3 CLICK ElvUI_StanceBarButton3:LeftButton
-bind F4 CLICK ElvUI_StanceBarButton4:LeftButton
+bind F3 CLICK ElvUI_StanceBarButton4:LeftButton
+bind F4 NONE
 bind F5 MACRO Res
 bind G MULTIACTIONBAR2BUTTON6
 bind F MULTIACTIONBAR2BUTTON5
@@ -52,9 +52,11 @@ bind F12 TOGGLEAUTORUN
 bind F8 CLICK DominosActionButton11:LeftButton
 bind F9 CLICK DominosActionButton12:LeftButton
 bind F11 TOGGLEFPS
-bind SHIFT-SPACE SPELL Походный облик
+bind SHIFT-SPACE CLICK ElvUI_StanceBarButton3:LeftButton
 bind H EXTRAACTIONBUTTON1
+bind U TOGGLEGARRISONLANDINGPAGE
 bind Y MULTIACTIONBAR3BUTTON1
+bind J TOGGLEENCOUNTERJOURNAL
 bind SHIFT-Y REPLY2
 bind NUMPADPLUS CLICK DominosActionButton35:LeftButton
 bind NUMPADMINUS CLICK DominosActionButton34:LeftButton
@@ -69,6 +71,7 @@ bind ] PAWN_COMPARE_RIGHT
 bind NUMPAD5 NONE
 bind NUMPAD1 CLICK DominosActionButton25:LeftButton
 bind NUMPAD3 CLICK DominosActionButton27:LeftButton
+bind SHIFT-J NONE
 bind SHIFT-C NONE
 bind T MULTIACTIONBAR2BUTTON8
 bind SHIFT-G NONE
@@ -99,7 +102,7 @@ bind SHIFT-Z MACRO HP
 bind BUTTON5 MULTIACTIONBAR2BUTTON12
 bind ALT-1 CLICK ElvUI_StanceBarButton1:LeftButton
 bind ALT-2 CLICK ElvUI_StanceBarButton2:LeftButton
-bind ALT-3 CLICK ElvUI_StanceBarButton3:LeftButton
+bind ALT-3 CLICK ElvUI_StanceBarButton4:LeftButton
 bind ALT-Q MULTIACTIONBAR2BUTTON9
 bind ALT-E MULTIACTIONBAR2BUTTON10
 bind ` MACRO Focus

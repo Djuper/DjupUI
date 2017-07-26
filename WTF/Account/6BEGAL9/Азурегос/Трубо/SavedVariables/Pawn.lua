@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Трубо-Азурегос",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128910] = {
 			["Relics"] = {
@@ -12,7 +13,7 @@ PawnOptions = {
 					["Type"] = "Iron",
 				}, -- [1]
 				{
-					["ItemLevel"] = 61,
+					["ItemLevel"] = 62,
 					["Type"] = "Blood",
 				}, -- [2]
 				{
@@ -42,11 +43,11 @@ PawnOptions = {
 		[128289] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 58,
 					["Type"] = "Iron",
 				}, -- [1]
 				{
-					["ItemLevel"] = 56,
+					["ItemLevel"] = 61,
 					["Type"] = "Blood",
 				}, -- [2]
 				{
@@ -57,7 +58,6 @@ PawnOptions = {
 			["Name"] = "Панцирь Хранителя Земли",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",

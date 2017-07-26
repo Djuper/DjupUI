@@ -2,9 +2,6 @@ VER 3 0100000000000026 "Blink" "INV_MISC_QUESTIONMARK"
 #showtooltip Скачок
 /cast [mod:shift] Смещение; Скачок
 END
-VER 3 0100000000000027 "bLIZZARD" "INV_MISC_QUESTIONMARK"
-/cast [@cursor] Снежная буря
-END
 VER 3 0100000000000003 "Block" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /stopcasting
@@ -15,10 +12,8 @@ VER 3 0100000000000006 "Burst" "INV_MISC_QUESTIONMARK"
 /cast [spec:1] Мощь тайной магии
 /cast [spec:2] Возгорание
 /cast [spec:3] Стылая кровь
-/use Зелье длительной силы1
 /use 13
 /use 14
-/закл Зеркальное изображение
 END
 VER 3 0100000000000001 "CS" "INV_MISC_QUESTIONMARK"
 #showtooltip Антимагия
@@ -30,6 +25,18 @@ VER 3 0100000000000023 "Dont miss" "INV_MISC_QUESTIONMARK"
 #showtooltip [spec:1] Сверхновая; [spec:3] Кольцо обледенения
 /cast [spec:1, harm] Сверхновая
 /cast [spec:3, harm] Кольцо обледенения
+END
+VER 3 010000000000002A "f_E" "INV_MISC_QUESTIONMARK"
+#showtooltip Ледяная стрела
+/use 13
+/закл Ледяная стрела
+END
+VER 3 010000000000002B "F_e" "INV_MISC_QUESTIONMARK"
+/use 13
+/закл Огненный шар
+END
+VER 3 0100000000000029 "f_Q" "INV_MISC_QUESTIONMARK"
+/закл Ледяное копье
 END
 VER 3 0100000000000016 "Food" "INV_MISC_QUESTIONMARK"
 #showtooltip Сотворение яств
