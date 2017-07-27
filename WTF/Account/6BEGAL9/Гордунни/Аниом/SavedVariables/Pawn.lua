@@ -5,19 +5,6 @@ PawnOptions = {
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
 	["Artifacts"] = {
-		[128861] = {
-			["Relics"] = {
-				{
-					["ItemLevel"] = 7,
-					["Type"] = "Wind",
-				}, -- [1]
-				{
-					["ItemLevel"] = 7,
-					["Type"] = "Arcane",
-				}, -- [2]
-			},
-			["Name"] = "Мощь Титанов",
-		},
 		[128826] = {
 			["Relics"] = {
 				{

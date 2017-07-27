@@ -1,15 +1,3 @@
 
 WorldQuestGroupFinderConfig = {
-	["regularQuests"] = true,
-	["autoinviteUsers"] = true,
-	["allLanguages"] = true,
-	["frameUnlocked"] = false,
-	["silent"] = false,
-	["askZoningAuto"] = true,
-	["autoAcceptInvites"] = true,
-	["askZoning"] = true,
-	["autoLeaveGroup"] = true,
-	["askToLeave"] = true,
-	["notifyParty"] = true,
-	["avoidPVP"] = true,
 }

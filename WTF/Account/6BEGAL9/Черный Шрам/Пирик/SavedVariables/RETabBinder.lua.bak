@@ -1,4 +1,0 @@
-
-RETabBinderSettings = {
-	["DefaultKey"] = true,
-}

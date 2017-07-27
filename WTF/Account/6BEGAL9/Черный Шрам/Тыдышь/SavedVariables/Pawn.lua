@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Тыдышь-Черный Шрам",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128827] = {
 			["Relics"] = {
@@ -18,7 +19,6 @@ PawnOptions = {
 			["Name"] = "Ксал'атат, клинок Темной Империи",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

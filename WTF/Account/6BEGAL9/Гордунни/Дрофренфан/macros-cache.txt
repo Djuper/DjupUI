@@ -1,9 +1,0 @@
-VER 3 0100000000000002 "Burst" "INV_MISC_QUESTIONMARK"
-#showtooltip Дух дикого зверя
-/use 13
-/use 14
-/закл Дух дикого зверя
-END
-VER 3 0100000000000001 "Maunt" "INV_MISC_QUESTIONMARK"
-/закл [nocombat] Боевой вепрь ледяных равнин; Призрачный волк
-END

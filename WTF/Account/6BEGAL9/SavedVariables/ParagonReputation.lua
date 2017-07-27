@@ -5,7 +5,7 @@ ParagonReputationDB = {
 	["enable"] = false,
 	["greencheck"] = false,
 	["g"] = 0.5,
-	["fade"] = 5,
+	["yellowcheck"] = false,
 	["exalted"] = false,
 	["orangecheck"] = false,
 	["sound"] = true,
@@ -16,6 +16,6 @@ ParagonReputationDB = {
 	["deficit"] = false,
 	["default"] = true,
 	["x"] = 0,
-	["yellowcheck"] = false,
+	["fade"] = 5,
 	["value"] = false,
 }

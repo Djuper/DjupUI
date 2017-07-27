@@ -1,18 +1,10 @@
 
 Details_StreamerDB = {
 	["characters"] = {
-		["Бранар - Азурегос"] = "Пирик - Черный Шрам",
-		["Ианар - Гордунни"] = "Пирик - Черный Шрам",
-		["Оробиас - Азурегос"] = "Пирик - Черный Шрам",
-		["Трубо - Азурегос"] = "Пирик - Черный Шрам",
-		["Пирик - Черный Шрам"] = "Пирик - Черный Шрам",
-		["Аниом - Гордунни"] = "Пирик - Черный Шрам",
-		["Тонтоп - Азурегос"] = "Пирик - Черный Шрам",
-		["Тыдышь - Черный Шрам"] = "Пирик - Черный Шрам",
-		["Вербуль - Черный Шрам"] = "Пирик - Черный Шрам",
+		["Ианар - Гордунни"] = "Ианар - Гордунни",
 	},
 	["profiles"] = {
-		["Пирик - Черный Шрам"] = {
+		["Ианар - Гордунни"] = {
 			["font_color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -31,15 +23,15 @@ Details_StreamerDB = {
 				500.000030517578, -- [2]
 			},
 			["minimap"] = {
-				["minimapPos"] = 85.3014341065198,
+				["minimapPos"] = 160,
 				["radius"] = 160,
-				["hide"] = true,
+				["hide"] = false,
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["use_spark"] = true,
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["scale"] = 1,
+			["row_height"] = 20,
+			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
 			["row_color"] = {
@@ -57,7 +49,10 @@ Details_StreamerDB = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 4.577636718750e-005,
+			["font_size"] = 10,
+			["use_spark"] = true,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -65,17 +60,14 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = 3.05175781250e-005,
 				["x"] = 3.05175781250e-005,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
 			},
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
+			["y"] = 4.577636718750e-005,
 			["author"] = "Details! Team",
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
 		},
 	},
 }

@@ -1,4 +1,0 @@
-MikScrollingBattleText: disabled
-xCT+: enabled
-Parrot: disabled
-OmniBar: enabled
