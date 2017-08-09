@@ -126,7 +126,7 @@ local function ElvSettings()
 			E.db["databars"]["experience"]["height"] = 10
 			E.db["databars"]["experience"]["orientation"] = "HORIZONTAL"
 			E.db["databars"]["experience"]["textSize"] = 14
-			E.db["databars"]["experience"]["width"] = 434
+			E.db["databars"]["experience"]["width"] = 435
 			E.db["databars"]["honor"]["textSize"] = 14
 			E.db["databars"]["honor"]["font"] = "BD_UI"
 			E.db["databars"]["honor"]["enable"] = false
@@ -201,7 +201,7 @@ local function ElvSettings()
 			E.db["chat"]["tabFontSize"] = 14
 			E.db["chat"]["fade"] = false
 			E.db["chat"]["editBoxPosition"] = "ABOVE_CHAT"
-			E.db["chat"]["panelHeight"] = 137
+			E.db["chat"]["panelHeight"] = 141
 			E.db["chat"]["panelWidthRight"] = 50
 			E.db["chat"]["panelBackdrop"] = "HIDEBOTH"
 			E.db["chat"]["keywords"] = "ElvUI, Пирик"
@@ -227,12 +227,12 @@ local function ElvSettings()
 			E.db["movers"]["SLE_BG_4_Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-10,10"
 			E.db["movers"]["EnhancedVehicleBar_Mover"] = "BOTTOM,ElvUIParent,BOTTOM,0,154"
 			E.db["movers"]["ElvUF_PetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,163"
-			E.db["movers"]["VehicleSeatMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-10,-208"
+			E.db["movers"]["VehicleSeatMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-248,-200"
 			E.db["movers"]["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,10,10"
 			E.db["movers"]["LossControlMover"] = "TOP,ElvUIParent,TOP,0,-491"
 			E.db["movers"]["TalkingHeadFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,4"
 			E.db["movers"]["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,0,-41"
-			E.db["movers"]["PetBattleStatusMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-91,-299"
+			E.db["movers"]["PetBattleStatusMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-91,-124"
 			E.db["movers"]["ReputationBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,20,5"
 			E.db["movers"]["ObjectiveFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-62,-220"
 			E.db["movers"]["BNETMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,10,156"
@@ -240,10 +240,10 @@ local function ElvSettings()
 			E.db["movers"]["RaidUtility_Mover"] = "TOP,ElvUIParent,TOP,320,0"
 			E.db["movers"]["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,281,215"
 			E.db["movers"]["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-10,10"
-			E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,270"
+			E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-10,10"
 			E.db["movers"]["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,316,1060"
 			E.db["movers"]["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-280,215"
-			E.db["movers"]["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,148,572"
+			E.db["movers"]["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,114,572"
 			E.db["movers"]["LeftChatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,10,10"
 			E.db["movers"]["GMMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,468,-4"
 			E.db["movers"]["SLE_DataPanel_3_Mover"] = "BOTTOM,ElvUIParent,BOTTOM,0,0"
@@ -255,16 +255,16 @@ local function ElvSettings()
 			E.db["movers"]["BuiDashboardMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,20,-20"
 			E.db["movers"]["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,10,1050"
 			E.db["movers"]["SLE_DataPanel_2_Mover"] = "TOPLEFT,ElvUIParent,TOPLEFT,292,1"
-			E.db["movers"]["PetAB"] = "BOTTOM,ElvUIParent,BOTTOM,-129,346"
+			E.db["movers"]["PetAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,540,113"
 			E.db["movers"]["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,0,10"
 			E.db["movers"]["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,43"
 			E.db["movers"]["PlayerPowerBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-280,265"
 			E.db["movers"]["SLE_DataPanel_7_Mover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-40,-135"
 			E.db["movers"]["SquareMinimapBar"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-10,-181"
-			E.db["movers"]["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-284,451"
+			E.db["movers"]["ElvUF_PetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,540,161"
 			E.db["movers"]["SLE_DataPanel_1_Mover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,0"
 			E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,205"
-			E.db["movers"]["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-245,10"
+			E.db["movers"]["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-229,10"
 			E.db["movers"]["ArtifactBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-10,-171"
 			E.db["movers"]["ElvUF_TargetAuraMover"] = "BOTTOM,ElvUIParent,BOTTOM,245,326"
 			E.db["movers"]["SLE_DataPanel_4_Mover"] = "TOP,ElvUIParent,TOP,-183,0"
@@ -274,13 +274,13 @@ local function ElvSettings()
 			E.db["movers"]["SquareMinimapButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-11,-203"
 			E.db["movers"]["HonorBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-20,-212"
 			E.db["movers"]["ElvAB_6"] = "TOP,ElvUIParent,TOP,0,1"
-			E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-10,178"
+			E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-10,156"
 			E.db["movers"]["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,1,894"
 			E.db["movers"]["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-200,-375"
 			E.db["movers"]["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-296,79"
 			E.db["movers"]["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-292,-299"
-			E.db["movers"]["ElvUF_PartyMover"] = "TOPRIGHT,ElvUIParent,BOTTOMLEFT,469,621"
-			E.db["movers"]["AlertFrameMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,29"
+			E.db["movers"]["ElvUF_PartyMover"] = "TOPRIGHT,ElvUIParent,BOTTOMLEFT,410,572"
+			E.db["movers"]["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-10"
 			E.db["movers"]["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-174,-139"
 			E.db["movers"]["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-10,-10"
 			E.db["hotkeytext"] = true
@@ -423,13 +423,13 @@ local function ElvSettings()
 			E.db["unitframe"]["units"]["raid"]["raidicon"]["yOffset"] = -2
 			E.db["unitframe"]["units"]["pet"]["threatStyle"] = "NONE"
 			E.db["unitframe"]["units"]["pet"]["power"]["enable"] = false
-			E.db["unitframe"]["units"]["pet"]["width"] = 120
+			E.db["unitframe"]["units"]["pet"]["width"] = 121
 			E.db["unitframe"]["units"]["pet"]["castbar"]["iconXOffset"] = -4
 			E.db["unitframe"]["units"]["pet"]["castbar"]["latency"] = false
-			E.db["unitframe"]["units"]["pet"]["castbar"]["iconAttached"] = false
-			E.db["unitframe"]["units"]["pet"]["castbar"]["height"] = 12
 			E.db["unitframe"]["units"]["pet"]["castbar"]["enable"] = false
 			E.db["unitframe"]["units"]["pet"]["castbar"]["iconSize"] = 25
+			E.db["unitframe"]["units"]["pet"]["castbar"]["iconAttached"] = false
+			E.db["unitframe"]["units"]["pet"]["castbar"]["height"] = 12
 			E.db["unitframe"]["units"]["pet"]["castbar"]["icon"] = false
 			E.db["unitframe"]["units"]["pet"]["castbar"]["width"] = 80
 			E.db["unitframe"]["units"]["pet"]["name"]["text_format"] = "[dead]"
@@ -791,7 +791,7 @@ local function ElvSettings()
 			E.db["actionbar"]["bar4"]["visibility"] = "[overridebar] hide; [petbattle] hide; show"
 			E.db["actionbar"]["bar4"]["paging"]["DRUID"] = ""
 			E.db["actionbar"]["bar4"]["flyoutDirection"] = "DOWN"
-			E.db["actionbar"]["bar4"]["buttonsize"] = 35
+			E.db["actionbar"]["bar4"]["buttonsize"] = 36
 			E.db["actionbar"]["bar4"]["backdropSpacing"] = 1
 			E.db["actionbar"]["globalFadeAlpha"] = 0.5
 			E.db["actionbar"]["bar2"]["buttonspacing"] = -1
@@ -805,7 +805,7 @@ local function ElvSettings()
 			E.db["actionbar"]["bar5"]["flyoutDirection"] = "DOWN"
 			E.db["actionbar"]["bar5"]["buttons"] = 4
 			E.db["actionbar"]["bar5"]["buttonspacing"] = -1
-			E.db["actionbar"]["bar5"]["buttonsize"] = 35
+			E.db["actionbar"]["bar5"]["buttonsize"] = 36
 			E.db["actionbar"]["bar5"]["point"] = "TOPRIGHT"
 			E.db["actionbar"]["bar5"]["buttonsPerRow"] = 1
 			E.db["actionbar"]["bar5"]["visibility"] = "[overridebar] hide; [petbattle] hide; show"
@@ -819,13 +819,13 @@ local function ElvSettings()
 			E.db["actionbar"]["stanceBar"]["buttonspacing"] = -1
 			E.db["actionbar"]["stanceBar"]["buttonsPerRow"] = 1
 			E.db["actionbar"]["stanceBar"]["buttonsize"] = 35
-			E.db["actionbar"]["barPet"]["backdrop"] = false
+			E.db["actionbar"]["barPet"]["buttonsize"] = 25
 			E.db["actionbar"]["barPet"]["point"] = "TOPLEFT"
-			E.db["actionbar"]["barPet"]["buttonsize"] = 28
-			E.db["actionbar"]["barPet"]["buttonspacing"] = -1
-			E.db["actionbar"]["barPet"]["buttonsPerRow"] = 2
-			E.db["actionbar"]["barPet"]["mouseover"] = true
 			E.db["actionbar"]["barPet"]["backdropSpacing"] = 0
+			E.db["actionbar"]["barPet"]["buttonspacing"] = -1
+			E.db["actionbar"]["barPet"]["buttonsPerRow"] = 5
+			E.db["actionbar"]["barPet"]["mouseover"] = true
+			E.db["actionbar"]["barPet"]["backdrop"] = false
 			E.db["actionbar"]["backdropSpacingConverted"] = true
 			E.db["nameplates"]["fontSize"] = 14
 			E.db["nameplates"]["font"] = "BD_UI"
@@ -955,9 +955,9 @@ local function ElvSettings()
 			E.db["sle"]["backgrounds"]["bg1"]["height"] = 150
 			E.db["sle"]["backgrounds"]["bg1"]["width"] = 450
 			E.db["sle"]["backgrounds"]["bg4"]["enabled"] = true
-			E.db["sle"]["backgrounds"]["bg4"]["height"] = 137
+			E.db["sle"]["backgrounds"]["bg4"]["height"] = 141
 			E.db["sle"]["backgrounds"]["bg4"]["template"] = "Transparent"
-			E.db["sle"]["backgrounds"]["bg4"]["width"] = 236
+			E.db["sle"]["backgrounds"]["bg4"]["width"] = 220
 			E.db["sle"]["screensaver"]["player"]["outline"] = "NONE"
 			E.db["sle"]["screensaver"]["title"]["outline"] = "NONE"
 			E.db["sle"]["screensaver"]["date"]["outline"] = "NONE"
@@ -1057,6 +1057,7 @@ local function ElvSettings()
 			E.global["uiScale"] = "0.71111111111111"
 			E.global["unitframe"]["ChannelTicks"]["Исповедь"] = 3
 			E.global["general"]["WorldMapCoordinates"]["position"] = "TOPLEFT"
+			E.global["general"]["WorldMapCoordinates"]["yOffset"] = -22
 			E.global["general"]["eyefinity"] = true
 			
 			E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"][41425]["enable"] = false
@@ -1525,7 +1526,7 @@ function SetAddons()
 						},
 					},
 					["showHonorGains"] = false,
-					["Height"] = 105,
+					["Height"] = 80,
 					["enableCustomFade"] = false,
 					["enableFontShadow"] = false,
 					["fontShadowOffsetY"] = -1,
@@ -2260,7 +2261,7 @@ function SetAddons()
 							["fontSize"] = 14,
 							["emphasizeMove"] = false,
 							["BigWigsAnchor_width"] = 208.999923706055,
-							["BigWigsAnchor_y"] = 143.643796881024,
+							["BigWigsAnchor_y"] = 120,
 							["BigWigsEmphasizeAnchor_x"] = 561.778919853132,
 							["barStyle"] = "ElvUI",
 							["emphasizeRestart"] = false,
@@ -7594,8 +7595,8 @@ function SetAddons()
 						"BOTTOMRIGHT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMRIGHT", -- [3]
-						-280.000030517578, -- [4]
-						10.9996681213379, -- [5]
+						-265.000274658203, -- [4]
+						10.9998655319214, -- [5]
 					},
 				},
 			},

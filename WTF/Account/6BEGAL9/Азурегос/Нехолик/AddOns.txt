@@ -1,0 +1,6 @@
+ConsLegion: disabled
+GladiatorlosSA2: disabled
+GladiatorlosSA_ruRU: disabled
+GottaGoFast: disabled
+Gladius: disabled
+MythicPlusTimer: disabled

@@ -1,0 +1,80 @@
+VER 3 0100000000000013 "CombatE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл [stance:0] Выстрел из пистоли; [stance:1/2/3] Внезапный удар
+END
+VER 3 0100000000000014 "CombatQ" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл [stance:0] Удар саблей; [stance:1/2/3] Подлый трюк
+END
+VER 3 010000000000001F "E" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл [stance:0] Расправа; [stance:1/2/3] Подлый трюк
+END
+VER 3 0100000000000006 "goudge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл [mod:Shift,@focus,stance:0][stance:0] Парализующий удар; [mod:Shift,@focus,stance:1/2/3][stance:1/2/3]  Ошеломление
+END
+VER 3 010000000000001D "Haste" "INV_MISC_QUESTIONMARK"
+/закл Вендетта
+/закл Пускание крови
+END
+VER 3 0100000000000001 "Kick" "INV_MISC_QUESTIONMARK"
+#showtooltip Пинок
+/cast [nomod] Пинок
+/cast [mod:Shift,@focus] Пинок
+/castsequence [modifier:alt, @focus] Шаг сквозь тень, Пинок
+END
+VER 3 010000000000001E "Q" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл [stance:0] Кровоизлияние; [stance:1/2/3] Гаррота
+END
+VER 3 010000000000001A "Sap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cleartarget
+/targetenemyplayer
+/cast Ошеломление
+END
+VER 3 0100000000000009 "sdf" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+.item 1 112926 3
+.item 3 112740 3
+.item 5 112794 3
+.item 6 112760 3
+.item 7 112761 3
+.item 8 112827 3
+.item 10 112707 3
+.item 16 115595
+.item 17 115595
+END
+VER 3 0100000000000011 "Shiv" "INV_MISC_QUESTIONMARK"
+#showtooltip Скрывающий покров
+/закл [stance:0] Отравляющий укол; [stance:1/2/3]  Скрывающий покров
+END
+VER 3 010000000000001B "Stealth" "INV_MISC_QUESTIONMARK"
+/закл !Незаметность
+/закл Символы смерти
+END
+VER 3 0100000000000018 "Stun" "INV_MISC_QUESTIONMARK"
+#showtooltip Удар по почкам
+/закл [mod:Shift,@focus][]Удар по почкам
+END
+VER 3 0100000000000012 "SubBurst" "INV_MISC_QUESTIONMARK"
+/закл Теневые клинки
+/закл Танец теней
+END
+VER 3 0100000000000010 "SubE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл Умысел
+/закл Кровоизлияние
+END
+VER 3 010000000000000F "SubQ" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл Умысел
+/закл [stance:0] Удар в спину; [stance:1/2/3]  Внезапный удар
+END
+VER 3 0100000000000002 "Tric" "INV_MISC_QUESTIONMARK"
+/закл [@mouseover][] Маленькие хитрости
+END
+VER 3 0100000000000003 "Блайнд" "INV_MISC_QUESTIONMARK"
+#showtooltip Ослепление
+/cast [mod:shift, @focus][@mouseover,harm,exists][nomod] Ослепление
+END

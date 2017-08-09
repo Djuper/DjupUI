@@ -1,1 +1,7 @@
 ConsLegion: disabled
+GladiatorlosSA2: disabled
+Gladius: disabled
+BigDebuffs: disabled
+epgp_lootmaster: disabled
+GottaGoFast: disabled
+WorldQuestTracker: disabled

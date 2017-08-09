@@ -84,6 +84,7 @@ function LO:CreateChatPanels()
 	
 	
 ---------------------------------------------------------------Djup
+	
 	function Combat(event)
 		if event == "PLAYER_REGEN_DISABLED" then
 			LeftChatPanel:Hide()
@@ -110,11 +111,13 @@ function LO:CreateChatPanels()
 	dpanel:SetScript('OnClick', function (self)
 		if InCombatLockdown() then return end
 		
-		if E.db.chat.panelHeight == 600 then 
-			E.db.chat.panelHeight = 137; 
+		if E.db.chat.panelHeight == 1036 then 
+			E.db.chat.panelHeight = 141; 
+			lchat:SetFrameStrata("BACKGROUND");
 			E:GetModule('Chat'):PositionChat(true);
 		else
-			E.db.chat.panelHeight = 600; 
+			E.db.chat.panelHeight = 1036; 
+			lchat:SetFrameStrata("DIALOG");
 			E:GetModule('Chat'):PositionChat(true);
 		end
 				

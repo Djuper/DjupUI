@@ -124,6 +124,16 @@ VER 3 0000000000000062 "SetWarlock" "INV_MISC_QUESTIONMARK"
 .item 10 147182 0
 .item 15 0
 END
+VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
+.item 1 0
+.item 3 140872 3
+.item 5 140875 3
+.item 6 140890 3
+.item 7 138345 3
+.item 8 139219 3
+.item 10 141466 3
+.item 15 0
+END
 VER 3 0000000000000045 "Sham1" "Ability_Shaman_Stormstrike."
 .item 1 0
 .item 3 71438
@@ -134,16 +144,6 @@ VER 3 0000000000000045 "Sham1" "Ability_Shaman_Stormstrike."
 .item 10 71437
 .item 16 94722
 .item 17 94722
-END
-VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
-.item 1 0
-.item 3 140872 3
-.item 5 140875 3
-.item 6 140890 3
-.item 7 138345 3
-.item 8 139219 3
-.item 10 141466 3
-.item 15 0
 END
 VER 3 000000000000001B "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip

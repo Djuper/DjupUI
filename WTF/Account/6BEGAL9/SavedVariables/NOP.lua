@@ -1,19 +1,27 @@
 
 NewOpenablesProfile = {
 	["profileKeys"] = {
-		["Ианар - Гордунни"] = "Default",
+		["Кентачзис - Гордунни"] = "Default",
+		["Лякай - Гордунни"] = "Default",
+		["Аниом - Гордунни"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["skinButton"] = true,
-			["iconSize"] = 33,
+			["spacing"] = -1,
+			["button"] = {
+				"BOTTOMRIGHT", -- [1]
+				"UIParent", -- [2]
+				"BOTTOMRIGHT", -- [3]
+				-265.000274658203, -- [4]
+				10.9998655319214, -- [5]
+			},
 			["T_BLACKLIST"] = {
 				[0] = true,
 				[140745] = true,
 				[140744] = true,
 				[140746] = true,
 			},
-			["spacing"] = -1,
+			["skinButton"] = true,
 			["qb"] = {
 				"TOPLEFT", -- [1]
 				"UIParent", -- [2]
@@ -21,13 +29,7 @@ NewOpenablesProfile = {
 			},
 			["version"] = "|cFFFFFFFF07.36 21.06.2017 use |cFFFF00FF/nop|cFFFFFFFF",
 			["direction"] = "LEFT",
-			["button"] = {
-				"BOTTOMRIGHT", -- [1]
-				"UIParent", -- [2]
-				"BOTTOMRIGHT", -- [3]
-				-280.000030517578, -- [4]
-				10.9996681213379, -- [5]
-			},
+			["iconSize"] = 33,
 		},
 	},
 }

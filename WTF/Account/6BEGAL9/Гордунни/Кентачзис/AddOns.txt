@@ -1,0 +1,2 @@
+GottaGoFast: disabled
+WorldQuestTracker: disabled

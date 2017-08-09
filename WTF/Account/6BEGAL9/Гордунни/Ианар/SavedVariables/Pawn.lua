@@ -2,13 +2,14 @@
 PawnOptions = {
 	["LastVersion"] = 2.0209,
 	["LastPlayerFullName"] = "Ианар-Гордунни",
-	["AutoSelectScales"] = true,
+	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128858] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 55,
+					["ItemLevel"] = 58,
 					["Type"] = "Arcane",
 				}, -- [1]
 				{
@@ -23,7 +24,6 @@ PawnOptions = {
 			["Name"] = "Коса Элуны",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

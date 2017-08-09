@@ -1,0 +1,63 @@
+VER 3 010000000000002C "A3" "INV_MISC_QUESTIONMARK"
+/cast Дуэль
+/cast Боевое знамя
+END
+VER 3 0100000000000020 "AmrsE" "INV_MISC_QUESTIONMARK"
+#showtooltip Смертельный удар
+/закл Рывок
+/закл Смертельный удар
+/use 13
+/use 14
+END
+VER 3 010000000000002A "ArmsQ" "INV_MISC_QUESTIONMARK"
+/cast [talent:5/1] Вихрь; Мощный удар
+END
+VER 3 0100000000000017 "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip Рывок
+/cast  [@focus] Рывок
+/закл [@focus] Зуботычина
+END
+VER 3 010000000000001D "FuryE" "INV_MISC_QUESTIONMARK"
+/закл Кровожадность
+/закл Рывок
+END
+VER 3 010000000000002B "Kill" "INV_MISC_QUESTIONMARK"
+/закл [mod:shift] Победный раж; Казнь
+END
+VER 3 0100000000000012 "Last" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/закл Ободряющий клич
+/cancelaura Вихрь клинков
+END
+VER 3 0100000000000005 "Pammel" "INV_MISC_QUESTIONMARK"
+#showtooltip Зуботычина
+/закл Героический бросок
+/закл [mod:shift,@focus] Зуботычина; Зуботычина
+/cancelaura Вихрь клинков
+END
+VER 3 0100000000000027 "ProtE" "INV_MISC_QUESTIONMARK"
+#showtooltip Сокрушение
+/закл Рывок
+/закл Сокрушение
+/cancelaura Вихрь клинков
+END
+VER 3 0100000000000028 "ProtHeal" "INV_MISC_QUESTIONMARK"
+/закл [@Витаго]Перехват
+END
+VER 3 0100000000000029 "Reflect/Taunt" "INV_MISC_QUESTIONMARK"
+/закл Отражение заклинаний
+/закл Провокация
+END
+VER 3 0100000000000022 "Stun" "INV_MISC_QUESTIONMARK"
+#showtooltip [talent:2/1]Ударная волна; [talent:2/2] Удар громовержца; [talent:2/3] Рывок
+/use [talent:2/1]Ударная волна; [talent:2/2,mod:shift,@focus,harm,exists][talent:2/2,@mouseover,harm,exists][talent:2/2]Удар громовержца
+END
+VER 3 010000000000001F "Бурст" "INV_MISC_QUESTIONMARK"
+#showtooltip Боевой крик
+/закл Аватара
+/закл Боевой крик
+END
+VER 3 0100000000000006 "Фир" "INV_MISC_QUESTIONMARK"
+#showtooltip Устрашающий крик
+/закл [mod:shift,@focus] Устрашающий крик; Устрашающий крик
+END

@@ -1,0 +1,10 @@
+
+BWQDB = {
+	["profileKeys"] = {
+		["Кентачзис - Гордунни"] = "Default",
+		["Аниом - Гордунни"] = "Default",
+	},
+	["global"] = {
+		["versionCheck"] = "7.2.11",
+	},
+}

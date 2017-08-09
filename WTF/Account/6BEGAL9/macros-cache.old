@@ -1,3 +1,10 @@
+VER 3 000000000000006A "1" "INV_MISC_QUESTIONMARK"
+1 фаза - стоим кучно
+- приоритет Волномаги -> Гладиаторы -> Харджатан.
+- делим урон от клива НЕКОНТРОЛИРУЕМАЯ ЯРОСТЬ стоя перед лицом босса (сдает при 100 енергии)
+- выходим из рейда с дебаффом ВОДНЫЙ ВСПЛЕСК (войда вокруг вас)
+- кайтим гладиаторов когда 
+END
 VER 3 000000000000003D "Arena1" "Achievement_PVP_A_01."
 /cast [@arena1] Смерч
 /cast [@arena1] Страх
@@ -98,11 +105,11 @@ VER 3 0000000000000064 "Ping" "ACHIEVEMENT_GUILDPERK_LADYLUCK."
 /dump GetCVar("SpellQueueWindow")
 END
 VER 3 0000000000000069 "SetPriest" "INV_MISC_QUESTIONMARK"
-.item 1 147165 3
-.item 3 147168 3
-.item 5 147167 3
-.item 8 146987 3
-.item 10 147164 3
+.item 1 147165 1
+.item 3 147168 1
+.item 5 147167 1
+.item 8 146987 1
+.item 10 147164 1
 .item 15 0
 END
 VER 3 0000000000000063 "SetWar" "INV_MISC_QUESTIONMARK"
@@ -124,6 +131,16 @@ VER 3 0000000000000062 "SetWarlock" "INV_MISC_QUESTIONMARK"
 .item 10 147182 0
 .item 15 0
 END
+VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
+.item 1 0
+.item 3 140872 3
+.item 5 140875 3
+.item 6 140890 3
+.item 7 138345 3
+.item 8 139219 3
+.item 10 141466 3
+.item 15 0
+END
 VER 3 0000000000000045 "Sham1" "Ability_Shaman_Stormstrike."
 .item 1 0
 .item 3 71438
@@ -134,16 +151,6 @@ VER 3 0000000000000045 "Sham1" "Ability_Shaman_Stormstrike."
 .item 10 71437
 .item 16 94722
 .item 17 94722
-END
-VER 3 0000000000000058 "Sham1" "INV_MISC_QUESTIONMARK"
-.item 1 0
-.item 3 140872 3
-.item 5 140875 3
-.item 6 140890 3
-.item 7 138345 3
-.item 8 139219 3
-.item 10 141466 3
-.item 15 0
 END
 VER 3 000000000000001B "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip

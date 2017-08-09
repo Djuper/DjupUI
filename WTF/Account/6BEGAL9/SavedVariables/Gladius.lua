@@ -3,14 +3,16 @@ Gladius2DB = {
 	["profileKeys"] = {
 		["Бранар - Азурегос"] = "Бранар - Азурегос",
 		["Ианар - Гордунни"] = "Пирик - Черный Шрам",
-		["Оробиас - Азурегос"] = "Оробиас - Азурегос",
+		["Вербуль - Черный Шрам"] = "Вербуль - Черный Шрам",
+		["Экзорцыст - Король-лич"] = "Экзорцыст - Король-лич",
+		["Инсталлеррх - Черный Шрам"] = "Инсталлеррх - Черный Шрам",
 		["Фелбой - Гордунни"] = "Фелбой - Гордунни",
 		["Трубо - Азурегос"] = "Пирик - Черный Шрам",
 		["Пирик - Черный Шрам"] = "Пирик - Черный Шрам",
 		["Нехолик - Гордунни"] = "Default",
-		["Вербуль - Черный Шрам"] = "Вербуль - Черный Шрам",
 		["Тыдышь - Черный Шрам"] = "Default",
 		["Дрофренфан - Гордунни"] = "Пирик - Черный Шрам",
+		["Оробиас - Азурегос"] = "Оробиас - Азурегос",
 		["Тонтоп - Азурегос"] = "Тонтоп - Азурегос",
 		["Аниом - Гордунни"] = "Пирик - Черный Шрам",
 	},
@@ -35,16 +37,6 @@ Gladius2DB = {
 				["arena1"] = 488.533388565647,
 			},
 		},
-		["Оробиас - Азурегос"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 904.533702458284,
-			},
-			["y"] = {
-				["arena1"] = 507.022234499455,
-			},
-		},
 		["Вербуль - Черный Шрам"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
@@ -54,6 +46,30 @@ Gladius2DB = {
 			["y"] = {
 				["arena1"] = 396.79996620549,
 			},
+		},
+		["Тыдышь - Черный Шрам"] = {
+			["y"] = {
+				["arena1"] = 465.066764733529,
+			},
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 965.689346300242,
+			},
+			["auraVersion"] = 1,
+		},
+		["Экзорцыст - Король-лич"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 985.600457893488,
+			},
+			["y"] = {
+				["arena1"] = 421.688942502606,
+			},
+		},
+		["Инсталлеррх - Черный Шрам"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 		},
 		["Фелбой - Гордунни"] = {
 			["auraVersion"] = 1,
@@ -150,11 +166,63 @@ Gladius2DB = {
 			["tagsVersion"] = 4,
 		},
 		["Пирик - Черный Шрам"] = {
+			["castBarWidth"] = 242,
+			["castBarOffsetY"] = -1,
+			["powerBarBackgroundColor"] = {
+				["a"] = 1,
+				["b"] = 0.219607843137255,
+				["g"] = 0.180392156862745,
+				["r"] = 0.149019607843137,
+			},
 			["modules"] = {
 				["Dispel"] = false,
 				["Highlight"] = false,
 			},
+			["highlightFocus"] = false,
+			["castBarColor"] = {
+				["b"] = 1,
+				["g"] = 0.898039215686275,
+				["r"] = 0.772549019607843,
+			},
+			["locked"] = true,
+			["trinketAdjustSize"] = false,
+			["castBarAdjustWidth"] = false,
+			["castTextSize"] = 14,
+			["powerBarHeight"] = 10,
+			["castTimeTextOffsetX"] = -2,
 			["drTrackerOffsetX"] = -2,
+			["announcements"] = {
+				["health"] = false,
+				["enemies"] = false,
+			},
+			["x"] = {
+				["arena1"] = 1060.26842845153,
+			},
+			["healthBarHeight"] = 30,
+			["bottomMargin"] = 18,
+			["highlightHover"] = false,
+			["trinketIconCrop"] = true,
+			["trinketGloss"] = false,
+			["drTrackerOffsetY"] = 0,
+			["castBarTexture"] = "bd",
+			["y"] = {
+				["arena1"] = 329.955281427165,
+			},
+			["trinketSize"] = 40,
+			["powerBarTexture"] = "bd",
+			["drTrackerMargin"] = 3,
+			["trinketFaction"] = false,
+			["healthBarTexture"] = "bd",
+			["castTimeTextSize"] = 14,
+			["castBarBackgroundColor"] = {
+				["a"] = 0,
+			},
+			["growUp"] = true,
+			["backgroundColor"] = {
+				["a"] = 0,
+			},
+			["highlightTarget"] = false,
+			["globalFont"] = "BD_UI",
 			["tags"] = {
 				["maxhealth"] = {
 					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nend",
@@ -229,105 +297,43 @@ Gladius2DB = {
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
 			},
+			["auraVersion"] = 1,
 			["castBarTextureUninterruptible"] = "Kait1",
-			["classIconCrop"] = true,
-			["highlightFocus"] = false,
-			["castTextOffsetX"] = 2,
-			["powerBarHeight"] = 10,
-			["castTimeTextOffsetX"] = -2,
-			["growUp"] = true,
-			["tagsVersion"] = 4,
-			["castBarWidth"] = 242,
-			["locked"] = true,
-			["trinketSize"] = 40,
-			["x"] = {
-				["arena1"] = 1060.26842845153,
+			["direction"] = 1,
+			["tagsTexts"] = {
+				["PowerBar Left Text"] = {
+					["offsetY"] = 1,
+					["text"] = " [spec]",
+				},
+				["HealthBar Left Text"] = {
+					["text"] = " [name:status]",
+					["offsetX"] = 0,
+					["offsetY"] = 22,
+				},
+				["HealthBar Right Text"] = {
+					["text"] = "",
+				},
+				["PowerBar Right Text"] = {
+					["text"] = "",
+				},
 			},
-			["bottomMargin"] = 18,
+			["castBarHeight"] = 20,
+			["classIconShowSpec"] = true,
+			["globalFontSize"] = 14,
+			["classIconCrop"] = true,
+			["backgroundPadding"] = 1,
+			["tagsVersion"] = 4,
+			["castTextOffsetX"] = 2,
 			["healthBarBackgroundColor"] = {
 				["a"] = 1,
 				["r"] = 0.149019607843137,
 				["g"] = 0.180392156862745,
 				["b"] = 0.219607843137255,
 			},
-			["castBarColor"] = {
-				["b"] = 1,
-				["g"] = 0.898039215686275,
-				["r"] = 0.772549019607843,
-			},
-			["trinketAdjustSize"] = false,
-			["castBarAdjustWidth"] = false,
-			["healthBarHeight"] = 30,
-			["globalFont"] = "BD_UI",
-			["castBarOffsetY"] = -1,
-			["backgroundColor"] = {
-				["a"] = 0,
-			},
-			["castTextSize"] = 14,
-			["trinketGloss"] = false,
-			["globalFontSize"] = 14,
-			["drTrackerMargin"] = 3,
-			["direction"] = 1,
-			["announcements"] = {
-				["health"] = false,
-				["enemies"] = false,
-			},
-			["drTrackerOffsetY"] = 0,
-			["castTimeTextSize"] = 14,
-			["tagsTexts"] = {
-				["PowerBar Left Text"] = {
-					["offsetY"] = 1,
-					["text"] = " [spec]",
-				},
-				["HealthBar Right Text"] = {
-					["text"] = "",
-				},
-				["HealthBar Left Text"] = {
-					["offsetX"] = 0,
-					["text"] = " [name:status]",
-					["offsetY"] = 22,
-				},
-				["PowerBar Right Text"] = {
-					["text"] = "",
-				},
-			},
-			["powerBarBackgroundColor"] = {
-				["a"] = 1,
-				["b"] = 0.219607843137255,
-				["g"] = 0.180392156862745,
-				["r"] = 0.149019607843137,
-			},
-			["highlightHover"] = false,
-			["trinketIconCrop"] = true,
-			["castBarTexture"] = "bd",
-			["castBarHeight"] = 20,
-			["healthBarTexture"] = "bd",
-			["powerBarTexture"] = "bd",
-			["highlightTarget"] = false,
-			["classIconShowSpec"] = true,
-			["trinketFaction"] = false,
-			["castBarBackgroundColor"] = {
-				["a"] = 0,
-			},
-			["auraVersion"] = 1,
-			["backgroundPadding"] = 1,
-			["y"] = {
-				["arena1"] = 329.955281427165,
-			},
 		},
 		["Нехолик - Гордунни"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-		},
-		["Тыдышь - Черный Шрам"] = {
-			["y"] = {
-				["arena1"] = 465.066764733529,
-			},
-			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 965.689346300242,
-			},
-			["auraVersion"] = 1,
 		},
 		["Default"] = {
 			["castBarWidth"] = 242,
@@ -347,7 +353,7 @@ Gladius2DB = {
 			["locked"] = true,
 			["trinketAdjustSize"] = false,
 			["castBarAdjustWidth"] = false,
-			["castTextSize"] = 14,
+			["castBarHeight"] = 20,
 			["powerBarHeight"] = 10,
 			["castTimeTextOffsetX"] = -2,
 			["y"] = {
@@ -363,19 +369,19 @@ Gladius2DB = {
 			["trinketGloss"] = false,
 			["drTrackerOffsetY"] = 0,
 			["castBarTexture"] = "bd",
-			["castBarHeight"] = 20,
 			["announcements"] = {
 				["spec"] = false,
 				["health"] = false,
 				["enemies"] = false,
 			},
+			["trinketSize"] = 40,
 			["castTimeTextSize"] = 14,
 			["castBarBackgroundColor"] = {
 				["a"] = 0,
 			},
-			["trinketFaction"] = false,
-			["backgroundPadding"] = 1,
 			["healthBarTexture"] = "bd",
+			["drTrackerMargin"] = 3,
+			["castTextSize"] = 14,
 			["direction"] = 1,
 			["tags"] = {
 				["maxhealth"] = {
@@ -453,17 +459,17 @@ Gladius2DB = {
 			},
 			["auraVersion"] = 1,
 			["castBarTextureUninterruptible"] = "Kait1",
-			["classIconShowSpec"] = true,
-			["globalFont"] = "BD_UI",
+			["growUp"] = true,
 			["backgroundColor"] = {
 				["a"] = 1,
 			},
-			["growUp"] = true,
+			["globalFont"] = "BD_UI",
+			["classIconShowSpec"] = true,
 			["globalFontSize"] = 14,
 			["classIconCrop"] = true,
-			["drTrackerMargin"] = 3,
+			["backgroundPadding"] = 1,
 			["tagsVersion"] = 4,
-			["trinketSize"] = 40,
+			["trinketFaction"] = false,
 			["healthBarBackgroundColor"] = {
 				["a"] = 1,
 				["b"] = 0.219607843137255,
@@ -475,14 +481,24 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Тонтоп - Азурегос"] = {
-			["y"] = {
-				["arena1"] = 512.000099203324,
-			},
-			["tagsVersion"] = 4,
+		["Оробиас - Азурегос"] = {
 			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["y"] = {
+				["arena1"] = 507.022234499455,
+			},
+			["x"] = {
+				["arena1"] = 904.533702458284,
+			},
+		},
+		["Тонтоп - Азурегос"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 			["x"] = {
 				["arena1"] = 1060.26695275705,
+			},
+			["y"] = {
+				["arena1"] = 512.000099203324,
 			},
 		},
 		["Аниом - Гордунни"] = {
