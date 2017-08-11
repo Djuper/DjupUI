@@ -2,8 +2,6 @@
 NewOpenablesProfile = {
 	["profileKeys"] = {
 		["Кентачзис - Гордунни"] = "Default",
-		["Лякай - Гордунни"] = "Default",
-		["Аниом - Гордунни"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -27,7 +25,7 @@ NewOpenablesProfile = {
 				"UIParent", -- [2]
 				"TOPLEFT", -- [3]
 			},
-			["version"] = "|cFFFFFFFF07.36 21.06.2017 use |cFFFF00FF/nop|cFFFFFFFF",
+			["version"] = "|cFFFFFFFF07.40 24.07.2017 use |cFFFF00FF/nop|cFFFFFFFF",
 			["direction"] = "LEFT",
 			["iconSize"] = 33,
 		},

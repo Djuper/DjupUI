@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Аниом-Гордунни",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128826] = {
 			["Relics"] = {
@@ -54,7 +55,6 @@ PawnOptions = {
 			["Name"] = "Хищный Коготь, копье Диких Богов",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "HUNTER",

@@ -4,7 +4,6 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Ианар-Гордунни",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128858] = {
 			["Relics"] = {
@@ -24,6 +23,7 @@ PawnOptions = {
 			["Name"] = "Коса Элуны",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",
