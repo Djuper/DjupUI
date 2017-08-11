@@ -1,9 +1,0 @@
-BigWigs: disabled
-BigDebuffs: disabled
-ExRT: disabled
-GladiatorlosSA2: disabled
-Gladius: disabled
-GottaGoFast: disabled
-MythicPlusTimer: disabled
-Simulationcraft: disabled
-ParagonReputation: enabled
