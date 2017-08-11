@@ -3,6 +3,7 @@ local LO = E:GetModule('Layout');
 
 local PANEL_HEIGHT = 22;
 local SIDE_BUTTON_WIDTH = 0;
+
 LARGE_NUMBER_SEPERATOR = ","
 
 function LO:ToggleChatPanels()
