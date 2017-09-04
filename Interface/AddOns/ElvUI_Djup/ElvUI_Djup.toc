@@ -5,15 +5,8 @@
 ## RequiredDeps: ElvUI
 ## SavedVariables: MetaDB
 
-Libs\LibSharedMedia-3.0.lua
+Modules\load_modules.xml
+Modules\Profiles\mProfiles.xml
 
 Media\Media.lua
-Modules\ConfigMode.lua
-Modules\Chat.lua
-Modules\Layout.lua
-Modules\Auras.lua
-Modules\CustomTag.lua
-
-Modules\Install.lua
-
-
+Libs\LibSharedMedia-3.0.lua

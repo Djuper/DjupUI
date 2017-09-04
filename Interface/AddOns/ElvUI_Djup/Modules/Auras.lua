@@ -14,8 +14,8 @@ function UF:UpdateAuraIconSettings(auras, noCycle)
 	if(not frame.db) then return end
 
 	local db = frame.db[type]
-	local unitframeFont = LSM:Fetch("font", 'Homespun')
-	local unitframeFontOutline = 'MONOCHROMEOUTLINE'
+	local unitframeFont = LSM:Fetch("font", 'Expressway')
+	local unitframeFontOutline = 'OUTLINE'
 	local index = 1
 	auras.db = db
 	if(db) then

@@ -1,0 +1,22 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">	
+	
+	<Include file="Set_General_Elv.lua"/>
+	<Include file="AddOnSkins_.lua"/>
+	<Include file="GottaGoFast_.lua"/>
+	<Include file="MPT_.lua"/>
+		
+	<Include file="V1.0\Install_V1.lua"/>	
+	<Include file="V1.0\Elv1.lua"/>
+	<Include file="V1.0\xCT1.lua"/>
+	<Include file="V1.0\BigWigs1.lua"/>
+	<Include file="V1.0\NOP1.lua"/>
+	
+	<Include file="V2.0\Install_V2.lua"/>
+	<Include file="V2.0\Elv2.lua"/>
+	<Include file="V2.0\xCT2.lua"/>
+	<Include file="V2.0\BigWigs2.lua"/>
+	<Include file="V2.0\Details2.lua"/>
+	<Include file="V2.0\NOP2.lua"/>
+	<Include file="V2.0\ls_Toasts2.lua"/>
+
+</Ui>
