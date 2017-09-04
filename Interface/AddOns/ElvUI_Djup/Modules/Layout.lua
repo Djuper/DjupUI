@@ -99,8 +99,8 @@ function LO:CreateChatPanels()
 	end
 	
 	local dpanel = CreateFrame('Button', 'DPanel', E.UIParent)
-	dpanel:Point('BOTTOMLEFT', lchat, 'BOTTOMLEFT', 1, -40)
-	dpanel:Point('TOPRIGHT', lchat, 'BOTTOMRIGHT', -1, -20)
+	dpanel:Point('BOTTOMLEFT', lchat, 'BOTTOMLEFT', 1, -20)
+	dpanel:Point('TOPRIGHT', lchat, 'BOTTOMRIGHT', -1, 0)
 	dpanel:CreateBackdrop('Default')
 	dpanel.text = dpanel:CreateFontString(nil, 'OVERLAY')
 	dpanel:SetAlpha(0)

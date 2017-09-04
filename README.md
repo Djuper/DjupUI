@@ -1,2 +1,2 @@
 
-You need only 'Interface/AddOns/ElvUI_Djup' addon
+You don't need 'WTF' folder
