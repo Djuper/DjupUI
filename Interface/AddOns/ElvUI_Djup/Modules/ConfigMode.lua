@@ -8,8 +8,7 @@ local ENABLED_PANEL_POSITION = 0--34
 local DISABLED_PANEL_POSITION = 0--136
 local ENABLED_PANEL_TEXT = 'Config Mode "ON"'
 local DISABLED_PANEL_TEXT = 'Config Mode "OFF"'
-
-
+local panelBackdrop = E.db.chat.panelBackdrop
 
 local dpanel = CreateFrame('Button', 'DPanel', E.UIParent)
 dpanel:Size(395, 10)
@@ -42,7 +41,9 @@ dpanel:SetScript('OnClick', function (self)
     -- Update state
     abar.bar1.enabled = not barEnabled
 	abar.bar2.enabled = not barEnabled
-    --abar.bar3.enabled = not barEnabled
+    if panelBackdrop == 'LEFT' then
+		abar.bar3.enabled = not barEnabled
+	end
     
 	abar.hotkeytext = not barEnabled
     abar.bar6.mouseover = barEnabled

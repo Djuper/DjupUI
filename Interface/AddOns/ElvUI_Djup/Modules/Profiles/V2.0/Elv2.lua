@@ -153,7 +153,7 @@ function SetElv2()
 	E.db["movers"]["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-296,79"
 	E.db["movers"]["SLE_DataPanel_1_Mover"] = "TOP,ElvUIParent,TOP,0,0"
 	E.db["movers"]["PetAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,592,158"
-	E.db["movers"]["ElvAB_3"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-223,4"
+	E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,76"
 	E.db["movers"]["ElvAB_5"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,4"
 	E.db["movers"]["ArtifactBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-169"
 	E.db["movers"]["ElvUF_TargetAuraMover"] = "BOTTOM,ElvUIParent,BOTTOM,245,326"
@@ -370,8 +370,8 @@ function SetElv2()
 	E.db["actionbar"]["bar3"]["point"] = "TOPLEFT"
 	E.db["actionbar"]["bar3"]["buttons"] = 12
 	E.db["actionbar"]["bar3"]["buttonspacing"] = -1
-	E.db["actionbar"]["bar3"]["buttonsPerRow"] = 4
-	E.db["actionbar"]["bar3"]["buttonsize"] = 36
+	E.db["actionbar"]["bar3"]["buttonsPerRow"] = 12
+	E.db["actionbar"]["bar3"]["buttonsize"] = 34
 	E.db["actionbar"]["bar3"]["paging"]["DRUID"] = ""
 	E.db["actionbar"]["fontSize"] = 11
 	E.db["actionbar"]["microbar"]["mouseover"] = true
