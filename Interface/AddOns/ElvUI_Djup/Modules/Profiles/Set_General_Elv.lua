@@ -139,7 +139,6 @@ function SetGeneralElv()
 	E.global["unitframe"]["aurafilters"]["RaidDebuffs"]["spells"][231770]["enable"] = false
 	E.global["unitframe"]["aurafilters"]["RaidDebuffs"]["spells"][235117]["priority"] = 1
 	E.global["unitframe"]["aurafilters"]["RaidDebuffs"]["spells"][234995]["enable"] = false
-	--E.global["unitframe"]["aurafilters"]["RaidDebuffs"]["spells"][234996]["enable"] = false
 	E.global["unitframe"]["aurafilters"]["RaidDebuffs"]["spells"][238505]["priority"] = 2
 	
 	E.global["unitframe"]["aurafilters"]["CCDebuffs"]["spells"][96294] = {}
@@ -185,30 +184,7 @@ function SetGeneralElv()
 	E.global["unitframe"]["aurafilters"]["CCDebuffs"]["spells"][135373] = {}
 	E.global["unitframe"]["aurafilters"]["CCDebuffs"]["spells"][135373]["enable"] = true
 	E.global["unitframe"]["aurafilters"]["CCDebuffs"]["spells"][135373]["priority"] = 0
-	
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Заморозка мозгов"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Заморозка мозгов"]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"][41425]["enable"] = false
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Турнирный боец"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Турнирный боец"]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"][87024]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"][87024]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Леденящий дождь"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Леденящий дождь"]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Кристаллы льда"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Кристаллы льда"]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Цепная реакция"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Цепная реакция"]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Замороженная масса"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Замороженная масса"]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"][25771]["enable"] = false
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Ледяная преграда"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Ледяная преграда"]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Сила Магтеридона"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Сила Магтеридона"]["priority"] = 0
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Ледяные пальцы"]["enable"] = true
-	--E.global["unitframe"]["aurafilters"]["Blacklist"]["spells"]["Ледяные пальцы"]["priority"] = 0
-	
+		
 	E.global["unitframe"]["ChannelTicks"]["Исповедь"] = 3
 	E.global["userInformedNewChanges1"] = true
 	E.global["general"]["WorldMapCoordinates"]["yOffset"] = -22

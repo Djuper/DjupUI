@@ -2084,7 +2084,7 @@ function CH:Initialize()
 
 
 	GeneralDockManagerOverflowButton:ClearAllPoints()
-	GeneralDockManagerOverflowButton:Point('BOTTOMRIGHT', LeftChatTab, 'BOTTOMRIGHT', -2, 2)
+	GeneralDockManagerOverflowButton:Point("BOTTOMLEFT", LeftChatPanel, "BOTTOMLEFT", 0, 4)
 	GeneralDockManagerOverflowButtonList:SetTemplate('Transparent')
 	hooksecurefunc(GeneralDockManagerScrollFrame, 'SetPoint', function(self, point, anchor, attachTo, x, y)
 		if anchor == GeneralDockManagerOverflowButton and x == 0 and y == 0 then

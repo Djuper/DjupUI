@@ -1,6 +1,6 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">	
 	<Include file="Auras.lua"/>
-	<Include file="Chat.lua"/>
+	<Include file="Cha1t.lua"/>
 	<Include file="ConfigMode.lua"/>
 	<Include file="CustomTag.lua"/>
 	<Include file="Install.lua"/>

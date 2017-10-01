@@ -392,7 +392,7 @@ E:RegisterEvent("ADDON_LOADED", function(arg1)
 		local button = CreateFrame("Button", nil, panel, "UIPanelButtonTemplate")
 		button:SetText(L["OPEN_CONFIG"])
 		button:SetWidth(button:GetTextWidth() + 18)
-		button:SetPoint("TOPLEFT", 16, -16)
+		button:SetPoint("TOPLEFT", 0, 0) -- Djup
 		button:SetScript("OnClick", function()
 			if not InCombatLockdown() then
 				InterfaceOptionsFrame_Show()

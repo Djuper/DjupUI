@@ -1,5 +1,5 @@
-local E, L, V, P, G= unpack(ElvUI);
-local AB = E:GetModule('ActionBars');
+local E, L, V, P, G = unpack(ElvUI);
+local AB, LO = E:GetModule('ActionBars', 'Layout');
 
 local otfheight = 350
 local otfwidth = 488
@@ -58,3 +58,10 @@ dpanel:SetScript('OnClick', function (self)
  
     AB:UpdateButtonSettings('bar1');
 end)
+
+--local cpanel = CreateFrame('Button', 'CPanel', E.UIParent)
+--cpanel:SetFrameStrata('BACKGROUND')
+--cpanel:SetFrameLevel(300)
+--cpanel:Size(400, 114)
+--cpanel:Point('BOTTOMLEFT', lchat, 'BOTTOMLEFT', 4, 4)
+--cpanel:CreateBackdrop('Transparent')
