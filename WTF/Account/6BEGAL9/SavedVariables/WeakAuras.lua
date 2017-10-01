@@ -615,11 +615,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["desaturate"] = false,
 			["disjunctive"] = "all",
 			["text1Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -661,7 +661,6 @@ WeakAurasSaved = {
 			["text1Font"] = "Expressway",
 			["inverse"] = true,
 			["cooldownTextEnabled"] = true,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -860,7 +859,7 @@ WeakAurasSaved = {
 				},
 			},
 			["radius"] = 200,
-			["selfPoint"] = "TOPLEFT",
+			["selfPoint"] = "TOP",
 			["trigger"] = {
 			},
 			["rotation"] = 0,
@@ -995,7 +994,7 @@ WeakAurasSaved = {
 			},
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 28,
-			["text2Font"] = "Expressway",
+			["displayIcon"] = 135841,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -1052,7 +1051,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["displayIcon"] = 135841,
+			["text2Font"] = "Expressway",
 			["text1Containment"] = "INSIDE",
 			["inverse"] = true,
 			["text2Containment"] = "OUTSIDE",
@@ -1527,6 +1526,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Containment"] = "INSIDE",
 			["useTooltip"] = true,
 			["animation"] = {
 				["start"] = {
@@ -1543,9 +1543,8 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1590,7 +1589,6 @@ WeakAurasSaved = {
 			},
 			["numTriggers"] = 1,
 			["text1Font"] = "Expressway",
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -1663,16 +1661,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -1884,7 +1882,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["stickyDuration"] = false,
+			["xOffset"] = 110,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -1920,18 +1918,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -1943,9 +1941,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 110,
-			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
 			["cooldownTextEnabled"] = true,
 			["text1Color"] = {
@@ -2019,7 +2017,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["yOffset"] = -263,
 		},
 		["BS"] = {
 			["text2Point"] = "CENTER",
@@ -2125,11 +2123,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["useTooltip"] = true,
 			["selfPoint"] = "CENTER",
 			["text1Enabled"] = true,
-			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2176,7 +2174,6 @@ WeakAurasSaved = {
 			},
 			["numTriggers"] = 1,
 			["text1Font"] = "Expressway",
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -2245,16 +2242,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -2506,16 +2503,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["disjunctive"] = "all",
-			["text1Containment"] = "INSIDE",
-			["text1Enabled"] = true,
-			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["disjunctive"] = "all",
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["text1Font"] = "Expressway",
 			["useTooltip"] = true,
 			["inverse"] = true,
@@ -2553,7 +2550,6 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -3057,11 +3053,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["text1Containment"] = "INSIDE",
 			["text2Font"] = "Expressway",
+			["text1Enabled"] = true,
+			["stickyDuration"] = false,
 			["text2Containment"] = "OUTSIDE",
-			["selfPoint"] = "CENTER",
+			["text1Containment"] = "INSIDE",
 			["text1Font"] = "Expressway",
 			["text2Point"] = "BOTTOM",
 			["inverse"] = true,
@@ -3128,7 +3124,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
 		},
 		["Shield"] = {
 			["glow"] = false,
@@ -3212,16 +3208,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -3231,8 +3227,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["desaturate"] = false,
-			["cooldownTextEnabled"] = true,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -3247,8 +3241,10 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["desaturate"] = false,
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "BD_UI",
 			["disjunctive"] = "all",
 			["numTriggers"] = 1,
@@ -3315,7 +3311,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["text1Enabled"] = true,
 		},
 		["SP"] = {
 			["glow"] = false,
@@ -3380,12 +3376,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 28,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text2Font"] = "Expressway",
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -3444,9 +3435,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["selfPoint"] = "CENTER",
 			["parent"] = "UI_CD",
-			["text2Font"] = "Expressway",
-			["icon"] = true,
 			["text2Containment"] = "OUTSIDE",
 			["text2Point"] = "BOTTOM",
 			["text1Color"] = {
@@ -3508,7 +3504,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["icon"] = true,
 		},
 		["04-Incorporeal Shot"] = {
 			["glow"] = false,
@@ -3790,16 +3786,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
-					},
-				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
 					},
 				},
 				["size"] = {
@@ -3809,14 +3805,21 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["xOffset"] = 110,
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 102560,
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 110,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
@@ -3889,14 +3892,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["stickyDuration"] = false,
 		},
 		["CD1"] = {
 			["text2Point"] = "CENTER",
@@ -4195,18 +4191,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["class"] = {
 					["single"] = "MAGE",
 					["multi"] = {
@@ -4219,6 +4215,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["yOffset"] = -263,
 			["actions"] = {
 				["start"] = {
 				},
@@ -4227,10 +4224,9 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["useTooltip"] = true,
-			["yOffset"] = -263,
+			["glow"] = false,
 			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
+			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4295,7 +4291,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["glow"] = false,
+			["cooldownTextEnabled"] = true,
 		},
 		["06-Shattering Scream"] = {
 			["glow"] = false,
@@ -4646,16 +4642,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "MAGE",
 					["multi"] = {
@@ -4891,50 +4887,16 @@ WeakAurasSaved = {
 				0.900000005960465, -- [4]
 			},
 			["sequence"] = 32,
-			["activeTriggerMode"] = 0,
-			["scale"] = 1,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
+			["untrigger"] = {
+				["custom"] = "function()\n    --return UnitExists(\"target\")\nend\n\n\n\n\n\n\n\n\n\n\n\n",
 			},
+			["scale"] = 1,
+			["activeTriggerMode"] = 0,
 			["border"] = true,
 			["borderEdge"] = "1 Pixel",
 			["regionType"] = "model",
 			["borderSize"] = 1,
 			["model_st_us"] = 45,
-			["untrigger"] = {
-				["custom"] = "function()\n    --return UnitExists(\"target\")\nend\n\n\n\n\n\n\n\n\n\n\n\n",
-			},
-			["model_st_rz"] = 270,
-			["init_completed"] = 1,
-			["selfPoint"] = "BOTTOM",
-			["borderOffset"] = 2,
-			["model_st_ry"] = 0,
-			["model_z"] = 0,
-			["id"] = "Player Portrait",
-			["anchorFrameType"] = "SCREEN",
-			["additional_triggers"] = {
-			},
-			["model_y"] = 0,
-			["frameStrata"] = 2,
-			["width"] = 63,
-			["model_st_rx"] = 270,
-			["borderInset"] = 1,
-			["numTriggers"] = 1,
-			["model_st_tx"] = 20,
-			["conditions"] = {
-			},
-			["model_st_tz"] = 0,
 			["trigger"] = {
 				["type"] = "custom",
 				["custom_type"] = "event",
@@ -4953,6 +4915,40 @@ WeakAurasSaved = {
 				["unit"] = "player",
 				["debuffType"] = "HELPFUL",
 			},
+			["model_st_rz"] = 270,
+			["init_completed"] = 1,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["borderOffset"] = 2,
+			["model_st_ry"] = 0,
+			["model_z"] = 0,
+			["id"] = "Player Portrait",
+			["anchorFrameType"] = "SCREEN",
+			["additional_triggers"] = {
+			},
+			["model_y"] = 0,
+			["frameStrata"] = 2,
+			["width"] = 63,
+			["model_st_rx"] = 270,
+			["borderInset"] = 1,
+			["numTriggers"] = 1,
+			["model_st_tx"] = 20,
+			["conditions"] = {
+			},
+			["model_st_tz"] = 0,
+			["selfPoint"] = "BOTTOM",
 		},
 		["Guard_Dot"] = {
 			["text2Point"] = "CENTER",
@@ -5317,7 +5313,10 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -5327,17 +5326,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -5466,10 +5462,10 @@ WeakAurasSaved = {
 			["desaturate"] = false,
 			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
-			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["text1Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -5506,18 +5502,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -5526,11 +5522,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 12472,
-			},
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 				},
@@ -5606,7 +5599,10 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 12472,
+			},
 		},
 		["Arms Duel 2"] = {
 			["text2Point"] = "CENTER",
@@ -5709,7 +5705,18 @@ WeakAurasSaved = {
 				},
 				["use_pvptalent"] = true,
 			},
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 236320,
+			},
 			["text2Font"] = "Friz Quadrata TT",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -5722,19 +5729,6 @@ WeakAurasSaved = {
 				["finish"] = {
 					["type"] = "none",
 					["duration_type"] = "seconds",
-				},
-			},
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 236320,
-			},
-			["text2Containment"] = "INSIDE",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
 				},
 			},
 			["text1Font"] = "Expressway",
@@ -5796,11 +5790,13 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
 		},
 		["09-Obelisk Timer"] = {
@@ -6039,16 +6035,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "MAGE",
 					["multi"] = {
@@ -6301,6 +6297,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["selfPoint"] = "CENTER",
 			["actions"] = {
 				["start"] = {
 				},
@@ -6309,10 +6306,9 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["disjunctive"] = "all",
-			["selfPoint"] = "CENTER",
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["disjunctive"] = "all",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -6358,7 +6354,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["text1Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 		},
 		["Cat_Boom_Dot1"] = {
 			["text2Point"] = "CENTER",
@@ -6643,7 +6639,7 @@ WeakAurasSaved = {
 				},
 			},
 			["backgroundInset"] = 0,
-			["selfPoint"] = "TOPLEFT",
+			["selfPoint"] = "TOP",
 			["align"] = "LEFT",
 			["stagger"] = 0,
 			["height"] = 32,
@@ -6825,15 +6821,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["useTooltip"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "preset",
@@ -6849,6 +6836,15 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["useTooltip"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -6893,7 +6889,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -6983,8 +6978,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -6995,6 +6988,8 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["size"] = {
 					["single"] = "arena",
 					["multi"] = {
@@ -7002,11 +6997,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["parent"] = "DH_Second",
 			["disjunctive"] = "all",
+			["text1Enabled"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
+			["parent"] = "DH_Second",
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["inverse"] = true,
@@ -7091,7 +7086,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["text2Point"] = "CENTER",
 		},
 		["Space 4"] = {
 			["glow"] = false,
@@ -7178,10 +7173,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -7190,14 +7182,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -7210,18 +7205,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["desaturate"] = false,
-			["xOffset"] = 110,
 			["text2Point"] = "CENTER",
+			["desaturate"] = false,
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["xOffset"] = 110,
 			["text1Font"] = "Expressway",
 			["text2Font"] = "Friz Quadrata TT",
 			["numTriggers"] = 1,
@@ -7284,7 +7272,14 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 		},
 		["Mage Rune CD"] = {
 			["glow"] = false,
@@ -7629,6 +7624,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Enabled"] = true,
 			["color"] = {
 				1, -- [1]
@@ -7636,9 +7632,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -7680,7 +7675,6 @@ WeakAurasSaved = {
 			},
 			["numTriggers"] = 1,
 			["stickyDuration"] = false,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -8769,18 +8763,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -8789,11 +8783,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
-			["stickyDuration"] = false,
 			["xOffset"] = 110,
+			["cooldownTextEnabled"] = true,
+			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Warr_Main",
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["yOffset"] = -263,
 			["inverse"] = true,
@@ -8878,7 +8872,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["parent"] = "Warr_Main",
 		},
 		["04-Lunar Beacon"] = {
 			["glow"] = false,
@@ -9230,10 +9224,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -9242,12 +9233,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -9262,18 +9256,24 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Monk_Main",
-			["yOffset"] = 0,
 			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["actions"] = {
+			["parent"] = "Monk_Main",
+			["animation"] = {
 				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
-				["init"] = {
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 			},
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 0,
 			["inverse"] = true,
@@ -9338,18 +9338,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["animation"] = {
+			["actions"] = {
 				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
 				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
+				["init"] = {
 				},
 				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
 				},
 			},
 		},
@@ -9621,6 +9615,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["glow"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -9635,10 +9630,12 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Font"] = "Expressway",
-			["glow"] = false,
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 22812,
+			},
 			["text2Containment"] = "OUTSIDE",
-			["cooldownTextEnabled"] = true,
+			["text2Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -9701,10 +9698,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 22812,
-			},
+			["cooldownTextEnabled"] = true,
 		},
 		["Tank R Chains"] = {
 			["text2Point"] = "TOPLEFT",
@@ -9798,18 +9792,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -9821,19 +9815,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["desaturate"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 202138,
-			},
+			["desaturate"] = false,
 			["text1Font"] = "Expressway",
 			["disjunctive"] = "all",
 			["inverse"] = true,
@@ -9900,7 +9891,10 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 202138,
+			},
 		},
 		["Warr Reflect Prot"] = {
 			["text2Point"] = "BOTTOM",
@@ -10022,11 +10016,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["text1Containment"] = "INSIDE",
 			["parent"] = "UI_CD",
+			["text1Enabled"] = true,
+			["stickyDuration"] = false,
 			["text2Containment"] = "OUTSIDE",
-			["useTooltip"] = true,
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -10098,7 +10092,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["stickyDuration"] = false,
+			["useTooltip"] = true,
 		},
 		["06-Doomed Sundering"] = {
 			["glow"] = false,
@@ -10330,10 +10324,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -10343,12 +10334,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -10572,7 +10566,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["disjunctive"] = "all",
+			["xOffset"] = 110,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -10597,23 +10591,23 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["use_vehicleUi"] = false,
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -10629,9 +10623,12 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["disjunctive"] = "all",
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 355,
+			},
 			["text1Enabled"] = true,
-			["xOffset"] = 110,
-			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
@@ -10698,10 +10695,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 355,
-			},
+			["text1Containment"] = "INSIDE",
 		},
 		["08-Unbound Chaos"] = {
 			["glow"] = false,
@@ -11266,15 +11260,17 @@ WeakAurasSaved = {
 						["MAGE"] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
 				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -11284,8 +11280,6 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -11298,16 +11292,29 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
-			["useTooltip"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["icon"] = true,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -11368,20 +11375,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["text1Enabled"] = true,
 		},
 		["Brew"] = {
 			["outline"] = "OUTLINE",
@@ -11449,7 +11443,7 @@ WeakAurasSaved = {
 				["unit"] = "player",
 				["subeventPrefix"] = "SPELL",
 			},
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["progressPrecision"] = 0,
@@ -11584,16 +11578,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "MAGE",
 					["multi"] = {
@@ -11854,18 +11848,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
-			["text1Enabled"] = true,
 			["useTooltip"] = true,
+			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "OUTSIDE",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["text1Enabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -11924,7 +11911,14 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 		},
 		["DH Tank Flame Mark"] = {
 			["text2Point"] = "BOTTOM",
@@ -12034,6 +12028,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["yOffset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -12048,10 +12043,9 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["icon"] = true,
-			["yOffset"] = 0,
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "OUTSIDE",
-			["desaturate"] = false,
+			["icon"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -12116,7 +12110,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
 		},
 		["Cat_Bar 2"] = {
 			["backdropColor"] = {
@@ -12290,10 +12284,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -12303,12 +12294,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -12589,7 +12583,7 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["width"] = 725,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["numTriggers"] = 1,
 			["yOffset"] = -230,
 			["backgroundInset"] = 0,
@@ -12851,16 +12845,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -13115,18 +13109,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -13307,11 +13301,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
@@ -13319,6 +13308,11 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["size"] = {
 					["single"] = "arena",
 					["multi"] = {
@@ -13326,14 +13320,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Point"] = "BOTTOMRIGHT",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 212084,
 			},
-			["text2Font"] = "Expressway",
-			["text2Point"] = "BOTTOMRIGHT",
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
+			["text2Font"] = "Expressway",
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["numTriggers"] = 1,
@@ -13399,7 +13393,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["desaturate"] = false,
 		},
 		["02-Echoing Anguish 2"] = {
 			["text2Point"] = "CENTER",
@@ -13504,11 +13498,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Expressway",
-			["parent"] = "T20",
 			["cooldownTextEnabled"] = true,
+			["text2Font"] = "Expressway",
+			["xOffset"] = 0,
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["parent"] = "T20",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -13552,7 +13546,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
 		},
 		["New 3"] = {
 			["text2Point"] = "CENTER",
@@ -13670,7 +13664,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Trinkets",
 			["conditions"] = {
 				{
 					["check"] = {
@@ -13695,6 +13688,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
+			["parent"] = "Trinkets",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -13978,8 +13972,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "T20",
-			["text1Containment"] = "OUTSIDE",
 			["actions"] = {
 				["start"] = {
 					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\AirHorn.ogg",
@@ -13990,8 +13982,10 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["parent"] = "T20",
+			["yOffset"] = 0,
 			["text2Containment"] = "INSIDE",
-			["disjunctive"] = "all",
+			["text1Containment"] = "OUTSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -14048,7 +14042,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["yOffset"] = 0,
+			["disjunctive"] = "all",
 		},
 		["WW_CP"] = {
 			["outline"] = "OUTLINE",
@@ -14113,7 +14107,7 @@ WeakAurasSaved = {
 				["use_powertype"] = true,
 				["custom_hide"] = "timed",
 			},
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["progressPrecision"] = 0,
@@ -14243,16 +14237,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
@@ -14461,7 +14455,12 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -14487,24 +14486,24 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
+				["use_spec"] = true,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -14520,14 +14519,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Enabled"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["disjunctive"] = "all",
 			["text2Containment"] = "INSIDE",
 			["text2Point"] = "CENTER",
 			["text1Color"] = {
@@ -14592,7 +14586,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["disjunctive"] = "all",
 		},
 		["Crusade 5"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -14687,16 +14681,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["class"] = {
 					["single"] = "PALADIN",
 					["multi"] = {
@@ -14707,11 +14701,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
 			["parent"] = "Pall_Second",
+			["text1Enabled"] = true,
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -14778,7 +14772,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
 		},
 		["Havoc Enemy"] = {
 			["glow"] = false,
@@ -14881,16 +14875,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
+					},
+				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
 					},
 				},
 				["size"] = {
@@ -14900,14 +14894,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["useTooltip"] = true,
-			["text2Point"] = "CENTER",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 206491,
 			},
+			["useTooltip"] = true,
+			["xOffset"] = 110,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "DH_Second",
+			["text2Point"] = "CENTER",
 			["text1Font"] = "Expressway",
 			["text1Containment"] = "INSIDE",
 			["numTriggers"] = 1,
@@ -14974,7 +14968,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["xOffset"] = 110,
+			["parent"] = "DH_Second",
 		},
 		["Hunt 5"] = {
 			["text2Point"] = "CENTER",
@@ -15067,23 +15061,23 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["use_spec"] = true,
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -15420,16 +15414,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
@@ -15642,7 +15636,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["disjunctive"] = "any",
+			["desaturate"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -15679,18 +15673,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -15702,9 +15696,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["disjunctive"] = "any",
+			["text1Enabled"] = true,
 			["text2Font"] = "Friz Quadrata TT",
-			["desaturate"] = false,
-			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
 			["glow"] = false,
 			["text1Color"] = {
@@ -15766,7 +15760,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["stickyDuration"] = false,
 		},
 		["Prot 16"] = {
 			["text2Point"] = "CENTER",
@@ -15831,10 +15825,15 @@ WeakAurasSaved = {
 			["stickyDuration"] = false,
 			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
-			["text1Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["disjunctive"] = "any",
+			["text1Containment"] = "INSIDE",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -15868,18 +15867,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -15891,13 +15890,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1Enabled"] = true,
+			["desaturate"] = false,
+			["disjunctive"] = "any",
 			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
 			["numTriggers"] = 3,
@@ -16065,7 +16059,7 @@ WeakAurasSaved = {
 				}, -- [4]
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["text1Enabled"] = true,
 		},
 		["Cat_B1"] = {
 			["text2Point"] = "CENTER",
@@ -16376,7 +16370,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["disjunctive"] = "any",
+			["desaturate"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -16413,18 +16407,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -16436,9 +16430,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["disjunctive"] = "any",
+			["text1Enabled"] = true,
 			["text2Font"] = "Friz Quadrata TT",
-			["desaturate"] = false,
-			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
 			["glow"] = false,
 			["text1Color"] = {
@@ -16500,7 +16494,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["stickyDuration"] = false,
 		},
 		["Prot Second"] = {
 			["grow"] = "HORIZONTAL",
@@ -16531,7 +16525,7 @@ WeakAurasSaved = {
 				},
 			},
 			["radius"] = 200,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["align"] = "CENTER",
 			["rotation"] = 0,
 			["height"] = 32,
@@ -16683,7 +16677,7 @@ WeakAurasSaved = {
 			},
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["progressPrecision"] = 0,
 			["font"] = "Expressway",
 			["numTriggers"] = 1,
@@ -16883,21 +16877,14 @@ WeakAurasSaved = {
 				},
 				["use_pvptalent"] = true,
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Enabled"] = true,
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 236077,
 			},
+			["text2Font"] = "Friz Quadrata TT",
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["text1Enabled"] = true,
 			["text1Font"] = "Expressway",
 			["disjunctive"] = "all",
 			["inverse"] = true,
@@ -16957,7 +16944,14 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["stickyDuration"] = false,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["Hunt Heal"] = {
 			["glow"] = false,
@@ -17063,16 +17057,29 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["desaturate"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text1Enabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["text2Containment"] = "OUTSIDE",
-			["text2Font"] = "Expressway",
+			["desaturate"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -17139,20 +17146,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["text2Font"] = "Expressway",
 		},
 		["Balance 1"] = {
 			["textFlags"] = "None",
@@ -17218,24 +17212,24 @@ WeakAurasSaved = {
 						[2] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_talent"] = true,
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_talent"] = true,
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -17892,24 +17886,24 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -18099,22 +18093,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -18308,6 +18302,22 @@ WeakAurasSaved = {
 			},
 			["desaturate"] = false,
 			["text1Point"] = "BOTTOMRIGHT",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
 			["actions"] = {
 				["start"] = {
 					["custom"] = "\n\n",
@@ -18320,9 +18330,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["parent"] = "Equiped Legendaries",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -18375,21 +18382,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["yOffset"] = 0,
+			["useTooltip"] = true,
+			["parent"] = "Equiped Legendaries",
 			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
 			["numTriggers"] = 1,
@@ -18436,7 +18430,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["yOffset"] = 0,
 		},
 		["08-Tainted Essence"] = {
 			["glow"] = false,
@@ -18655,15 +18649,10 @@ WeakAurasSaved = {
 			["stickyDuration"] = false,
 			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
-			["xOffset"] = 110,
+			["text2Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = 110,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -18688,17 +18677,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
 				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -18708,6 +18695,8 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -18720,8 +18709,13 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Point"] = "CENTER",
-			["text2Font"] = "Friz Quadrata TT",
+			["text1Enabled"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
 			["inverse"] = true,
@@ -18824,7 +18818,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["text2Font"] = "Friz Quadrata TT",
 		},
 		["DH Charge"] = {
 			["glow"] = false,
@@ -18905,18 +18899,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -18928,11 +18922,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "DH_Second",
-			["text2Point"] = "BOTTOMRIGHT",
 			["text1Enabled"] = true,
+			["parent"] = "DH_Second",
+			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Expressway",
+			["text2Point"] = "BOTTOMRIGHT",
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["inverse"] = true,
@@ -19018,7 +19012,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["text2Font"] = "Expressway",
 		},
 		["Mage Power"] = {
 			["text2Point"] = "CENTER",
@@ -19087,7 +19081,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["disjunctive"] = "any",
+			["desaturate"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -19124,18 +19118,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -19147,9 +19141,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["disjunctive"] = "any",
+			["text1Enabled"] = true,
 			["text2Font"] = "Friz Quadrata TT",
-			["desaturate"] = false,
-			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
 			["glow"] = false,
 			["text1Color"] = {
@@ -19211,7 +19205,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["stickyDuration"] = false,
 		},
 		["Crusade 3"] = {
 			["glow"] = false,
@@ -19288,16 +19282,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["class"] = {
 					["single"] = "PALADIN",
 					["multi"] = {
@@ -19308,11 +19302,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["useTooltip"] = true,
-			["text2Point"] = "BOTTOMRIGHT",
 			["parent"] = "Pall_Second",
+			["useTooltip"] = true,
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Expressway",
+			["text2Point"] = "BOTTOMRIGHT",
 			["text1Font"] = "Expressway",
 			["desaturate"] = false,
 			["inverse"] = true,
@@ -19397,7 +19391,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Containment"] = "INSIDE",
+			["text2Font"] = "Expressway",
 		},
 		["Barrier"] = {
 			["glow"] = false,
@@ -19489,6 +19483,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["parent"] = "UI_Deffs",
 			["yOffset"] = 0,
 			["animation"] = {
 				["start"] = {
@@ -19505,9 +19500,8 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["parent"] = "UI_Deffs",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -19554,7 +19548,6 @@ WeakAurasSaved = {
 			["text1Font"] = "Expressway",
 			["inverse"] = true,
 			["disjunctive"] = "all",
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -19646,7 +19639,7 @@ WeakAurasSaved = {
 						["MAGE"] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -19655,15 +19648,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
-					},
-				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
 					},
 				},
 				["race"] = {
@@ -19678,18 +19671,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
-			["text2Font"] = "Expressway",
 			["cooldownTextEnabled"] = true,
+			["stickyDuration"] = false,
+			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["text2Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -19753,7 +19739,14 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 		},
 		["Pall Prot CD 1 2 2"] = {
 			["textFlags"] = "None",
@@ -19815,13 +19808,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
 				["use_spec"] = true,
-				["pvptalent"] = {
+				["use_vehicleUi"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -20056,16 +20049,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -20075,11 +20068,18 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Monk_Main",
-			["yOffset"] = 0,
 			["stickyDuration"] = false,
+			["parent"] = "Monk_Main",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["yOffset"] = 0,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 0,
 			["inverse"] = true,
@@ -20157,14 +20157,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["useTooltip"] = true,
 		},
 		["09-Felclaws 2"] = {
 			["glow"] = false,
@@ -20393,16 +20386,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 3,
 					["multi"] = {
@@ -20602,20 +20595,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 28,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["cooldownTextEnabled"] = true,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -20674,9 +20654,22 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["text2Font"] = "Expressway",
 			["text1Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
-			["desaturate"] = false,
 			["text2Containment"] = "OUTSIDE",
 			["xOffset"] = 0,
 			["text1Color"] = {
@@ -20745,7 +20738,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Expressway",
+			["desaturate"] = false,
 		},
 		["Cry Prot"] = {
 			["text2Point"] = "CENTER",
@@ -20796,7 +20789,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["xOffset"] = 0,
+			["disjunctive"] = "all",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -20837,8 +20830,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
@@ -20849,6 +20840,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["size"] = {
 					["single"] = "arena",
 					["multi"] = {
@@ -20856,16 +20849,22 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["desaturate"] = false,
-			["disjunctive"] = "all",
-			["actions"] = {
+			["xOffset"] = 0,
+			["animation"] = {
 				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 				["finish"] = {
-				},
-				["init"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 			},
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
@@ -20911,18 +20910,12 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["animation"] = {
+			["actions"] = {
 				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
 				},
 				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
+				},
+				["init"] = {
 				},
 			},
 		},
@@ -20971,20 +20964,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["parent"] = "Dru_Second",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -21018,18 +20998,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -21041,14 +21021,22 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
-			["parent"] = "Dru_Second",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
 			},
+			["yOffset"] = -263,
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
 			["disjunctive"] = "all",
 			["text1Color"] = {
@@ -21135,7 +21123,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["GCD"] = {
 			["sparkWidth"] = 6,
@@ -21567,10 +21560,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -21579,12 +21569,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -21599,18 +21592,24 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Monk_Main",
-			["yOffset"] = 0,
 			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["actions"] = {
+			["parent"] = "Monk_Main",
+			["animation"] = {
 				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
-				["init"] = {
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 			},
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 0,
 			["numTriggers"] = 1,
@@ -21675,18 +21674,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["animation"] = {
+			["actions"] = {
 				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
 				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
+				["init"] = {
 				},
 				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
 				},
 			},
 		},
@@ -21820,7 +21813,7 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["text1Font"] = "BD_UI",
-			["width"] = 44.0000648498535,
+			["width"] = 47.0000877380371,
 			["text1FontFlags"] = "OUTLINE",
 			["regionType"] = "text",
 			["text2Enabled"] = false,
@@ -21992,6 +21985,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["displayIcon"] = 237241,
 			["actions"] = {
 				["start"] = {
 				},
@@ -22000,7 +21994,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["displayIcon"] = 237241,
 			["text2Point"] = "CENTER",
 			["text2Containment"] = "INSIDE",
 			["numTriggers"] = 2,
@@ -22208,16 +22201,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
+					},
+				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
 					},
 				},
 				["size"] = {
@@ -22227,11 +22220,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["icon"] = true,
-			["parent"] = "DH_Main",
 			["text2Point"] = "BOTTOMRIGHT",
+			["icon"] = true,
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 189110,
+			},
 			["text2Containment"] = "INSIDE",
-			["disjunctive"] = "all",
+			["parent"] = "DH_Main",
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["numTriggers"] = 1,
@@ -22292,10 +22288,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 189110,
-			},
+			["disjunctive"] = "all",
 		},
 		["Pall_Third_Prot"] = {
 			["backdropColor"] = {
@@ -22468,7 +22461,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["desaturate"] = false,
+			["cooldownTextEnabled"] = true,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -22502,18 +22495,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -22525,14 +22518,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["text2Containment"] = "INSIDE",
 			["selfPoint"] = "CENTER",
 			["text1Color"] = {
@@ -22604,7 +22592,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["ART"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -22674,21 +22667,21 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -22703,6 +22696,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["glow"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -22717,10 +22711,9 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text1Enabled"] = true,
-			["glow"] = false,
+			["text2Font"] = "Expressway",
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -22790,7 +22783,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Expressway",
+			["text1Containment"] = "INSIDE",
 		},
 		["08-Cleansing Protocol"] = {
 			["glow"] = true,
@@ -23081,7 +23074,7 @@ WeakAurasSaved = {
 			["hybridSortMode"] = "descending",
 			["yOffset"] = -284.999862670898,
 			["numTriggers"] = 1,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["align"] = "CENTER",
 			["anchorFrameType"] = "SCREEN",
 			["stagger"] = 0,
@@ -23195,18 +23188,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -23396,7 +23389,12 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -23422,24 +23420,24 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
+				["use_spec"] = true,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -23455,14 +23453,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Enabled"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["disjunctive"] = "all",
 			["text2Containment"] = "INSIDE",
 			["text2Point"] = "CENTER",
 			["text1Color"] = {
@@ -23527,7 +23520,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["disjunctive"] = "all",
 		},
 		["Dru SW"] = {
 			["text2Point"] = "BOTTOM",
@@ -23650,7 +23643,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Font"] = "Expressway",
 			["text1Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
+			["text2Containment"] = "OUTSIDE",
 			["actions"] = {
 				["start"] = {
 				},
@@ -23659,9 +23655,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["text2Font"] = "Expressway",
-			["text2Containment"] = "OUTSIDE",
-			["text1Enabled"] = true,
 			["text1Font"] = "Expressway",
 			["stickyDuration"] = false,
 			["numTriggers"] = 1,
@@ -23716,7 +23709,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["cooldownTextEnabled"] = true,
+			["text1Enabled"] = true,
 		},
 		["Havoc Glaive"] = {
 			["glow"] = false,
@@ -23797,18 +23790,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -23820,6 +23813,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Enabled"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -23834,10 +23828,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["stickyDuration"] = false,
-			["text1Enabled"] = true,
+			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "DH_Main",
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["numTriggers"] = 1,
@@ -23919,7 +23912,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["parent"] = "DH_Main",
 		},
 		["UI_CD"] = {
 			["grow"] = "RIGHT",
@@ -24128,7 +24121,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["yOffset"] = -263,
+			["cooldownTextEnabled"] = true,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -24162,18 +24155,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -24185,9 +24178,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["yOffset"] = -263,
+			["disjunctive"] = "all",
 			["stickyDuration"] = false,
-			["cooldownTextEnabled"] = true,
-			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
 			["icon"] = true,
 			["text1Color"] = {
@@ -24255,7 +24248,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["disjunctive"] = "all",
+			["text1Enabled"] = true,
 		},
 		["Pall Prot CD 2 2"] = {
 			["textFlags"] = "None",
@@ -24319,16 +24312,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "DRUID",
 					["multi"] = {
@@ -24570,18 +24563,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -24590,16 +24583,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["useTooltip"] = true,
 			["desaturate"] = false,
+			["stickyDuration"] = false,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["useTooltip"] = true,
-			["text2Containment"] = "INSIDE",
-			["glow"] = false,
 			["text1Font"] = "Expressway",
 			["cooldownTextEnabled"] = true,
 			["numTriggers"] = 1,
@@ -24669,7 +24662,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["stickyDuration"] = false,
+			["glow"] = false,
 		},
 		["Cat_B2"] = {
 			["text2Point"] = "CENTER",
@@ -25038,7 +25031,7 @@ WeakAurasSaved = {
 			["rotation"] = 0,
 			["conditions"] = {
 			},
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["anchorFrameType"] = "SCREEN",
 		},
 		["Vengeance"] = {
@@ -25095,7 +25088,7 @@ WeakAurasSaved = {
 			},
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["progressPrecision"] = 0,
 			["font"] = "Expressway",
 			["numTriggers"] = 1,
@@ -25231,13 +25224,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -25926,18 +25919,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -25946,11 +25939,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["useTooltip"] = true,
-			["parent"] = "Prot Second",
 			["text2Font"] = "Friz Quadrata TT",
+			["useTooltip"] = true,
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
-			["disjunctive"] = "all",
+			["parent"] = "Prot Second",
 			["text1Font"] = "Expressway",
 			["text1Containment"] = "INSIDE",
 			["inverse"] = true,
@@ -26011,7 +26004,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["stickyDuration"] = false,
+			["disjunctive"] = "all",
 		},
 		["New 4"] = {
 			["sparkWidth"] = 10,
@@ -26602,11 +26595,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["icon"] = true,
 			["selfPoint"] = "CENTER",
 			["xOffset"] = 0,
-			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["icon"] = true,
+			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -26644,7 +26637,6 @@ WeakAurasSaved = {
 			["text1Containment"] = "INSIDE",
 			["inverse"] = true,
 			["text2Font"] = "Friz Quadrata TT",
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -26666,7 +26658,7 @@ WeakAurasSaved = {
 			["animate"] = false,
 			["stagger"] = 0,
 			["xOffset"] = 0,
-			["borderOffset"] = 16,
+			["backgroundInset"] = 0,
 			["border"] = "None",
 			["yOffset"] = -229.999725341797,
 			["anchorPoint"] = "CENTER",
@@ -26678,9 +26670,6 @@ WeakAurasSaved = {
 			["background"] = "None",
 			["expanded"] = false,
 			["constantFactor"] = "RADIUS",
-			["selfPoint"] = "LEFT",
-			["radius"] = 200,
-			["backgroundInset"] = 0,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -26695,12 +26684,15 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["align"] = "CENTER",
+			["radius"] = 200,
+			["borderOffset"] = 16,
+			["selfPoint"] = "CENTER",
+			["id"] = "Hunter Main",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
 			["width"] = 296,
 			["rotation"] = 0,
-			["id"] = "Hunter Main",
+			["align"] = "CENTER",
 			["numTriggers"] = 1,
 			["actions"] = {
 				["start"] = {
@@ -26832,7 +26824,10 @@ WeakAurasSaved = {
 						["MAGE"] = true,
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -26842,17 +26837,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -26863,6 +26855,14 @@ WeakAurasSaved = {
 					["multi"] = {
 						["arena"] = true,
 					},
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
 				},
 			},
 			["animation"] = {
@@ -26879,17 +26879,14 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 			["text2Containment"] = "INSIDE",
-			["parent"] = "DH_Second",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
@@ -26952,12 +26949,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "DH_Second",
 		},
 		["Warr Arms"] = {
 			["glow"] = false,
@@ -27079,14 +27071,14 @@ WeakAurasSaved = {
 				},
 				["use_vehicleUi"] = false,
 			},
-			["text1Containment"] = "INSIDE",
-			["parent"] = "UI_CD",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 118038,
 			},
+			["text1Containment"] = "INSIDE",
+			["xOffset"] = 0,
 			["text2Containment"] = "OUTSIDE",
-			["selfPoint"] = "CENTER",
+			["parent"] = "UI_CD",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -27153,7 +27145,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
 		},
 		["Cat_Dot1"] = {
 			["glow"] = false,
@@ -27719,13 +27711,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["yOffset"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["actions"] = {
 				["start"] = {
 				},
@@ -27734,20 +27719,14 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["yOffset"] = 0,
+			["parent"] = "T20",
 			["text2Containment"] = "INSIDE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 			["text1Color"] = {
 				1, -- [1]
@@ -27787,7 +27766,20 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["parent"] = "T20",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 		},
 		["09-Darkness of a Thousand Souls"] = {
 			["glow"] = false,
@@ -28236,7 +28228,7 @@ WeakAurasSaved = {
 				["use_powertype"] = true,
 				["custom_hide"] = "timed",
 			},
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["progressPrecision"] = 0,
@@ -28536,7 +28528,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["useTooltip"] = true,
+			["desaturate"] = false,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -28577,8 +28569,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
@@ -28589,6 +28579,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["size"] = {
 					["single"] = "arena",
 					["multi"] = {
@@ -28596,9 +28588,22 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["useTooltip"] = true,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["xOffset"] = 0,
-			["desaturate"] = false,
-			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
 			["disjunctive"] = "all",
 			["text1Font"] = "Expressway",
@@ -28689,20 +28694,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["text1Enabled"] = true,
 		},
 		["Mage HP Pot NEW"] = {
 			["text2Point"] = "BOTTOM",
@@ -29015,7 +29007,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["text2Font"] = "BD_UI",
+			["cooldownTextEnabled"] = true,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -29041,7 +29033,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -29051,17 +29046,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -29074,9 +29066,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Font"] = "BD_UI",
+			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
-			["cooldownTextEnabled"] = true,
-			["disjunctive"] = "all",
 			["text2Containment"] = "OUTSIDE",
 			["xOffset"] = 110,
 			["text1Font"] = "Expressway",
@@ -29145,7 +29137,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["stickyDuration"] = false,
+			["disjunctive"] = "all",
 		},
 		["Mage Arcane"] = {
 			["glow"] = false,
@@ -29214,7 +29206,12 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["icon"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -29242,17 +29239,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
 				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -29262,6 +29257,8 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -29274,14 +29271,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["icon"] = true,
+			["text1Containment"] = "INSIDE",
 			["useTooltip"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["parent"] = "Mage_Main",
 			["text2Containment"] = "INSIDE",
 			["selfPoint"] = "CENTER",
 			["text1Color"] = {
@@ -29338,7 +29330,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Containment"] = "INSIDE",
+			["parent"] = "Mage_Main",
 		},
 		["RBear2"] = {
 			["text2Point"] = "TOPRIGHT",
@@ -29403,7 +29395,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["text2Font"] = "Expressway",
+			["useTooltip"] = true,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -29462,14 +29454,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Font"] = "Expressway",
+			["selfPoint"] = "CENTER",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["useTooltip"] = true,
-			["parent"] = "RBear1 Group",
 			["text2Containment"] = "INSIDE",
 			["stickyDuration"] = false,
 			["text1Color"] = {
@@ -29551,7 +29543,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["parent"] = "RBear1 Group",
 		},
 		["Mage Fire Burst"] = {
 			["glow"] = false,
@@ -29663,18 +29655,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -29867,18 +29859,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -30223,7 +30215,7 @@ WeakAurasSaved = {
 				["unit"] = "player",
 				["power_operator"] = ">",
 			},
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["progressPrecision"] = 0,
@@ -30337,7 +30329,7 @@ WeakAurasSaved = {
 			},
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["progressPrecision"] = 0,
 			["font"] = "Expressway",
 			["numTriggers"] = 1,
@@ -30936,11 +30928,16 @@ WeakAurasSaved = {
 				},
 				["use_pvptalent"] = true,
 			},
-			["selfPoint"] = "CENTER",
-			["parent"] = "Warr_Second",
 			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Containment"] = "INSIDE",
-			["text2Point"] = "CENTER",
+			["parent"] = "Warr_Second",
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
@@ -31010,12 +31007,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text2Point"] = "CENTER",
 		},
 		["Guard_Burst 3"] = {
 			["text2Point"] = "CENTER",
@@ -31076,7 +31068,14 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["disjunctive"] = "all",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -31117,16 +31116,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
-					},
-				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
 					},
 				},
 				["size"] = {
@@ -31136,16 +31135,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["disjunctive"] = "all",
+			["text2Font"] = "Friz Quadrata TT",
 			["stickyDuration"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
 			["xOffset"] = 110,
 			["text1Font"] = "Expressway",
@@ -31229,7 +31221,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
 		},
 		["Havoc Fury"] = {
 			["text2Point"] = "CENTER",
@@ -31322,7 +31314,7 @@ WeakAurasSaved = {
 						["MAGE"] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -31331,15 +31323,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
-					},
-				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
 					},
 				},
 				["race"] = {
@@ -31354,16 +31346,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["cooldownTextEnabled"] = true,
 			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
+			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
@@ -31423,7 +31410,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Hunt 2"] = {
 			["text2Point"] = "CENTER",
@@ -31538,18 +31530,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -31736,24 +31728,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
-			["useTooltip"] = true,
 			["yOffset"] = 0,
+			["text1Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
 			["text2Containment"] = "OUTSIDE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["useTooltip"] = true,
 			["text1Font"] = "Expressway",
 			["color"] = {
 				1, -- [1]
@@ -31825,7 +31804,20 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["cooldownTextEnabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 		},
 		["Druid-Guardian Frenzied Regen v5.6"] = {
 			["outline"] = "OUTLINE",
@@ -31948,7 +31940,7 @@ WeakAurasSaved = {
 			["untrigger"] = {
 				["custom"] = "function()\n    return false\nend\n\n\n\n\n\n",
 			},
-			["width"] = 9.00000190734863,
+			["width"] = 12.0000238418579,
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -32252,13 +32244,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -32507,18 +32499,18 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["untrigger"] = {
-				["showOn"] = "showOnReady",
-				["spellName"] = 183218,
-			},
-			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
+			},
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["text2Containment"] = "INSIDE",
+			["untrigger"] = {
+				["showOn"] = "showOnReady",
+				["spellName"] = 183218,
 			},
 			["text1Font"] = "Expressway",
 			["cooldownTextEnabled"] = true,
@@ -32561,7 +32553,6 @@ WeakAurasSaved = {
 			},
 			["inverse"] = true,
 			["desaturate"] = false,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -32624,16 +32615,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 3,
 					["multi"] = {
@@ -32876,16 +32867,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "MONK",
 					["multi"] = {
@@ -32896,19 +32887,26 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 122281,
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Enabled"] = true,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 122281,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["text1Enabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -32969,14 +32967,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["selfPoint"] = "CENTER",
 		},
 		["Def3"] = {
 			["text2Point"] = "CENTER",
@@ -33086,14 +33077,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
-			["desaturate"] = false,
-			["text2Containment"] = "INSIDE",
 			["untrigger"] = {
 				["showOn"] = "showOnReady",
 				["spellName"] = 183218,
 			},
+			["text1Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
+			["text2Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["text1Font"] = "Expressway",
 			["text1Enabled"] = true,
 			["inverse"] = true,
@@ -33135,7 +33126,6 @@ WeakAurasSaved = {
 			},
 			["numTriggers"] = 1,
 			["glow"] = false,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -33200,14 +33190,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["text1Enabled"] = true,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -33266,9 +33249,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["selfPoint"] = "CENTER",
 			["yOffset"] = -263,
-			["text1Enabled"] = true,
-			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
 			["disjunctive"] = "all",
 			["text1Font"] = "Expressway",
@@ -33352,7 +33342,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["useTooltip"] = true,
 		},
 		["Dru_Relations"] = {
 			["grow"] = "HORIZONTAL",
@@ -33379,7 +33369,7 @@ WeakAurasSaved = {
 				},
 			},
 			["backgroundInset"] = 0,
-			["selfPoint"] = "BOTTOMLEFT",
+			["selfPoint"] = "BOTTOM",
 			["align"] = "RIGHT",
 			["stagger"] = 0,
 			["height"] = 32,
@@ -33897,21 +33887,21 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -33926,6 +33916,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["glow"] = false,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -33940,10 +33931,9 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text1Enabled"] = true,
-			["glow"] = false,
+			["text2Font"] = "Expressway",
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -34013,7 +34003,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Expressway",
+			["text1Containment"] = "INSIDE",
 		},
 		["Mage Clones"] = {
 			["text2Point"] = "CENTER",
@@ -34082,7 +34072,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["icon"] = true,
+			["glow"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -34141,14 +34131,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["icon"] = true,
+			["useTooltip"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["glow"] = false,
-			["disjunctive"] = "any",
 			["text2Containment"] = "INSIDE",
 			["parent"] = "Mage_Main",
 			["text1Font"] = "Expressway",
@@ -34243,7 +34233,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["disjunctive"] = "any",
 		},
 		["RBear1 Group"] = {
 			["grow"] = "HORIZONTAL",
@@ -34257,7 +34247,7 @@ WeakAurasSaved = {
 			["animate"] = false,
 			["stagger"] = 0,
 			["xOffset"] = 0,
-			["radius"] = 200,
+			["backgroundInset"] = 0,
 			["border"] = "None",
 			["yOffset"] = -351.000106811523,
 			["anchorPoint"] = "CENTER",
@@ -34269,6 +34259,9 @@ WeakAurasSaved = {
 			["background"] = "None",
 			["expanded"] = false,
 			["constantFactor"] = "RADIUS",
+			["selfPoint"] = "CENTER",
+			["borderOffset"] = 16,
+			["radius"] = 200,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -34283,15 +34276,12 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["borderOffset"] = 16,
-			["backgroundInset"] = 0,
-			["selfPoint"] = "LEFT",
-			["id"] = "RBear1 Group",
+			["align"] = "CENTER",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
 			["width"] = 164.000183105469,
 			["rotation"] = 0,
-			["align"] = "CENTER",
+			["id"] = "RBear1 Group",
 			["numTriggers"] = 1,
 			["actions"] = {
 				["start"] = {
@@ -34819,7 +34809,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["text2Font"] = "Friz Quadrata TT",
+			["disjunctive"] = "all",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -34844,12 +34834,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["use_vehicleUi"] = false,
+				["use_class"] = true,
+				["race"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["race"] = {
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -34859,8 +34851,6 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -34876,9 +34866,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Font"] = "Friz Quadrata TT",
+			["useTooltip"] = true,
 			["text1Containment"] = "INSIDE",
-			["disjunctive"] = "all",
-			["parent"] = "Prot Second",
 			["text2Containment"] = "INSIDE",
 			["glow"] = false,
 			["text1Color"] = {
@@ -34945,7 +34935,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["parent"] = "Prot Second",
 		},
 		["Warr Prot Cry"] = {
 			["glow"] = false,
@@ -35052,11 +35042,24 @@ WeakAurasSaved = {
 				},
 				["use_vehicleUi"] = false,
 			},
-			["desaturate"] = false,
-			["parent"] = "UI_CD",
 			["text1Enabled"] = true,
+			["desaturate"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["text2Containment"] = "OUTSIDE",
-			["stickyDuration"] = false,
+			["parent"] = "UI_CD",
 			["text1Font"] = "Expressway",
 			["text2Point"] = "BOTTOM",
 			["inverse"] = true,
@@ -35128,20 +35131,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["stickyDuration"] = false,
 		},
 		["DH Tank Antimagic"] = {
 			["glow"] = false,
@@ -35257,8 +35247,6 @@ WeakAurasSaved = {
 				},
 				["use_vehicleUi"] = false,
 			},
-			["selfPoint"] = "CENTER",
-			["text2Font"] = "Expressway",
 			["actions"] = {
 				["start"] = {
 				},
@@ -35267,8 +35255,10 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["selfPoint"] = "CENTER",
+			["desaturate"] = false,
 			["text2Containment"] = "OUTSIDE",
-			["text1Containment"] = "INSIDE",
+			["text2Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -35333,7 +35323,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
 		},
 		["Arms Mortal"] = {
 			["text2Point"] = "CENTER",
@@ -35414,7 +35404,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -35423,17 +35418,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -35446,14 +35436,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
-			["disjunctive"] = "all",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 12294,
 			},
+			["cooldownTextEnabled"] = true,
+			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["disjunctive"] = "all",
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["inverse"] = true,
@@ -35525,7 +35515,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
 		},
 		["01-Rain of Brimstone"] = {
 			["glow"] = false,
@@ -35805,9 +35795,9 @@ WeakAurasSaved = {
 				},
 			},
 			["stickyDuration"] = false,
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
 			["displayIcon"] = 526168,
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "INSIDE",
 			["text1Font"] = "Expressway",
 			["cooldownTextEnabled"] = true,
 			["numTriggers"] = 2,
@@ -35923,10 +35913,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -35936,12 +35923,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -36201,24 +36191,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
-			["useTooltip"] = true,
 			["yOffset"] = 0,
+			["text1Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
 			["text2Containment"] = "OUTSIDE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["useTooltip"] = true,
 			["text1Font"] = "Expressway",
 			["color"] = {
 				1, -- [1]
@@ -36290,7 +36267,20 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["cooldownTextEnabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 		},
 		["Hunt Turtle"] = {
 			["text2Point"] = "BOTTOM",
@@ -36396,7 +36386,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["glow"] = false,
 			["yOffset"] = 0,
+			["desaturate"] = false,
+			["text2Containment"] = "OUTSIDE",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -36411,9 +36404,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["glow"] = false,
-			["text2Containment"] = "OUTSIDE",
-			["parent"] = "UI_CD",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -36485,7 +36475,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["parent"] = "UI_CD",
 		},
 		["Monk_Main"] = {
 			["grow"] = "HORIZONTAL",
@@ -36607,7 +36597,7 @@ WeakAurasSaved = {
 			["rotation"] = 0,
 			["conditions"] = {
 			},
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["anchorFrameType"] = "SCREEN",
 		},
 		["CD3"] = {
@@ -37364,7 +37354,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -37373,17 +37366,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -37396,11 +37386,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 110,
 			["yOffset"] = -263,
+			["text2Font"] = "Friz Quadrata TT",
+			["cooldownTextEnabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Warr_Second",
+			["xOffset"] = 110,
 			["text1Font"] = "Expressway",
 			["text1Containment"] = "INSIDE",
 			["inverse"] = true,
@@ -37478,7 +37468,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["cooldownTextEnabled"] = true,
+			["parent"] = "Warr_Second",
 		},
 		["DH Havoc 2"] = {
 			["text2Point"] = "BOTTOM",
@@ -37920,18 +37910,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -37943,6 +37933,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Enabled"] = true,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -37957,10 +37948,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["stickyDuration"] = false,
-			["text1Enabled"] = true,
+			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "DH_Main",
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["disjunctive"] = "all",
 			["inverse"] = true,
@@ -38032,7 +38022,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["parent"] = "DH_Main",
 		},
 		["Player Portrait 2"] = {
 			["modelIsUnit"] = true,
@@ -38120,8 +38110,17 @@ WeakAurasSaved = {
 				0.900000005960465, -- [4]
 			},
 			["sequence"] = 32,
-			["selfPoint"] = "BOTTOM",
+			["model_st_tx"] = 20,
 			["scale"] = 1,
+			["selfPoint"] = "BOTTOM",
+			["border"] = true,
+			["borderEdge"] = "1 Pixel",
+			["regionType"] = "model",
+			["borderSize"] = 1,
+			["model_st_us"] = 45,
+			["yOffset"] = -277.999633789063,
+			["model_st_rz"] = 270,
+			["init_completed"] = 1,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -38135,20 +38134,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["type"] = "none",
 				},
-			},
-			["border"] = true,
-			["borderEdge"] = "1 Pixel",
-			["regionType"] = "model",
-			["borderSize"] = 1,
-			["model_st_us"] = 45,
-			["model_st_tx"] = 20,
-			["model_st_rz"] = 270,
-			["init_completed"] = 1,
-			["borderColor"] = {
-				0.0509803921568627, -- [1]
-				0.0823529411764706, -- [2]
-				0.0901960784313726, -- [3]
-				1, -- [4]
 			},
 			["model_st_ry"] = 0,
 			["borderOffset"] = 2,
@@ -38184,7 +38169,12 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["model_st_tz"] = 0,
-			["yOffset"] = -277.999633789063,
+			["borderColor"] = {
+				0.0509803921568627, -- [1]
+				0.0823529411764706, -- [2]
+				0.0901960784313726, -- [3]
+				1, -- [4]
+			},
 		},
 		["SacHunt"] = {
 			["glow"] = false,
@@ -38278,8 +38268,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["desaturate"] = false,
 			["text1Enabled"] = true,
 			["useTooltip"] = true,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "preset",
@@ -38295,8 +38287,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["desaturate"] = false,
 			["text1Font"] = "Expressway",
 			["text2Point"] = "CENTER",
 			["inverse"] = true,
@@ -38341,7 +38331,6 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -38417,13 +38406,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -38856,16 +38845,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -39097,18 +39086,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -39119,6 +39108,10 @@ WeakAurasSaved = {
 						["arena"] = true,
 					},
 				},
+			},
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 188499,
 			},
 			["animation"] = {
 				["start"] = {
@@ -39134,13 +39127,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["stickyDuration"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 188499,
-			},
+			["disjunctive"] = "all",
 			["text2Containment"] = "INSIDE",
-			["parent"] = "DH_Main",
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["numTriggers"] = 1,
@@ -39212,7 +39201,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["disjunctive"] = "all",
+			["parent"] = "DH_Main",
 		},
 		["Mage Comet"] = {
 			["text2Point"] = "CENTER",
@@ -39314,18 +39303,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -39337,11 +39326,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["glow"] = false,
 			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -39406,7 +39395,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["text1Containment"] = "INSIDE",
 		},
 		["MM 8"] = {
 			["glow"] = false,
@@ -39506,8 +39495,10 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
+					["single"] = 14,
 					["multi"] = {
+						[14] = true,
 					},
 				},
 				["use_talent"] = true,
@@ -39519,14 +39510,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["pvptalent"] = {
-					["single"] = 14,
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
-						[14] = true,
 					},
 				},
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -39704,6 +39693,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["cooldownTextEnabled"] = true,
 			["animation"] = {
 				["start"] = {
 					["preset"] = "slideright",
@@ -39720,9 +39710,8 @@ WeakAurasSaved = {
 				},
 			},
 			["text1Enabled"] = true,
-			["yOffset"] = 0,
 			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
+			["yOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -39764,7 +39753,6 @@ WeakAurasSaved = {
 			["text1Font"] = "Expressway",
 			["inverse"] = true,
 			["stickyDuration"] = false,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -39838,7 +39826,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["yOffset"] = -263,
+			["stickyDuration"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -39872,18 +39860,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -39895,9 +39883,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["yOffset"] = -263,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Containment"] = "INSIDE",
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
 			["parent"] = "Mage_Main",
 			["text1Color"] = {
@@ -39966,7 +39954,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
 		},
 		["GoD"] = {
 			["glow"] = false,
@@ -40048,16 +40036,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -40067,8 +40055,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Pall_Main",
-			["cooldownTextEnabled"] = true,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -40083,8 +40069,10 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["parent"] = "Pall_Main",
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "BD_UI",
 			["color"] = {
 				1, -- [1]
@@ -40156,7 +40144,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["text1Enabled"] = true,
 		},
 		["Sac"] = {
 			["glow"] = false,
@@ -40245,8 +40233,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Containment"] = "INSIDE",
 			["useTooltip"] = true,
 			["text2Font"] = "Friz Quadrata TT",
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "preset",
@@ -40262,8 +40252,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
 			["text1Font"] = "Expressway",
 			["text2Point"] = "CENTER",
 			["inverse"] = true,
@@ -40313,7 +40301,6 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -40691,18 +40678,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -41076,16 +41063,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "MONK",
 					["multi"] = {
@@ -41096,11 +41083,18 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Monk_Main",
-			["yOffset"] = 0,
 			["stickyDuration"] = false,
+			["parent"] = "Monk_Main",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["yOffset"] = 0,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 0,
 			["inverse"] = true,
@@ -41178,14 +41172,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["useTooltip"] = true,
 		},
 		["06-Sundering Doom"] = {
 			["glow"] = false,
@@ -41619,18 +41606,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -41814,7 +41801,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["cooldownTextEnabled"] = true,
+			["text2Point"] = "CENTER",
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -41851,18 +41838,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -41874,9 +41861,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["cooldownTextEnabled"] = true,
+			["icon"] = true,
 			["stickyDuration"] = false,
-			["text2Point"] = "CENTER",
-			["xOffset"] = 110,
 			["text2Containment"] = "INSIDE",
 			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Expressway",
@@ -41933,7 +41920,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["icon"] = true,
+			["xOffset"] = 110,
 		},
 		["CD6"] = {
 			["text2Point"] = "CENTER",
@@ -42382,7 +42369,10 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["icon"] = true,
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 1719,
+			},
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -42416,18 +42406,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -42439,12 +42429,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["icon"] = true,
+			["useTooltip"] = true,
 			["desaturate"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 1719,
-			},
-			["parent"] = "Prot Second",
 			["text2Containment"] = "INSIDE",
 			["xOffset"] = 110,
 			["text1Color"] = {
@@ -42506,7 +42493,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["parent"] = "Prot Second",
 		},
 		["Pall Prot Ready 1 2 2 2"] = {
 			["textFlags"] = "None",
@@ -42568,22 +42555,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -42816,18 +42803,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
+				["use_vehicleUi"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -42845,11 +42832,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["xOffset"] = 0,
 			["parent"] = "Pall_Second",
+			["text1Enabled"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["xOffset"] = 0,
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
@@ -42916,12 +42908,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["useTooltip"] = true,
 		},
 		["Tank R Silence"] = {
 			["glow"] = false,
@@ -43010,16 +42997,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
-					},
-				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
 					},
 				},
 				["race"] = {
@@ -43033,11 +43020,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["disjunctive"] = "all",
-			["yOffset"] = -263,
 			["parent"] = "DH_Second",
+			["disjunctive"] = "all",
+			["xOffset"] = 110,
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["yOffset"] = -263,
 			["text1Font"] = "Expressway",
 			["color"] = {
 				1, -- [1]
@@ -43115,7 +43102,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["xOffset"] = 110,
+			["useTooltip"] = true,
 		},
 		["CD4"] = {
 			["text2Point"] = "CENTER",
@@ -43403,18 +43390,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["use_vehicleUi"] = false,
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -43432,16 +43419,19 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Enabled"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
-			["text1Enabled"] = true,
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 35395,
+			},
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -43509,10 +43499,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 35395,
-			},
+			["text1Containment"] = "INSIDE",
 		},
 		["Warr Kick"] = {
 			["glow"] = false,
@@ -43602,18 +43589,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -43622,11 +43609,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text2Point"] = "CENTER",
-			["xOffset"] = 110,
 			["icon"] = true,
+			["text2Point"] = "CENTER",
+			["parent"] = "Warr_Main",
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["xOffset"] = 110,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -43704,7 +43691,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["parent"] = "Warr_Main",
+			["useTooltip"] = true,
 		},
 		["Prot 4"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -43761,10 +43748,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 2565,
-			},
+			["parent"] = "Prot Main",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -43798,18 +43782,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -43821,16 +43805,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
-			["parent"] = "Prot Main",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 2565,
 			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
 			["text2Font"] = "Expressway",
 			["text1Color"] = {
@@ -43893,11 +43878,13 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
 		},
 		["New 2"] = {
@@ -44213,16 +44200,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["parent"] = "UI_CD",
 			["yOffset"] = 0,
+			["selfPoint"] = "CENTER",
+			["text2Containment"] = "OUTSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "UI_CD",
-			["text2Containment"] = "OUTSIDE",
-			["glow"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -44289,7 +44276,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["glow"] = false,
 		},
 		["Mage Arrows"] = {
 			["glow"] = false,
@@ -44388,17 +44375,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
 				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -44408,6 +44393,8 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -44570,10 +44557,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -44582,12 +44566,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -44602,15 +44589,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["parent"] = "Monk_Main",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -44625,8 +44603,22 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Containment"] = "INSIDE",
-			["useTooltip"] = true,
+			["parent"] = "Monk_Main",
 			["text1Font"] = "Expressway",
 			["xOffset"] = 0,
 			["numTriggers"] = 1,
@@ -44687,12 +44679,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["useTooltip"] = true,
 		},
 		["Arms Rend"] = {
 			["text2Point"] = "CENTER",
@@ -44805,18 +44792,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -44977,16 +44964,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "DRUID",
 					["multi"] = {
@@ -45228,8 +45215,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["useTooltip"] = true,
 			["stickyDuration"] = false,
+			["parent"] = "UI_Buffs",
 			["conditions"] = {
 			},
 			["text2Containment"] = "INSIDE",
@@ -45297,10 +45284,9 @@ WeakAurasSaved = {
 			},
 			["inverse"] = true,
 			["xOffset"] = 0,
-			["init_started"] = 1,
 			["displayIcon"] = 645145,
 			["cooldown"] = false,
-			["parent"] = "UI_Buffs",
+			["useTooltip"] = true,
 		},
 		["Hunt 6"] = {
 			["text2Point"] = "CENTER",
@@ -45403,18 +45389,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -45596,7 +45582,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -45606,17 +45597,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -45851,6 +45837,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["preset"] = "slideright",
@@ -45867,12 +45854,11 @@ WeakAurasSaved = {
 				},
 			},
 			["cooldownTextEnabled"] = true,
+			["text2Containment"] = "INSIDE",
 			["untrigger"] = {
 				["showOn"] = "showOnReady",
 				["spellName"] = 183218,
 			},
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
 			["text1Font"] = "Expressway",
 			["text2Font"] = "Friz Quadrata TT",
 			["inverse"] = true,
@@ -45919,7 +45905,6 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -46347,7 +46332,7 @@ WeakAurasSaved = {
 					},
 				}, -- [2]
 			},
-			["width"] = 49.9999771118164,
+			["width"] = 53,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["xOffset"] = 6.1035156250e-005,
@@ -46436,7 +46421,7 @@ WeakAurasSaved = {
 				},
 			},
 			["radius"] = 200,
-			["selfPoint"] = "TOPLEFT",
+			["selfPoint"] = "TOP",
 			["align"] = "LEFT",
 			["rotation"] = 0,
 			["height"] = 32,
@@ -46583,7 +46568,12 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["parent"] = "Prot Second",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -46609,24 +46599,24 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
+				["use_spec"] = true,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -46642,14 +46632,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["parent"] = "Prot Second",
+			["text1Enabled"] = true,
 			["desaturate"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["disjunctive"] = "all",
 			["text2Containment"] = "INSIDE",
 			["text2Point"] = "CENTER",
 			["text1Color"] = {
@@ -46714,7 +46699,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["disjunctive"] = "all",
 		},
 		["Spirit Link"] = {
 			["text2Point"] = "CENTER",
@@ -46820,11 +46805,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["selfPoint"] = "CENTER",
 			["disjunctive"] = "all",
 			["useTooltip"] = true,
-			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Expressway",
 			["glow"] = false,
 			["inverse"] = true,
@@ -46871,7 +46856,6 @@ WeakAurasSaved = {
 			},
 			["numTriggers"] = 1,
 			["stickyDuration"] = false,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -47243,13 +47227,13 @@ WeakAurasSaved = {
 				["custom_hide"] = "timed",
 			},
 			["text2Font"] = "Expressway",
-			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
 			["text1Enabled"] = true,
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 28,
-			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -47463,22 +47447,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -47695,7 +47679,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["stickyDuration"] = false,
+			["glow"] = false,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -47735,18 +47719,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -47755,16 +47739,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["stickyDuration"] = false,
+			["parent"] = "Warr_Second",
 			["text1Enabled"] = true,
-			["glow"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
 			["text2Containment"] = "OUTSIDE",
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
@@ -47828,7 +47805,14 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["parent"] = "Warr_Second",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 		},
 		["Cat_Bar"] = {
 			["backdropColor"] = {
@@ -48039,6 +48023,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
 				},
@@ -48047,15 +48032,9 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["parent"] = "T20",
-			["yOffset"] = 0,
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "T20",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -48107,7 +48086,12 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["03-Unchecked Rage"] = {
 			["glow"] = false,
@@ -48376,23 +48360,23 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = true,
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -48822,8 +48806,10 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["faction"] = {
+				["pvptalent"] = {
+					["single"] = 14,
 					["multi"] = {
+						[14] = true,
 					},
 				},
 				["use_class"] = true,
@@ -48831,14 +48817,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["pvptalent"] = {
-					["single"] = 14,
+				["use_spec"] = true,
+				["faction"] = {
 					["multi"] = {
-						[14] = true,
 					},
 				},
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -48997,7 +48981,12 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -49024,24 +49013,24 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
+				["use_spec"] = true,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -49057,14 +49046,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["stickyDuration"] = false,
+			["icon"] = true,
 			["parent"] = "Dru_Second",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
 			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Expressway",
@@ -49140,7 +49124,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["icon"] = true,
+			["useTooltip"] = true,
 		},
 		["Hunt 3"] = {
 			["text2Point"] = "CENTER",
@@ -49221,13 +49205,15 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_talent"] = true,
 				["use_class"] = true,
 				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -49237,8 +49223,6 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -49407,7 +49391,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["disjunctive"] = "any",
+			["glow"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -49444,18 +49428,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -49464,9 +49448,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["disjunctive"] = "any",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["stickyDuration"] = false,
-			["glow"] = false,
-			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
@@ -49600,14 +49591,7 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["text1Enabled"] = true,
 		},
 		["Trinkets"] = {
 			["grow"] = "LEFT",
@@ -50112,16 +50096,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["class"] = {
 					["single"] = "DRUID",
 					["multi"] = {
@@ -50336,10 +50320,7 @@ WeakAurasSaved = {
 					},
 				},
 				["use_class"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -50348,12 +50329,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -50368,8 +50352,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "Pall_Second",
-			["cooldownTextEnabled"] = true,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -50384,8 +50366,10 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["parent"] = "Pall_Second",
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "Expressway",
 			["color"] = {
 				1, -- [1]
@@ -50457,7 +50441,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["text1Enabled"] = true,
 		},
 		["Pall Prot CD 3"] = {
 			["sparkWidth"] = 10,
@@ -50522,13 +50506,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -50778,18 +50762,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -50798,6 +50782,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["cooldownTextEnabled"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -50806,10 +50791,9 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["text1Enabled"] = true,
-			["cooldownTextEnabled"] = true,
+			["text2Font"] = "Expressway",
 			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
+			["text1Enabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -50874,7 +50858,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Expressway",
+			["stickyDuration"] = false,
 		},
 		["DH X"] = {
 			["glow"] = false,
@@ -50955,18 +50939,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -50978,11 +50962,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "DH_Second",
-			["text2Point"] = "CENTER",
 			["cooldownTextEnabled"] = true,
+			["parent"] = "DH_Second",
+			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["text2Point"] = "CENTER",
 			["text1Font"] = "Expressway",
 			["disjunctive"] = "all",
 			["numTriggers"] = 1,
@@ -51067,7 +51051,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["text2Font"] = "Friz Quadrata TT",
 		},
 		["DH Trap"] = {
 			["text2Point"] = "CENTER",
@@ -51186,14 +51170,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["cooldownTextEnabled"] = true,
 			["xOffset"] = 110,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 217832,
-			},
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "Expressway",
 			["parent"] = "DH_Second",
 			["inverse"] = true,
@@ -51260,7 +51241,10 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 217832,
+			},
 		},
 		["Ret_DeBuff"] = {
 			["sparkWidth"] = 10,
@@ -51330,16 +51314,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -51543,10 +51527,15 @@ WeakAurasSaved = {
 			["stickyDuration"] = false,
 			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
-			["text1Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["useTooltip"] = true,
+			["text1Containment"] = "INSIDE",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -51580,18 +51569,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -51603,13 +51592,15 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
 			},
-			["parent"] = "Prot Main",
+			["useTooltip"] = true,
 			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
 			["numTriggers"] = 2,
@@ -51702,14 +51693,7 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = false,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["parent"] = "Prot Main",
 		},
 		["BoP"] = {
 			["text2Point"] = "CENTER",
@@ -51817,14 +51801,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["disjunctive"] = "all",
 			["text2Font"] = "Friz Quadrata TT",
 			["untrigger"] = {
 				["showOn"] = "showOnReady",
 				["spellName"] = 183218,
 			},
-			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["disjunctive"] = "all",
+			["useTooltip"] = true,
 			["text1Font"] = "Expressway",
 			["parent"] = "UI_Deffs",
 			["numTriggers"] = 1,
@@ -51866,7 +51850,6 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["inverse"] = true,
 			["cooldownTextEnabled"] = true,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -51916,7 +51899,7 @@ WeakAurasSaved = {
 			["justify"] = "LEFT",
 			["selfPoint"] = "TOP",
 			["id"] = "Cat_CP 2",
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["progressPrecision"] = 0,
@@ -52067,7 +52050,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["xOffset"] = 110,
+			["text2Point"] = "CENTER",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -52092,23 +52075,23 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
 				["use_vehicleUi"] = false,
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -52124,9 +52107,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["xOffset"] = 110,
+			["icon"] = true,
 			["text2Font"] = "Friz Quadrata TT",
-			["text2Point"] = "CENTER",
-			["disjunctive"] = "all",
 			["text2Containment"] = "INSIDE",
 			["desaturate"] = false,
 			["text1Color"] = {
@@ -52188,7 +52171,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["icon"] = true,
+			["disjunctive"] = "all",
 		},
 		["Pall Prot Ready 1 2 2"] = {
 			["textFlags"] = "None",
@@ -52236,10 +52219,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -52249,12 +52229,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -52745,7 +52728,7 @@ WeakAurasSaved = {
 			["constantFactor"] = "RADIUS",
 			["borderOffset"] = 16,
 			["id"] = "Dru_Main",
-			["selfPoint"] = "BOTTOMLEFT",
+			["selfPoint"] = "BOTTOM",
 			["frameStrata"] = 1,
 			["width"] = 659.000061035156,
 			["untrigger"] = {
@@ -52823,8 +52806,8 @@ WeakAurasSaved = {
 				},
 			},
 			["selfPoint"] = "CENTER",
-			["desaturate"] = false,
 			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["text1Point"] = "BOTTOM",
 			["parent"] = "Gyro Buff Up Group",
 			["text2FontFlags"] = "OUTLINE",
@@ -52939,7 +52922,7 @@ WeakAurasSaved = {
 				["spellName"] = 3045,
 			},
 			["text2Enabled"] = false,
-			["width"] = 35,
+			["width"] = 38.0000190734863,
 			["xOffset"] = 0,
 			["font"] = "Friz Quadrata TT",
 			["numTriggers"] = 2,
@@ -53192,12 +53175,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
+				["use_vehicleUi"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -53206,12 +53184,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -53224,14 +53207,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
-			["stickyDuration"] = false,
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 227847,
 			},
+			["cooldownTextEnabled"] = true,
+			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Warr_Main",
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["numTriggers"] = 1,
@@ -53316,7 +53299,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["parent"] = "Warr_Main",
 		},
 		["Back 2"] = {
 			["textFlags"] = "None",
@@ -53376,16 +53359,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -53624,17 +53607,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
 				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -53644,6 +53625,8 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -53656,11 +53639,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
-			["selfPoint"] = "CENTER",
 			["glow"] = false,
+			["cooldownTextEnabled"] = true,
+			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
-			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
@@ -53732,7 +53715,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["stickyDuration"] = false,
 		},
 		["Prot 14"] = {
 			["text2Point"] = "CENTER",
@@ -53799,7 +53782,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["text1Containment"] = "INSIDE",
+			["cooldownTextEnabled"] = true,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -53833,18 +53816,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -53856,9 +53839,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Containment"] = "INSIDE",
+			["useTooltip"] = true,
 			["desaturate"] = false,
-			["cooldownTextEnabled"] = true,
-			["disjunctive"] = "all",
 			["text2Containment"] = "INSIDE",
 			["yOffset"] = -263,
 			["text1Color"] = {
@@ -53925,7 +53908,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["disjunctive"] = "all",
 		},
 		["Boom Moon"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -53990,7 +53973,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["text2Font"] = "Expressway",
+			["stickyDuration"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -54018,7 +54001,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -54027,17 +54015,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -54050,16 +54033,13 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Font"] = "Expressway",
+			["text1Enabled"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
-			},
-			["stickyDuration"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 202767,
 			},
 			["text2Containment"] = "INSIDE",
 			["text1Containment"] = "INSIDE",
@@ -54140,7 +54120,10 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 202767,
+			},
 		},
 		["Havoc Meta"] = {
 			["glow"] = false,
@@ -54226,11 +54209,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
@@ -54238,6 +54216,11 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["size"] = {
 					["single"] = "arena",
 					["multi"] = {
@@ -54245,6 +54228,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["yOffset"] = -263,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -54259,10 +54243,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["stickyDuration"] = false,
-			["yOffset"] = -263,
+			["disjunctive"] = "all",
 			["text2Containment"] = "INSIDE",
-			["parent"] = "DH_Main",
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["numTriggers"] = 1,
@@ -54334,7 +54317,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["disjunctive"] = "all",
+			["parent"] = "DH_Main",
 		},
 		["DH_Momentum"] = {
 			["textFlags"] = "None",
@@ -54401,16 +54384,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -54631,16 +54614,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -54816,7 +54799,7 @@ WeakAurasSaved = {
 				},
 			},
 			["backgroundInset"] = 0,
-			["selfPoint"] = "TOPLEFT",
+			["selfPoint"] = "TOP",
 			["trigger"] = {
 				["unit"] = "player",
 				["type"] = "aura",
@@ -54982,7 +54965,10 @@ WeakAurasSaved = {
 						["MAGE"] = true,
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -54991,17 +54977,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -55793,11 +55776,11 @@ WeakAurasSaved = {
 				},
 				["use_name"] = false,
 			},
-			["parent"] = "UI_CD",
-			["stickyDuration"] = false,
 			["cooldownTextEnabled"] = true,
+			["parent"] = "UI_CD",
+			["desaturate"] = false,
 			["text2Containment"] = "OUTSIDE",
-			["yOffset"] = 0,
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["color"] = {
 				1, -- [1]
@@ -55847,7 +55830,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["yOffset"] = 0,
 		},
 		["Dru_Second"] = {
 			["grow"] = "HORIZONTAL",
@@ -55965,7 +55948,7 @@ WeakAurasSaved = {
 			["constantFactor"] = "RADIUS",
 			["borderOffset"] = 16,
 			["id"] = "Dru_Second",
-			["selfPoint"] = "TOPLEFT",
+			["selfPoint"] = "TOP",
 			["frameStrata"] = 1,
 			["width"] = 395.000061035156,
 			["untrigger"] = {
@@ -56390,18 +56373,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -56410,11 +56393,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["stickyDuration"] = false,
 			["xOffset"] = 110,
+			["text1Enabled"] = true,
+			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Warr_Main",
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["disjunctive"] = "all",
 			["inverse"] = true,
@@ -56499,7 +56482,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["parent"] = "Warr_Main",
 		},
 		["04-Lunar Beacon 2"] = {
 			["text2Point"] = "CENTER",
@@ -57173,12 +57156,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -57188,12 +57166,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -57206,11 +57189,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["yOffset"] = -263,
-			["text1Containment"] = "INSIDE",
 			["stickyDuration"] = false,
+			["yOffset"] = -263,
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "INSIDE",
-			["parent"] = "Warr_Second",
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -57282,7 +57265,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["parent"] = "Warr_Second",
 		},
 		["HS CD"] = {
 			["text2Point"] = "CENTER",
@@ -57606,11 +57589,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "UI_CD",
-			["yOffset"] = 0,
 			["desaturate"] = false,
+			["parent"] = "UI_CD",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["text2Containment"] = "OUTSIDE",
-			["selfPoint"] = "CENTER",
+			["yOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -57668,12 +57656,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["selfPoint"] = "CENTER",
 		},
 		["Space 5"] = {
 			["text2Point"] = "CENTER",
@@ -57936,14 +57919,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["yOffset"] = -263,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -57977,18 +57953,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -58000,9 +57976,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["text1Enabled"] = true,
 			["text1Containment"] = "INSIDE",
-			["yOffset"] = -263,
-			["parent"] = "Prot Main",
 			["text2Containment"] = "INSIDE",
 			["cooldownTextEnabled"] = true,
 			["text1Color"] = {
@@ -58069,7 +58052,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["parent"] = "Prot Main",
 		},
 		["Rogue 2"] = {
 			["glow"] = false,
@@ -58330,10 +58313,10 @@ WeakAurasSaved = {
 			["stickyDuration"] = false,
 			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
-			["desaturate"] = false,
+			["disjunctive"] = "any",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["cooldownTextEnabled"] = true,
+			["desaturate"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -58358,14 +58341,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_class"] = true,
-				["race"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["use_class"] = true,
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -58375,6 +58356,8 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -58390,8 +58373,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["disjunctive"] = "any",
-			["icon"] = true,
+			["text2Font"] = "Friz Quadrata TT",
+			["cooldownTextEnabled"] = true,
 			["glow"] = false,
 			["text2Containment"] = "INSIDE",
 			["inverse"] = true,
@@ -58564,7 +58547,7 @@ WeakAurasSaved = {
 				}, -- [4]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["icon"] = true,
 		},
 		["DH Havoc"] = {
 			["text2Point"] = "BOTTOM",
@@ -58692,11 +58675,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
+			["text1Enabled"] = true,
+			["text2Font"] = "Expressway",
 			["text2Containment"] = "OUTSIDE",
-			["icon"] = true,
+			["stickyDuration"] = false,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -58756,7 +58739,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Expressway",
+			["icon"] = true,
 		},
 		["04-Twilight Glaive"] = {
 			["glow"] = false,
@@ -59036,14 +59019,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "UI_CD",
-			["xOffset"] = 0,
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 871,
 			},
+			["parent"] = "UI_CD",
+			["desaturate"] = false,
 			["text2Containment"] = "OUTSIDE",
-			["useTooltip"] = true,
+			["xOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -59110,7 +59093,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["useTooltip"] = true,
 		},
 		["Tank Flame"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -59196,8 +59179,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
@@ -59208,6 +59189,8 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["size"] = {
 					["single"] = "arena",
 					["multi"] = {
@@ -59215,24 +59198,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "DH_Main",
-			["cooldownTextEnabled"] = true,
 			["glow"] = false,
+			["parent"] = "DH_Main",
+			["yOffset"] = -263,
 			["text2Containment"] = "INSIDE",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "Expressway",
 			["xOffset"] = 110,
 			["numTriggers"] = 1,
@@ -59305,7 +59275,20 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Crusade"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -59385,18 +59368,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["use_vehicleUi"] = false,
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -59414,14 +59397,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Enabled"] = true,
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 31884,
 			},
-			["selfPoint"] = "CENTER",
-			["text1Enabled"] = true,
+			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -59493,7 +59476,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
 		},
 		["09-Gravity Squeeze"] = {
 			["glow"] = false,
@@ -59760,18 +59743,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -59780,11 +59763,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["disjunctive"] = "all",
 			["parent"] = "Warr_Main",
+			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+			},
 			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
+			["disjunctive"] = "all",
 			["text1Font"] = "Expressway",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
@@ -59854,12 +59842,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			},
+			["text2Font"] = "Friz Quadrata TT",
 		},
 		["DH Tank Meta"] = {
 			["glow"] = false,
@@ -60117,16 +60100,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -60330,12 +60313,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["stickyDuration"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -60361,23 +60339,23 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -60393,9 +60371,14 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = -263,
 			["icon"] = true,
-			["stickyDuration"] = false,
-			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
 			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
@@ -60487,7 +60470,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["useTooltip"] = true,
 		},
 		["Mage Fire Comet"] = {
 			["text2Point"] = "CENTER",
@@ -60595,16 +60578,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
+					},
+				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
 					},
 				},
 				["role"] = {
@@ -60953,7 +60936,7 @@ WeakAurasSaved = {
 			["id"] = "Warlock S",
 			["anchorFrameType"] = "SCREEN",
 			["frameStrata"] = 1,
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["progressPrecision"] = 0,
 			["font"] = "Expressway",
 			["numTriggers"] = 1,
@@ -61312,11 +61295,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
-			["selfPoint"] = "CENTER",
 			["text2Font"] = "Expressway",
+			["text1Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["text2Containment"] = "OUTSIDE",
-			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
 			["text1Font"] = "Expressway",
 			["glow"] = false,
 			["inverse"] = true,
@@ -61386,7 +61369,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["xOffset"] = 0,
 		},
 		["Cat_Bear_Q"] = {
 			["text2Point"] = "TOPLEFT",
@@ -61714,11 +61697,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "UI_CD",
-			["useTooltip"] = true,
 			["yOffset"] = 0,
+			["parent"] = "UI_CD",
+			["glow"] = false,
 			["text2Containment"] = "OUTSIDE",
-			["cooldownTextEnabled"] = true,
+			["useTooltip"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -61785,7 +61768,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["glow"] = false,
+			["cooldownTextEnabled"] = true,
 		},
 		["RBear1"] = {
 			["text2Point"] = "TOPRIGHT",
@@ -61848,7 +61831,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["parent"] = "RBear1 Group",
+			["selfPoint"] = "CENTER",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -61907,6 +61890,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["parent"] = "RBear1 Group",
+			["text1Enabled"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -61915,8 +61900,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["xOffset"] = 110,
 			["text2Containment"] = "INSIDE",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
@@ -61998,7 +61981,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["xOffset"] = 110,
 		},
 		["RBear6"] = {
 			["text2Point"] = "TOPRIGHT",
@@ -62046,14 +62029,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["text1Enabled"] = true,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -62112,14 +62088,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
-			["text1Enabled"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
+			["useTooltip"] = true,
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
 			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
@@ -62211,7 +62189,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Mage Orb"] = {
 			["text2Point"] = "CENTER",
@@ -62271,7 +62254,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["desaturate"] = false,
+			["cooldownTextEnabled"] = true,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -62305,18 +62288,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -62328,16 +62311,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["desaturate"] = false,
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
 			["text2Containment"] = "INSIDE",
 			["yOffset"] = -263,
 			["text1Color"] = {
@@ -62404,7 +62380,14 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
 		},
 		["Space 7"] = {
 			["glow"] = false,
@@ -62489,10 +62472,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -62501,14 +62481,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -62521,8 +62504,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["useTooltip"] = true,
 			["actions"] = {
 				["start"] = {
 				},
@@ -62531,8 +62512,10 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 110,
 			["text2Containment"] = "INSIDE",
-			["yOffset"] = -263,
+			["useTooltip"] = true,
 			["text1Font"] = "Expressway",
 			["color"] = {
 				1, -- [1]
@@ -62575,7 +62558,7 @@ WeakAurasSaved = {
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["xOffset"] = 110,
+			["yOffset"] = -263,
 		},
 		["Warr Reflect PvP"] = {
 			["text2Point"] = "BOTTOM",
@@ -62698,11 +62681,11 @@ WeakAurasSaved = {
 				["use_name"] = false,
 				["use_size"] = false,
 			},
-			["useTooltip"] = true,
-			["stickyDuration"] = false,
 			["yOffset"] = 0,
+			["useTooltip"] = true,
+			["selfPoint"] = "CENTER",
 			["text2Containment"] = "OUTSIDE",
-			["cooldownTextEnabled"] = true,
+			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["color"] = {
 				1, -- [1]
@@ -62775,7 +62758,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["cooldownTextEnabled"] = true,
 		},
 		["Judgment"] = {
 			["text2Point"] = "BOTTOMRIGHT",
@@ -62855,18 +62838,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = false,
+				["use_vehicleUi"] = false,
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -62884,16 +62867,19 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Enabled"] = true,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "CENTER",
-			["text1Enabled"] = true,
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 20271,
+			},
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -62960,10 +62946,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 20271,
-			},
+			["text1Containment"] = "INSIDE",
 		},
 		["Pot"] = {
 			["text2Point"] = "CENTER",
@@ -63060,6 +63043,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["cooldownTextEnabled"] = true,
 			["useTooltip"] = true,
 			["color"] = {
 				1, -- [1]
@@ -63067,9 +63051,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["text1Enabled"] = true,
 			["text2Containment"] = "INSIDE",
-			["cooldownTextEnabled"] = true,
+			["text1Enabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -63121,7 +63104,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -63193,16 +63175,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -63425,13 +63407,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -63632,10 +63614,10 @@ WeakAurasSaved = {
 			["stickyDuration"] = false,
 			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
-			["desaturate"] = false,
+			["cooldownTextEnabled"] = true,
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["text1Containment"] = "INSIDE",
+			["desaturate"] = false,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -63669,18 +63651,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -63692,13 +63674,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "INSIDE",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
 				["spellName"] = 190356,
@@ -63811,7 +63788,12 @@ WeakAurasSaved = {
 				}, -- [2]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Friz Quadrata TT",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Focus Text"] = {
 			["outline"] = "OUTLINE",
@@ -63874,7 +63856,7 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 			},
 			["frameStrata"] = 1,
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["numTriggers"] = 1,
 			["font"] = "Expressway",
 			["version"] = 2,
@@ -64094,20 +64076,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["parent"] = "Dru_Second",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -64142,18 +64111,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -64165,14 +64134,22 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["stickyDuration"] = false,
-			["parent"] = "Dru_Second",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
 			},
+			["yOffset"] = -263,
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
 			["xOffset"] = 110,
 			["text1Color"] = {
@@ -64259,7 +64236,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["yOffset"] = -263,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Arcane"] = {
 			["outline"] = "OUTLINE",
@@ -64305,7 +64287,7 @@ WeakAurasSaved = {
 			["justify"] = "LEFT",
 			["selfPoint"] = "TOP",
 			["id"] = "Arcane",
-			["width"] = 13.0000314712524,
+			["width"] = 16.0000534057617,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
 			["progressPrecision"] = 0,
@@ -64480,18 +64462,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["single"] = "arena",
@@ -64500,16 +64482,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["disjunctive"] = "all",
 			["parent"] = "Warr_Second",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			},
+			["disjunctive"] = "all",
 			["text1Font"] = "Expressway",
 			["untrigger"] = {
 				["showOn"] = "showAlways",
@@ -64579,7 +64556,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+			},
 		},
 		["06-Tormented Cries"] = {
 			["glow"] = false,
@@ -64840,14 +64822,12 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_class"] = true,
-				["race"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
+				["use_class"] = true,
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -64857,6 +64837,8 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -65074,14 +65056,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["parent"] = "Dru_Second",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -65120,8 +65095,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
@@ -65132,6 +65105,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["size"] = {
 					["single"] = "arena",
 					["multi"] = {
@@ -65139,22 +65114,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["disjunctive"] = "all",
-			["parent"] = "Dru_Second",
-			["animation"] = {
+			["actions"] = {
 				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
 				},
 				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
+				},
+				["init"] = {
 				},
 			},
+			["xOffset"] = 110,
+			["disjunctive"] = "all",
 			["text2Containment"] = "INSIDE",
 			["text1Font"] = "Expressway",
 			["text1Color"] = {
@@ -65239,7 +65208,20 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["xOffset"] = 110,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 		},
 		["Mage 2"] = {
 			["glow"] = false,
@@ -65325,15 +65307,17 @@ WeakAurasSaved = {
 						[3] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
 				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
 					["multi"] = {
 					},
 				},
@@ -65343,8 +65327,6 @@ WeakAurasSaved = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -65547,16 +65529,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["selfPoint"] = "CENTER",
-			["text2Font"] = "Friz Quadrata TT",
-			["parent"] = "UI_Deffs",
-			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["selfPoint"] = "CENTER",
+			["text2Font"] = "Friz Quadrata TT",
+			["text2Containment"] = "INSIDE",
+			["parent"] = "UI_Deffs",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -65598,7 +65580,6 @@ WeakAurasSaved = {
 			["text1Enabled"] = true,
 			["inverse"] = true,
 			["desaturate"] = false,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -65680,16 +65661,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = false,
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["use_spec"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["class"] = {
 					["single"] = "PALADIN",
 					["multi"] = {
@@ -65700,11 +65681,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["glow"] = false,
-			["text1Containment"] = "INSIDE",
 			["parent"] = "Pall_Main",
+			["glow"] = false,
+			["text2Font"] = "Expressway",
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["text1Containment"] = "INSIDE",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -65792,7 +65773,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text2Font"] = "Expressway",
+			["text1Enabled"] = true,
 		},
 		["Oneth's"] = {
 			["glow"] = false,
@@ -66740,18 +66721,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -67016,18 +66997,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -67165,7 +67146,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["xOffset"] = 110,
+			["text2Font"] = "Friz Quadrata TT",
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -67209,16 +67190,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
-					},
-				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
 					},
 				},
 				["size"] = {
@@ -67228,9 +67209,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["xOffset"] = 110,
+			["selfPoint"] = "CENTER",
 			["parent"] = "Dru_Main",
-			["text2Font"] = "Friz Quadrata TT",
-			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
 			["cooldownTextEnabled"] = true,
 			["text1Color"] = {
@@ -67324,7 +67305,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 		},
 		["Def2"] = {
 			["text2Point"] = "CENTER",
@@ -67420,6 +67401,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 				},
@@ -67429,9 +67411,8 @@ WeakAurasSaved = {
 				},
 			},
 			["text2Font"] = "Friz Quadrata TT",
-			["parent"] = "UI_Deffs",
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["parent"] = "UI_Deffs",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -67485,7 +67466,6 @@ WeakAurasSaved = {
 			},
 			["inverse"] = true,
 			["text1Enabled"] = true,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -67620,6 +67600,9 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+			["conditions"] = {
+			},
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -67633,9 +67616,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 					["type"] = "none",
 				},
-			},
-			["text2Containment"] = "INSIDE",
-			["conditions"] = {
 			},
 			["text1Font"] = "Expressway",
 			["text2Point"] = "CENTER",
@@ -67761,13 +67741,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["use_vehicleUi"] = false,
-				["faction"] = {
+				["use_spec"] = true,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -67977,16 +67957,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -68173,7 +68153,7 @@ WeakAurasSaved = {
 				},
 			},
 			["radius"] = 200,
-			["selfPoint"] = "LEFT",
+			["selfPoint"] = "CENTER",
 			["align"] = "CENTER",
 			["rotation"] = 0,
 			["height"] = 32.0000305175781,
@@ -68491,16 +68471,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -68702,7 +68682,7 @@ WeakAurasSaved = {
 			["text1Point"] = "LEFT",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["parent"] = "RBear1 Group",
+			["text2Font"] = "Expressway",
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -68761,6 +68741,8 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["parent"] = "RBear1 Group",
+			["text1Enabled"] = true,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -68775,8 +68757,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text2Font"] = "Expressway",
-			["stickyDuration"] = false,
 			["text2Containment"] = "INSIDE",
 			["text1Containment"] = "OUTSIDE",
 			["text1Color"] = {
@@ -68863,7 +68843,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["stickyDuration"] = false,
 		},
 		["Mage Ring"] = {
 			["text2Point"] = "CENTER",
@@ -68963,18 +68943,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -68986,11 +68966,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Enabled"] = true,
-			["text2Font"] = "Friz Quadrata TT",
 			["glow"] = false,
+			["text1Enabled"] = true,
+			["parent"] = "Mage_Main",
 			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -69057,7 +69037,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["parent"] = "Mage_Main",
+			["text1Containment"] = "INSIDE",
 		},
 		["Mage Rune Buff"] = {
 			["glow"] = false,
@@ -69334,10 +69314,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -69347,12 +69324,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -69608,11 +69588,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text1Enabled"] = true,
 			["text2Font"] = "Friz Quadrata TT",
 			["desaturate"] = false,
-			["parent"] = "UI_Deffs",
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["parent"] = "UI_Deffs",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -69668,7 +69648,6 @@ WeakAurasSaved = {
 			},
 			["inverse"] = true,
 			["glow"] = false,
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -70209,7 +70188,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["useTooltip"] = true,
+			["stickyDuration"] = false,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -70246,18 +70225,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -70269,14 +70248,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["useTooltip"] = true,
+			["disjunctive"] = "any",
 			["xOffset"] = 110,
-			["stickyDuration"] = false,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
 			["text2Containment"] = "INSIDE",
 			["parent"] = "Mage_Main",
 			["text1Font"] = "Expressway",
@@ -70333,7 +70307,12 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["disjunctive"] = "any",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 		["Tank R Flame"] = {
 			["glow"] = false,
@@ -70424,18 +70403,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -70584,7 +70563,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["xOffset"] = 110,
+			["cooldownTextEnabled"] = true,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -70644,12 +70623,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["xOffset"] = 110,
+			["useTooltip"] = true,
 			["text2Font"] = "Friz Quadrata TT",
-			["cooldownTextEnabled"] = true,
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 198817,
-			},
 			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
@@ -70790,7 +70766,10 @@ WeakAurasSaved = {
 				}, -- [3]
 			},
 			["cooldown"] = false,
-			["useTooltip"] = true,
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 198817,
+			},
 		},
 		["Slow 2"] = {
 			["glow"] = false,
@@ -70856,10 +70835,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -70869,12 +70845,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -70889,7 +70868,23 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["stickyDuration"] = false,
 			["cooldownTextEnabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
 				},
@@ -70898,9 +70893,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
-			["parent"] = "Monk_Main",
 			["text1Font"] = "Expressway",
 			["xOffset"] = 0,
 			["inverse"] = true,
@@ -70965,20 +70957,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["parent"] = "Monk_Main",
 		},
 		["Space"] = {
 			["text2Point"] = "CENTER",
@@ -71047,12 +71026,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
+				["use_vehicleUi"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -71061,12 +71035,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
 				["race"] = {
 					["multi"] = {
 					},
@@ -71079,16 +71058,29 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["glow"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0, -- [4]
 			},
-			["cooldownTextEnabled"] = true,
-			["glow"] = false,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 			["text2Containment"] = "INSIDE",
-			["text1Enabled"] = true,
+			["cooldownTextEnabled"] = true,
 			["text1Font"] = "Expressway",
 			["actions"] = {
 				["start"] = {
@@ -71158,20 +71150,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["text1Enabled"] = true,
 		},
 		["Mage Fire Bomb"] = {
 			["glow"] = false,
@@ -71240,7 +71219,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["desaturate"] = false,
+			["icon"] = true,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -71278,18 +71257,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["role"] = {
 					["multi"] = {
 					},
@@ -71301,9 +71280,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
 			["text2Font"] = "Friz Quadrata TT",
-			["icon"] = true,
-			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
 			["selfPoint"] = "CENTER",
 			["text1Font"] = "Expressway",
@@ -71374,7 +71353,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Containment"] = "INSIDE",
+			["useTooltip"] = true,
 		},
 		["Cat_Heal"] = {
 			["glow"] = false,
@@ -71705,18 +71684,18 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
 					},
 				},
-				["use_spec"] = true,
-				["use_vehicleUi"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["race"] = {
 					["multi"] = {
 					},
@@ -71728,7 +71707,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Font"] = "Expressway",
 			["actions"] = {
 				["start"] = {
 				},
@@ -71738,8 +71716,9 @@ WeakAurasSaved = {
 				},
 			},
 			["disjunctive"] = "all",
-			["text2Containment"] = "INSIDE",
 			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["text1Font"] = "Expressway",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -72131,16 +72110,16 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Enabled"] = true,
-			["text2Containment"] = "INSIDE",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["text1Containment"] = "INSIDE",
+			["yOffset"] = 0,
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -72182,7 +72161,6 @@ WeakAurasSaved = {
 			["desaturate"] = false,
 			["numTriggers"] = 1,
 			["selfPoint"] = "CENTER",
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -72246,7 +72224,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["icon"] = true,
+			["yOffset"] = -263,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -72273,7 +72251,7 @@ WeakAurasSaved = {
 						[2] = true,
 					},
 				},
-				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
@@ -72283,15 +72261,15 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_vehicleUi"] = false,
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
 						[14] = true,
+					},
+				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
 					},
 				},
 				["race"] = {
@@ -72306,9 +72284,22 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["icon"] = true,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
 			["disjunctive"] = "all",
-			["yOffset"] = -263,
-			["useTooltip"] = true,
 			["text2Containment"] = "INSIDE",
 			["text1Containment"] = "INSIDE",
 			["text1Font"] = "Expressway",
@@ -72387,20 +72378,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["useTooltip"] = true,
 		},
 		["Pool"] = {
 			["glow"] = false,
@@ -72493,8 +72471,10 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Font"] = "Friz Quadrata TT",
 			["stickyDuration"] = false,
 			["yOffset"] = 0,
+			["text2Containment"] = "INSIDE",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -72510,8 +72490,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
 			["text1Font"] = "Expressway",
 			["color"] = {
 				1, -- [1]
@@ -72558,7 +72536,6 @@ WeakAurasSaved = {
 			["text1Containment"] = "INSIDE",
 			["inverse"] = true,
 			["disjunctive"] = "all",
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -72620,7 +72597,7 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["useTooltip"] = true,
+			["xOffset"] = 110,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -72661,6 +72638,11 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["single"] = 14,
 					["multi"] = {
@@ -72668,11 +72650,6 @@ WeakAurasSaved = {
 					},
 				},
 				["use_vehicleUi"] = false,
-				["use_spec"] = true,
-				["faction"] = {
-					["multi"] = {
-					},
-				},
 				["size"] = {
 					["single"] = "arena",
 					["multi"] = {
@@ -72680,9 +72657,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["useTooltip"] = true,
+			["stickyDuration"] = false,
 			["selfPoint"] = "CENTER",
-			["xOffset"] = 110,
-			["cooldownTextEnabled"] = true,
 			["text2Containment"] = "INSIDE",
 			["glow"] = false,
 			["text1Color"] = {
@@ -72760,7 +72737,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["stickyDuration"] = false,
+			["cooldownTextEnabled"] = true,
 		},
 		["01-Infernal Burning"] = {
 			["glow"] = true,
@@ -72948,7 +72925,7 @@ WeakAurasSaved = {
 				},
 			},
 			["backgroundInset"] = 0,
-			["selfPoint"] = "TOPLEFT",
+			["selfPoint"] = "TOP",
 			["trigger"] = {
 				["unit"] = "player",
 				["type"] = "aura",
@@ -73096,7 +73073,12 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 28,
-			["text2Point"] = "BOTTOM",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
@@ -73155,14 +73137,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["text2Point"] = "BOTTOM",
+			["text1Enabled"] = true,
 			["parent"] = "UI_CD",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
 			["text2Containment"] = "OUTSIDE",
 			["animation"] = {
 				["start"] = {
@@ -73237,7 +73214,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["text1Enabled"] = true,
+			["desaturate"] = false,
 		},
 		["Bloodlust/Heroism"] = {
 			["text2Point"] = "CENTER",
@@ -73327,18 +73304,18 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["xOffset"] = 0,
 			["text1Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
 			["text2Containment"] = "INSIDE",
-			["untrigger"] = {
-			},
+			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
+			["untrigger"] = {
+			},
 			["text1FontFlags"] = "OUTLINE",
 			["text2Color"] = {
 				1, -- [1]
@@ -73392,7 +73369,6 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = false,
@@ -73433,8 +73409,8 @@ WeakAurasSaved = {
 				["unit"] = "player",
 				["spellName"] = 11426,
 			},
-			["text1Containment"] = "INSIDE",
 			["desaturate"] = false,
+			["text1Containment"] = "INSIDE",
 			["progressPrecision"] = 0,
 			["text1Point"] = "CENTER",
 			["untrigger"] = {
@@ -73705,7 +73681,13 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["untrigger"] = {
+				["showOn"] = "showAlways",
+				["spellName"] = 115203,
+			},
 			["text2Font"] = "Expressway",
+			["selfPoint"] = "CENTER",
+			["text2Containment"] = "OUTSIDE",
 			["actions"] = {
 				["start"] = {
 				},
@@ -73714,12 +73696,6 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["untrigger"] = {
-				["showOn"] = "showAlways",
-				["spellName"] = 115203,
-			},
-			["text2Containment"] = "OUTSIDE",
-			["stickyDuration"] = false,
 			["text1Font"] = "Expressway",
 			["parent"] = "UI_CD",
 			["numTriggers"] = 1,
@@ -73784,7 +73760,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
 		},
 		["Yellow_pool"] = {
 			["glow"] = false,
@@ -73830,7 +73806,20 @@ WeakAurasSaved = {
 			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
 			["height"] = 32,
-			["yOffset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
@@ -73865,16 +73854,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
+				["use_vehicleUi"] = false,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_vehicleUi"] = false,
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
 				["role"] = {
 					["multi"] = {
 					},
@@ -73884,22 +73873,9 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["yOffset"] = 0,
+			["parent"] = "Pall_Main",
 			["text2Point"] = "BOTTOMRIGHT",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["desaturate"] = false,
 			["text2Containment"] = "INSIDE",
 			["actions"] = {
 				["start"] = {
@@ -74013,7 +73989,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["parent"] = "Pall_Main",
+			["desaturate"] = false,
 		},
 		["Havoc Eya"] = {
 			["glow"] = false,
@@ -74085,7 +74061,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["pvptalent"] = {
+					["single"] = 14,
+					["multi"] = {
+						[14] = true,
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -74094,17 +74075,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_vehicleUi"] = false,
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["single"] = 14,
-					["multi"] = {
-						[14] = true,
-					},
-				},
-				["use_vehicleUi"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -74117,11 +74093,11 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["cooldownTextEnabled"] = true,
-			["yOffset"] = -263,
 			["text1Enabled"] = true,
+			["cooldownTextEnabled"] = true,
+			["xOffset"] = 110,
 			["text2Containment"] = "INSIDE",
-			["parent"] = "DH_Main",
+			["yOffset"] = -263,
 			["text1Font"] = "Expressway",
 			["stickyDuration"] = false,
 			["numTriggers"] = 1,
@@ -74206,7 +74182,7 @@ WeakAurasSaved = {
 				}, -- [1]
 			},
 			["cooldown"] = false,
-			["xOffset"] = 110,
+			["parent"] = "DH_Main",
 		},
 		["Warr_Second"] = {
 			["grow"] = "HORIZONTAL",
@@ -74325,7 +74301,7 @@ WeakAurasSaved = {
 			["frameStrata"] = 1,
 			["width"] = 276.999938964844,
 			["anchorFrameType"] = "SELECTFRAME",
-			["selfPoint"] = "TOPLEFT",
+			["selfPoint"] = "TOP",
 			["numTriggers"] = 1,
 			["align"] = "LEFT",
 			["rotation"] = 0,
@@ -74539,14 +74515,14 @@ WeakAurasSaved = {
 			},
 			["additional_triggers"] = {
 			},
-			["width"] = 145.000061035156,
-			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["align"] = "CENTER",
-			["rotation"] = 0,
-			["numTriggers"] = 1,
-			["radius"] = 200,
+			["frameStrata"] = 1,
+			["width"] = 145.000061035156,
 			["url"] = "https://wago.io/4JBlE1Rhz",
+			["align"] = "CENTER",
+			["numTriggers"] = 1,
+			["rotation"] = 0,
+			["radius"] = 200,
 			["conditions"] = {
 			},
 			["animation"] = {

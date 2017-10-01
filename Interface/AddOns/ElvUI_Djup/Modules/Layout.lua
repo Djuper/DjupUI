@@ -30,8 +30,8 @@ function LO:CreateChatPanels()
 	end
 	local panelBackdrop = E.db.chat.panelBackdrop
 	local dpanel = CreateFrame('Button', 'DPanel', E.UIParent)
-	dpanel:Point('BOTTOMLEFT', lchat, 'BOTTOMLEFT', 1, -20)
-	dpanel:Point('TOPRIGHT', lchat, 'BOTTOMRIGHT', -1, 0)
+	dpanel:Point('BOTTOMLEFT', lchat, 'TOPLEFT', 1, 0)
+	dpanel:Point('TOPRIGHT', lchat, 'TOPRIGHT', -1, 20)
 	dpanel:CreateBackdrop('Default')
 	dpanel.text = dpanel:CreateFontString(nil, 'OVERLAY')
 	dpanel:SetAlpha(0)
@@ -64,7 +64,7 @@ function LO:CreateChatPanels()
 		end
 				
 	end)
----------------------------------------------------------------
+	---------------------------------------------------------------
 
 	--Background Texture
 	lchat.tex = lchat:CreateTexture(nil, 'OVERLAY')
