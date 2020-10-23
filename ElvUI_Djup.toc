@@ -1,12 +1,11 @@
-## Interface: 60000
+## Interface: 90001
 ## Author: Djup
-## Version: 1.0
+## Version: 2.00
 ## Title: |cff1784d1ElvUI|r |cffff8000Djup|r
 ## RequiredDeps: ElvUI
 ## SavedVariables: MetaDB
 
-Modules\load_modules.xml
-Modules\Profiles\mProfiles.xml
-
 Media\Media.lua
-Libs\LibSharedMedia-3.0.lua
+
+## X-Tukui-ProjectID: 71
+## X-Tukui-ProjectFolders: ElvUI_Djup

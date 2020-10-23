@@ -9,6 +9,7 @@ LSM:Register("font", "Benik_UF", [[Interface\Addons\ElvUI_Djup\Media\Fonts\Benik
 LSM:Register("font", "Benil_Pixel", [[Interface\Addons\ElvUI_Djup\Media\Fonts\Benil_Pixel.ttf]], LSM.LOCALE_BIT_ruRU + LSM.LOCALE_BIT_western)
 LSM:Register("font", "ExRT", [[Interface\Addons\ElvUI_Djup\Media\Fonts\ExRT.ttf]], LSM.LOCALE_BIT_ruRU + LSM.LOCALE_BIT_western)
 LSM:Register("font", "HaxrCorp", [[Interface\Addons\ElvUI_Djup\Media\Fonts\HaxrCorp.ttf]], LSM.LOCALE_BIT_ruRU + LSM.LOCALE_BIT_western)
+LSM:Register("font", "Continuum", [[Interface\Addons\ElvUI_Djup\Media\Fonts\Continuum.ttf]], LSM.LOCALE_BIT_ruRU + LSM.LOCALE_BIT_western)
 
 -->< | Statusbars | ><--
 --LSM:Register("statusbar", "Blank", [[Interface\BUTTONS\WHITE8X8]])
@@ -17,3 +18,4 @@ LSM:Register("statusbar", "Djup", [[Interface\Addons\ElvUI_Djup\Media\Textures\D
 LSM:Register("statusbar", "Kait1", [[Interface\Addons\ElvUI_Djup\Media\Textures\Kait1.tga]])
 LSM:Register("statusbar", "Kait2", [[Interface\Addons\ElvUI_Djup\Media\Textures\Kait2.tga]])
 LSM:Register("statusbar", "bd", [[Interface\Addons\ElvUI_Djup\Media\Textures\bd.tga]])
+LSM:Register("statusbar", "infMid", [[Interface\Addons\ElvUI_Djup\Media\Textures\infMid.tga]])
